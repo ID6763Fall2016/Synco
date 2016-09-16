@@ -44,13 +44,13 @@ websock.on('request', function(request) {
         var data = message.utf8Data;
         data = data.slice(1,3);
 
-        var servoPosition = (Number(data) + 10) * 1900 / 20;
-        if(servoPosition > 1900) {
-            servoPosition = 1900;
+        var servoPosition = (Number(data) + 10) * 100;
+        if(servoPosition > 2000) {
+            servoPosition = 2000;
         } else if(servoPosition <= 0) {
-            servoPosition = 0;
+            servoPosition = 1;
         }
-        motor.servoWrite(servoPosition + 550);
+        motor.servoWrite(servoPosition + 500);
 
         // If incoming data is > 2 send a signal to pin 17
         // Set GPIO pin 17 to a PWM of 24%
