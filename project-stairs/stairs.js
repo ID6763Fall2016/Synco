@@ -11,51 +11,58 @@ var UltrasonicDigitalSensor = GrovePi.sensors.UltrasonicDigital;
 
 var board;
 
-var ultrasonicThreshold = 350;
-
-function onSensor(datetime) {
+function onSensor(data) {
   var syncoAliveCollection = database.collection(databaseName);
-  console.log('onSensor', datetime);
-  syncoAliveCollection.insert({
-    "datetime" : datetime
-  });
+  syncoAliveCollection.insert(data);
 }
 
-function SyncoUltrasonicSensor(digital_port) {
+function SyncoUltrasonicSensor(group_name, digital_port) {
   var sensor = new UltrasonicDigitalSensor(digital_port);
-  var name = 'SyncoUltrasonicSensor-' + digital_port;
-  var collection = database.collection(name);
+  var name = group_name + '-Ultrasonic';
 
-  sensor.on('change', function(res) {
-    var now = new Date();
-    if (res !== false && res < ultrasonicThreshold) {
-      console.log(name, res);
-      collection.insert({
-        "distance" : res,
-        "datetime" : now
-      });
-      onSensor(now);
-    }
-  });
-  sensor.watch();
+  return {
+    name: name,
+    read: function() { return sensor.read(); },
+    sensor: sensor
+  };
 }
 
-function SyncoMotionSensor(digital_port) {
+function SyncoMotionSensor(group_name, digital_port) {
   var sensor = new GPIO(digital_port, 'in', 'both');
-  var name = 'SyncoMotionSensor-' + digital_port;
-  var collection = database.collection(name);
+  var name = group_name + '-Motion';
+
+  return {
+    name: name,
+    sensor: sensor
+  };
+}
+
+function SyncoSensor(group_name, motion_port, ultrasonic_port) {
+  var motion = SyncoMotionSensor(group_name, motion_port);
+  var distance = SyncoUltrasonicSensor(group_name, ultrasonic_port);
 
   // pass the callback function to the
   // as the first argument to watch() and define
   // it all in one step
-  sensor.watch(function(err, state) {
+  motion.sensor.watch(function(err, state) {
+    var collection = database.collection(group_name);
     var now = new Date();
+    var data;
+    var distance;
     if (state) {
-      console.log(name);
-      collection.insert({
-        "datetime" : now
-      });
-      onSensor(now);
+      value = state;
+      console.log(group_name);
+      distance = distance.read();
+      if (distance === false) {
+        distance = 0;
+      }
+
+      data = {
+        "datetime" : now,
+        "distance" : distance
+      };
+      collection.insert(data);
+      onSensor(data);
     }
   });
 }
@@ -73,18 +80,15 @@ function start() {
     },
     onInit: function(res) {
       if (res) {
-        SyncoUltrasonicSensor(2);
-        SyncoUltrasonicSensor(8);
+        SyncoSensor('SyncoStairs-Top', 18, 2);
+        SyncoSensor('SyncoStairs-Bottom', 4, 8);
 
         console.log('Synco Alive is ready', new Date());
       } else {
         console.log('SYNCO ALIVE CANNOT START');
       }
     }
-  })
-
-  SyncoMotionSensor(4);
-  SyncoMotionSensor(18);
+  });
 
   board.init();
 }
