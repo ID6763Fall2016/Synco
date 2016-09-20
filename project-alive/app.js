@@ -15,6 +15,7 @@ var ultrasonicThreshold = 350;
 
 function onSensor(datetime) {
   var syncoAliveCollection = database.collection(databaseName);
+  console.log('onSensor', datetime);
   syncoAliveCollection.insert({
     "datetime" : datetime
   });
@@ -28,6 +29,7 @@ function SyncoUltrasonicSensor(digital_port) {
   sensor.on('change', function(res) {
     var now = new Date();
     if (res !== false && res < ultrasonicThreshold) {
+      console.log(name, res);
       collection.insert({
         "distance" : res,
         "datetime" : now
@@ -49,6 +51,7 @@ function SyncoMotionSensor(digital_port) {
   sensor.watch(function(err, state) {
     var now = new Date();
     if (state) {
+      console.log(name);
       collection.insert({
         "datetime" : now
       });
@@ -72,14 +75,17 @@ function start() {
       if (res) {
         SyncoUltrasonicSensor(7);
         SyncoUltrasonicSensor(8);
+
+        console.log('Synco Alive is ready', new Date());
       } else {
         console.log('SYNCO ALIVE CANNOT START');
       }
     }
   })
-  board.init();
 
   SyncoMotionSensor(18);
+
+  board.init();
 }
 
 function onExit(err) {
@@ -96,4 +102,5 @@ function onExit(err) {
 start();
 // catches ctrl+c event
 process.on('SIGINT', onExit);
+
 
