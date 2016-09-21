@@ -14,6 +14,7 @@ var board;
 var lastReading;
 var stairsTimeThreshold;
 var ultrasonicThreshold = 700;
+var setupMode = true;
 
 function onPersonPassBy(final, initial) {
   var syncoStairsCollection = database.collection(databasePeople);
@@ -58,21 +59,38 @@ function SyncoUltrasonicSensor(group_name, digital_port) {
   var name = group_name + '-Ultrasonic';
 
   var collection = database.collection(name);
+  var initialValues = {};
+  var lastValue;
 
   sensor.on('change', function(res) {
-    if (res !== false && res < ultrasonicThreshold) {
-      //console.log(name, res);
-      collection.insert({
-        "distance" : res,
-        "datetime" : new Date()
-      });
+    if (res !== false) {
+      if (setupMode) {
+        //console.log('initialvalue', res);
+        initialValues[res] = true;
+      } else if (!initialValues[res]) {
+        //console.log(name, res);
+        lastValue = res;
+        collection.insert({
+          "distance" : res,
+          "datetime" : new Date()
+        });
+      }
     }
   });
   sensor.watch();
 
+  function getValue() {
+    var value = sensor.read();
+    if (value < lastValue) {
+      lastValue = value;
+    }
+
+    return lastValue;
+  }
+
   return {
     name: name,
-    read: function() { return sensor.read(); },
+    read: function() { return getValue(); },
     sensor: sensor
   };
 }
@@ -96,10 +114,7 @@ function SyncoSensor(position, motion_port, ultrasonic_port) {
     ultrasonic = SyncoUltrasonicSensor(group_name, ultrasonic_port);
   }
 
-  // pass the callback function to the
-  // as the first argument to watch() and define
-  // it all in one step
-  motion.sensor.watch(function(err, state) {
+  function onWatch(err, state) {
     var collection = database.collection(group_name);
     var now = new Date();
     var data;
@@ -122,6 +137,15 @@ function SyncoSensor(position, motion_port, ultrasonic_port) {
       collection.insert(data);
       data.position = position;
       onSensor(data);
+    } 
+  }
+
+  // pass the callback function to the
+  // as the first argument to watch() and define
+  // it all in one step
+  motion.sensor.watch(function(err, state) {
+    if (!setupMode) {
+      onWatch(err, state);
     }
   });
 }
@@ -141,6 +165,11 @@ function start() {
       if (res) {
         SyncoSensor('top', 4);
         SyncoSensor('bottom', 18, 8);
+
+        setTimeout(function() {
+          console.log('End setup');
+          setupMode = false;
+        }, 10000);
 
         console.log('Synco Stairs is ready', new Date());
       } else {
