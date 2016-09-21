@@ -3,22 +3,72 @@ var GPIO = require('onoff').Gpio;
 var Engine = require('tingodb')();
 
 var database = new Engine.Db(__dirname + '/db',{});
-var databaseName = 'Synco-Alive';
+var databaseName = 'Synco-Stair';
+var databasePeople = 'Synco-Stair-People';
 
 var Commands = GrovePi.commands;
 var Board = GrovePi.board;
 var UltrasonicDigitalSensor = GrovePi.sensors.UltrasonicDigital;
 
 var board;
+var lastReading;
+var stairsTimeThreshold;
+var ultrasonicThreshold = 700;
+
+function onPersonPassBy(final, initial) {
+  var syncoStairsCollection = database.collection(databasePeople);
+  var data = {
+    "datetime": final.datetime,
+    "time": final.datetime.getTime() - initial.datetime.getTime()
+  };
+  if (final.position == 'top') {
+    data.direction = 'up';
+    // Going up
+  } else {
+    // Going down
+    data.direction = 'down';
+  }
+
+  data.distance = final.distance ? final.distance : initial.distance;
+
+  console.log('######## A person passed by ' + data.direction + ' in ' + (data.time / 1000) + ' seconds, at ' + data.distance + ' cm');
+  syncoStairsCollection.insert(data);
+}
 
 function onSensor(data) {
-  var syncoAliveCollection = database.collection(databaseName);
-  syncoAliveCollection.insert(data);
+  var syncoStairsCollection = database.collection(databaseName);
+  syncoStairsCollection.insert(data);
+
+  if (lastReading) {
+    if (data.datetime.getTime() - lastReading.datetime.getTime() < 2000) {
+      // Same person
+      onPersonPassBy(data, lastReading);
+
+      lastReading = null;
+    } else {
+      lastReading = data;
+    }
+  } else {
+    lastReading = data;
+  }
 }
 
 function SyncoUltrasonicSensor(group_name, digital_port) {
   var sensor = new UltrasonicDigitalSensor(digital_port);
   var name = group_name + '-Ultrasonic';
+
+  var collection = database.collection(name);
+
+  sensor.on('change', function(res) {
+    if (res !== false && res < ultrasonicThreshold) {
+      //console.log(name, res);
+      collection.insert({
+        "distance" : res,
+        "datetime" : new Date()
+      });
+    }
+  });
+  sensor.watch();
 
   return {
     name: name,
@@ -37,9 +87,14 @@ function SyncoMotionSensor(group_name, digital_port) {
   };
 }
 
-function SyncoSensor(group_name, motion_port, ultrasonic_port) {
+function SyncoSensor(position, motion_port, ultrasonic_port) {
+  var group_name = 'SyncoStairs_' + position;
   var motion = SyncoMotionSensor(group_name, motion_port);
-  var distance = SyncoUltrasonicSensor(group_name, ultrasonic_port);
+  var ultrasonic;
+
+  if (ultrasonic_port) {
+    ultrasonic = SyncoUltrasonicSensor(group_name, ultrasonic_port);
+  }
 
   // pass the callback function to the
   // as the first argument to watch() and define
@@ -51,9 +106,11 @@ function SyncoSensor(group_name, motion_port, ultrasonic_port) {
     var distance;
     if (state) {
       value = state;
-      console.log(group_name);
-      distance = distance.read();
-      if (distance === false) {
+      if (ultrasonic) {
+        distance = ultrasonic.read();
+      }
+
+      if (!distance) {
         distance = 0;
       }
 
@@ -61,7 +118,9 @@ function SyncoSensor(group_name, motion_port, ultrasonic_port) {
         "datetime" : now,
         "distance" : distance
       };
+      console.log(group_name, now, distance);
       collection.insert(data);
+      data.position = position;
       onSensor(data);
     }
   });
@@ -70,7 +129,7 @@ function SyncoSensor(group_name, motion_port, ultrasonic_port) {
 var sensors = [];
 
 function start() {
-  console.log('starting Synco Alive', new Date());
+  console.log('starting Synco Stairs', new Date());
 
   board = new Board({
     debug: true,
@@ -80,12 +139,12 @@ function start() {
     },
     onInit: function(res) {
       if (res) {
-        SyncoSensor('SyncoStairs-Top', 18, 2);
-        SyncoSensor('SyncoStairs-Bottom', 4, 8);
+        SyncoSensor('top', 4);
+        SyncoSensor('bottom', 18, 8);
 
-        console.log('Synco Alive is ready', new Date());
+        console.log('Synco Stairs is ready', new Date());
       } else {
-        console.log('SYNCO ALIVE CANNOT START');
+        console.log('SYNCO STAIRS CANNOT START');
       }
     }
   });
