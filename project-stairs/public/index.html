@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Synco Stairs</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+
+  <h1>Synco Stairs</h1>
+
+  <div>
+    <select id="selectDates"></select>
+  </div>
+
+  <div>
+  	<h2>People using the stair</h2>
+    <canvas id="people-chart" height="200" width="600"></canvas>
+  </div>
+
+  <div>
+  	<h2>Stairs sensors data</h2>
+    <canvas id="stairs-sensor-chart" height="200" width="600"></canvas>
+  </div>
+
+  <div>
+  	<h2>Top sensor data</h2>
+    <canvas id="top-sensor-chart" height="200" width="600"></canvas>
+  </div>
+
+  <div>
+  	<h2>Bottom sensor data</h2>
+    <canvas id="bottom-sensor-chart" height="200" width="600"></canvas>
+  </div>
+
+  <script>
+    window.onload = function(){
+    	initLineCharts();
+    }
+
+    var socket = io();
+    var syncoCharts = {};
+
+    var chartLabels = Array(24).fill(0);
+    chartLabels = chartLabels.map(function(v,ndx) { return ndx + ''; });
+
+    var peopleChartData = {
+      labels: chartLabels,
+      datasets: [
+        {
+          label: "Up",
+          fillColor: "rgba(220,220,220,0)",
+          strokeColor: "rgba(255,0,0,1)",
+          pointColor: "rgba(220,220,0,1)",
+          pointStrokeColor: "#fff",
+          pointHighlightFill: "#fff",
+          pointHighlightStroke: "rgba(220,220,0,1)",
+          data: Array(24).fill(0)
+        },
+        {
+          label: "Down",
+          fillColor: "rgba(220,220,220,0)",
+          strokeColor: "rgba(0,255,0,1)",
+          pointColor: "rgba(0,220,220,1)",
+          pointStrokeColor: "#fff",
+          pointHighlightFill: "#fff",
+          pointHighlightStroke: "rgba(0,220,220,1)",
+          data: Array(24).fill(0)
+        }
+      ]
+    };
+
+    var stairsSensorsChartData = {
+      labels: chartLabels,
+      datasets: [
+        {
+          label: "Top of the stairs",
+          fillColor: "rgba(220,220,220,0)",
+          strokeColor: "rgba(255,0,0,1)",
+          pointColor: "rgba(220,220,0,1)",
+          pointStrokeColor: "#fff",
+          pointHighlightFill: "#fff",
+          pointHighlightStroke: "rgba(220,220,0,1)",
+          data: Array(24).fill(0)
+        },
+        {
+          label: "Bottom of the stairs",
+          fillColor: "rgba(220,220,220,0)",
+          strokeColor: "rgba(0,255,0,1)",
+          pointColor: "rgba(0,220,220,1)",
+          pointStrokeColor: "#fff",
+          pointHighlightFill: "#fff",
+          pointHighlightStroke: "rgba(0,220,220,1)",
+          data: Array(24).fill(0)
+        }
+      ]
+    };
+
+    var stairsSensorSideChartData = {
+      labels: chartLabels,
+      datasets: [
+        {
+          label: "Left of the stairs",
+          fillColor: "rgba(220,220,220,0)",
+          strokeColor: "rgba(255,0,0,1)",
+          pointColor: "rgba(220,220,0,1)",
+          pointStrokeColor: "#fff",
+          pointHighlightFill: "#fff",
+          pointHighlightStroke: "rgba(220,220,0,1)",
+          data: Array(24).fill(0)
+        },
+        {
+          label: "Right of the stairs",
+          fillColor: "rgba(220,220,220,0)",
+          strokeColor: "rgba(0,255,0,1)",
+          pointColor: "rgba(0,220,220,1)",
+          pointStrokeColor: "#fff",
+          pointHighlightFill: "#fff",
+          pointHighlightStroke: "rgba(0,220,220,1)",
+          data: Array(24).fill(0)
+        }
+      ]
+    };
+
+    function addChart(id, data) {
+	  var options = {
+	    animation : false,
+	    responsive : true,
+	    maintainAspectRatio: true
+	  };
+
+	  var canvas = document.getElementById(id);
+	  var ctx = canvas.getContext("2d");
+	  syncoCharts[id] = new Chart(ctx).Line(data, options);
+    }
+
+	var initLineCharts = function() {
+		addChart('people-chart', peopleChartData);
+		addChart('stairs-sensor-chart', stairsSensorsChartData);
+		addChart('top-sensor-chart', stairsSensorSideChartData);
+		addChart('bottom-sensor-chart', stairsSensorSideChartData);
+	}
+
+	socket.on('syncoDates', function(dates) {
+		var select = document.getElementById("selectDates"); 
+
+		for(var i = 0; i < dates.length; i++) {
+		    var opt = dates[i] + '';
+		    var el = document.createElement("option");
+		    el.textContent = opt;
+		    el.value = opt;
+		    select.appendChild(el);
+		}
+
+		select.onchange = function(item) {
+			socket.emit('requestSyncoByDate', this.value);
+		}
+		select.onchange();
+	});
+
+	function updateBothSensorChart(data) {
+		var ndx = (data.position === 'top') ? 0 : 1;
+		var chart = syncoCharts['stairs-sensor-chart'];
+		var data = data.results;
+		var dataArray = Array(24).fill(0);
+		var i;
+		for (key in data) {
+			dataArray[parseInt(key)] = data[key].count;
+		}
+		for (i = 0; i < 24; i++) {
+			chart.datasets[ndx].points[i].value = dataArray[i];
+		}
+
+		chart.update();
+	}
+
+	function updateSideSensorChart(data) {
+		var chart = syncoCharts[data.position + '-sensor-chart'];
+		var data = data.results;
+		var dataArray = Array(24).fill(0);
+		var i;
+		for (i = 0; i < 24; i++) {
+			chart.datasets[0].points[i].value = dataArray[i];
+		}
+		for (key in data) {
+			chart.datasets[0].points[parseInt(key)].value = data[key].left;
+			chart.datasets[1].points[parseInt(key)].value = data[key].right;
+		}
+
+		chart.update();
+	}
+
+	socket.on('syncoSensorData', function(incomingData) {
+		updateBothSensorChart(incomingData);
+		updateSideSensorChart(incomingData);
+	});
+
+	socket.on('syncoPeopleData', function(incomingData) {
+		var data = incomingData.results['up'];
+		var dataArray = Array(24).fill(0);
+		var i;
+		for (key in data) {
+			dataArray[parseInt(key)] = data[key].count;
+		}
+		for (i = 0; i < 24; i++) {
+			syncoCharts['people-chart'].datasets[0].points[i].value = dataArray[i];
+		}
+
+		data = incomingData.results['down'];
+		dataArray = Array(24).fill(0);
+		for (key in data) {
+			dataArray[parseInt(key)] = data[key].count;
+		}
+		for (i = 0; i < 24; i++) {
+			syncoCharts['people-chart'].datasets[1].points[i].value = dataArray[i];
+		}
+
+		syncoCharts['people-chart'].update();
+	});
+	
+</script>
+
+</body>
+</html>
