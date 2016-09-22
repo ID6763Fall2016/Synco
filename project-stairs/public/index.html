@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Synco Stairs</title>
+  <title>5ynco Stairs</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
   <script src="/socket.io/socket.io.js"></script>
 </head>
 <body>
 
-  <h1>Synco Stairs</h1>
+  <h1>5ynco Stairs</h1>
 
   <div>
+  	Select a date: 
     <select id="selectDates"></select>
   </div>
 
-  <div>
-  	<h2>People using the stair</h2>
+  <div class="chart">
+  	<h2>People's direction</h2>
+  	<div id="people-chart-legend"></div>
     <canvas id="people-chart" height="200" width="600"></canvas>
   </div>
 
-  <div>
+  <div class="chart">
+  	<h2>Side of the stair</h2>
+  	<div id="bottom-sensor-chart-legend"></div>
+    <canvas id="bottom-sensor-chart" height="200" width="600"></canvas>
+  </div>
+
+  <div class="chart">
   	<h2>Stairs sensors data</h2>
+  	<div id="stairs-sensor-chart-legend"></div>
     <canvas id="stairs-sensor-chart" height="200" width="600"></canvas>
   </div>
 
-  <div>
+  <div style='display: none'>
   	<h2>Top sensor data</h2>
+  	<div id="top-sensor-chart-legend"></div>
     <canvas id="top-sensor-chart" height="200" width="600"></canvas>
-  </div>
-
-  <div>
-  	<h2>Bottom sensor data</h2>
-    <canvas id="bottom-sensor-chart" height="200" width="600"></canvas>
   </div>
 
   <script>
@@ -51,20 +56,20 @@
           label: "Up",
           fillColor: "rgba(220,220,220,0)",
           strokeColor: "rgba(255,0,0,1)",
-          pointColor: "rgba(220,220,0,1)",
+          pointColor: "rgba(255,0,0,1)",
           pointStrokeColor: "#fff",
           pointHighlightFill: "#fff",
-          pointHighlightStroke: "rgba(220,220,0,1)",
+          pointHighlightStroke: "rgba(255,0,0,1)",
           data: Array(24).fill(0)
         },
         {
           label: "Down",
           fillColor: "rgba(220,220,220,0)",
           strokeColor: "rgba(0,255,0,1)",
-          pointColor: "rgba(0,220,220,1)",
+          pointColor: "rgba(0,255,0,1)",
           pointStrokeColor: "#fff",
           pointHighlightFill: "#fff",
-          pointHighlightStroke: "rgba(0,220,220,1)",
+          pointHighlightStroke: "rgba(0,255,0,1)",
           data: Array(24).fill(0)
         }
       ]
@@ -77,20 +82,20 @@
           label: "Top of the stairs",
           fillColor: "rgba(220,220,220,0)",
           strokeColor: "rgba(255,0,0,1)",
-          pointColor: "rgba(220,220,0,1)",
+          pointColor: "rgba(255,0,0,1)",
           pointStrokeColor: "#fff",
           pointHighlightFill: "#fff",
-          pointHighlightStroke: "rgba(220,220,0,1)",
+          pointHighlightStroke: "rgba(255,0,0,1)",
           data: Array(24).fill(0)
         },
         {
           label: "Bottom of the stairs",
           fillColor: "rgba(220,220,220,0)",
           strokeColor: "rgba(0,255,0,1)",
-          pointColor: "rgba(0,220,220,1)",
+          pointColor: "rgba(0,255,0,1)",
           pointStrokeColor: "#fff",
           pointHighlightFill: "#fff",
-          pointHighlightStroke: "rgba(0,220,220,1)",
+          pointHighlightStroke: "rgba(0,255,0,1)",
           data: Array(24).fill(0)
         }
       ]
@@ -103,20 +108,20 @@
           label: "Left of the stairs",
           fillColor: "rgba(220,220,220,0)",
           strokeColor: "rgba(255,0,0,1)",
-          pointColor: "rgba(220,220,0,1)",
+          pointColor: "rgba(255,0,0,1)",
           pointStrokeColor: "#fff",
           pointHighlightFill: "#fff",
-          pointHighlightStroke: "rgba(220,220,0,1)",
+          pointHighlightStroke: "rgba(255,0,0,1)",
           data: Array(24).fill(0)
         },
         {
           label: "Right of the stairs",
           fillColor: "rgba(220,220,220,0)",
           strokeColor: "rgba(0,255,0,1)",
-          pointColor: "rgba(0,220,220,1)",
+          pointColor: "rgba(0,255,0,1)",
           pointStrokeColor: "#fff",
           pointHighlightFill: "#fff",
-          pointHighlightStroke: "rgba(0,220,220,1)",
+          pointHighlightStroke: "rgba(0,255,0,1)",
           data: Array(24).fill(0)
         }
       ]
@@ -126,12 +131,18 @@
 	  var options = {
 	    animation : false,
 	    responsive : true,
-	    maintainAspectRatio: true
+	    maintainAspectRatio: true,
+	    tooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %>kb",
 	  };
 
 	  var canvas = document.getElementById(id);
 	  var ctx = canvas.getContext("2d");
 	  syncoCharts[id] = new Chart(ctx).Line(data, options);
+		// 
+		var legendHolder = document.createElement('div');
+		legendHolder.innerHTML = syncoCharts[id].generateLegend();
+
+		document.getElementById(id + '-legend').appendChild(legendHolder.firstChild);
     }
 
 	var initLineCharts = function() {
@@ -145,10 +156,10 @@
 		var select = document.getElementById("selectDates"); 
 
 		for(var i = 0; i < dates.length; i++) {
-		    var opt = dates[i] + '';
 		    var el = document.createElement("option");
-		    el.textContent = opt;
-		    el.value = opt;
+		    var date = new Date(dates[i]);
+		    el.textContent =  (date.getMonth() + 1) + '/' + date.getDate() + '/' + date.getFullYear();
+		    el.value = dates[i] + '';
 		    select.appendChild(el);
 		}
 
@@ -219,6 +230,41 @@
 	});
 	
 </script>
+
+<style>
+ul {
+  list-style: none;
+}
+ul li {
+  display: block;
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  padding: 2px 8px 2px 28px;
+  font-size: 14px;
+  cursor: default;
+  -webkit-transition: background-color 200ms ease-in-out;
+  -moz-transition: background-color 200ms ease-in-out;
+  -o-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+}
+li span {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  border-radius: 5px;
+}
+#chart-area > *{
+  float:left
+    }
+
+.chart {
+}
+</style>
 
 </body>
 </html>
