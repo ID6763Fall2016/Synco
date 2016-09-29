@@ -7,8 +7,10 @@ var sensorsOn = false;
 
 var sideThreshold = 200;
 
+// Sort dates available found in 5ynco stairs data base
 function mapSyncoDates(results) {
   var syncoDatesArray = {};
+  console.log('mapSyncoDates', results);
   return Array.prototype.reduce.call(results, function(collection, item) {
     var datetime =  new Date(item.datetime.getFullYear(), item.datetime.getMonth(), item.datetime.getDate());
     if (!syncoDatesArray[datetime]) {
@@ -19,6 +21,7 @@ function mapSyncoDates(results) {
   }, []);
 }
 
+// Query for dates available on 5ynco stairs database
 function getSyncoDates(callback){
   var sampleCollection = database.collection(databaseName);
 
@@ -31,6 +34,7 @@ function getSyncoDates(callback){
 };
 
 
+// Get results on specific collection for an specific day
 function getDBQueriesByDateQuery(collection, datetime, callback){
   var nextDate = new Date(datetime.getTime() + 24*60*60*1000);
 
@@ -42,6 +46,8 @@ function getDBQueriesByDateQuery(collection, datetime, callback){
   });
 };
 
+
+// Wrapper function to query  by date
 function getDBQueriesByDate(collection, datetime) {
   getDBQueriesByDateQuery(collection, datetime, function(results) {
     // Send synco
@@ -49,6 +55,7 @@ function getDBQueriesByDate(collection, datetime) {
   });
 }
 
+// Query data base for people going up or down and prepair the data for sending to server by hour
 function getPeopleByDateByHour(datetime, callback) {
   var sampleCollection = database.collection(databasePeople);
 
@@ -84,6 +91,7 @@ function getPeopleByDateByHour(datetime, callback) {
   });
 }
 
+// Query sensor information from data base by hour
 function getSensorByDateByHour(position, datetime, callback) {
   var sampleCollection = database.collection(databaseSensor + position);
 
@@ -115,11 +123,7 @@ function getSensorByDateByHour(position, datetime, callback) {
 }
 
 
-//getSensorByDateByHour('bottom', results[0]);
-//getSensorByDateByHour('top', results[0]);
-
-//getPeopleByDateByHour(results[0]);
-
+// Initialize server modules
 var app = require('express')();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
@@ -137,11 +141,12 @@ app.get('/styles', function (req, res) {
 app.get('/scripts', function (req, res) {
   res.sendfile(__dirname + '/public/js/scripts.js');
 });
-app.get('*', function (req, res) {
+app.get('/images/*', function (req, res) {
   res.sendfile(__dirname + '/public/' + req.originalUrl);
 
 });
 
+// Start server messages and communication
 function start(live) {
   sensorsOn = live !== undefined;
 
@@ -208,6 +213,7 @@ function start(live) {
   });
 }
 
+// Export modules
 module.exports = {
   start: start,
   update: function() {}

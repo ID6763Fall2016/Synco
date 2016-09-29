@@ -1,6 +1,8 @@
 var server;
 var sensors;
 
+// Initialize server or stair sensors based on command line arguments
+
 if (process.argv[2] !== 'sensors') {
 	console.log('load server');
 	server = require('./server.js');

@@ -1,11 +1,14 @@
+// Initialize modules
 var GrovePi = require('node-grovepi').GrovePi;
 var GPIO = require('onoff').Gpio;
 var Engine = require('tingodb')();
 
+// Set database
 var database = new Engine.Db(__dirname + '/db',{});
 var databaseName = 'Synco-Stair';
 var databasePeople = 'Synco-Stair-People';
 
+// GrovePi settings
 var Commands = GrovePi.commands;
 var Board = GrovePi.board;
 var UltrasonicDigitalSensor = GrovePi.sensors.UltrasonicDigital;
@@ -16,6 +19,7 @@ var stairsTimeThreshold;
 var ultrasonicThreshold = 700;
 var setupMode = true;
 
+// Detect and register when a person has gone from one to the other sensor, and analize what direction the person is going
 function onPersonPassBy(final, initial) {
   var syncoStairsCollection = database.collection(databasePeople);
   var data = {
@@ -40,6 +44,7 @@ function onPersonPassBy(final, initial) {
   }
 }
 
+// Record motion sensor activity
 function onSensor(data) {
   var syncoStairsCollection = database.collection(databaseName);
   syncoStairsCollection.insert(data);
@@ -58,6 +63,7 @@ function onSensor(data) {
   }
 }
 
+// Record ultrasonic sensor activity
 function SyncoUltrasonicSensor(group_name, digital_port) {
   var sensor = new UltrasonicDigitalSensor(digital_port);
   var name = group_name + '-Ultrasonic';
@@ -99,6 +105,7 @@ function SyncoUltrasonicSensor(group_name, digital_port) {
   };
 }
 
+// Motion sensor module
 function SyncoMotionSensor(group_name, digital_port) {
   var sensor = new GPIO(digital_port, 'in', 'both');
   var name = group_name + '-Motion';
@@ -109,6 +116,7 @@ function SyncoMotionSensor(group_name, digital_port) {
   };
 }
 
+// Ultrasonic sensor module
 function SyncoSensor(position, motion_port, ultrasonic_port) {
   var group_name = 'SyncoStairs_' + position;
   var motion = SyncoMotionSensor(group_name, motion_port);
@@ -118,6 +126,7 @@ function SyncoSensor(position, motion_port, ultrasonic_port) {
     ultrasonic = SyncoUltrasonicSensor(group_name, ultrasonic_port);
   }
 
+  // watch for changes on ultrasonic readings
   function onWatch(err, state) {
     var collection = database.collection(group_name);
     var now = new Date();
@@ -157,6 +166,7 @@ function SyncoSensor(position, motion_port, ultrasonic_port) {
 var sensors = [];
 var server;
 
+// Start communication with board, sensors and servers
 function start(server_module) {
   console.log('starting Synco Stairs', new Date());
   server = server_module;
@@ -202,7 +212,7 @@ function onExit(err) {
 // catches ctrl+c event
 process.on('SIGINT', onExit);
 
-
+// Export module
 module.exports = {
   start: start
 };
