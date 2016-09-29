@@ -34,10 +34,6 @@ function onPersonPassBy(final, initial) {
 
   console.log('######## A person passed by ' + data.direction + ' in ' + (data.time / 1000) + ' seconds, at ' + data.distance + ' cm');
   syncoStairsCollection.insert(data);
-
-  if (server) {
-    server.update(data);
-  }
 }
 
 function onSensor(data) {
@@ -155,11 +151,9 @@ function SyncoSensor(position, motion_port, ultrasonic_port) {
 }
 
 var sensors = [];
-var server;
 
-function start(server_module) {
+function start() {
   console.log('starting Synco Stairs', new Date());
-  server = server_module;
 
   board = new Board({
     debug: true,
@@ -198,11 +192,6 @@ function onExit(err) {
 }
 
 // starts the test
-//start();
+start();
 // catches ctrl+c event
 process.on('SIGINT', onExit);
-
-
-module.exports = {
-  start: start
-};

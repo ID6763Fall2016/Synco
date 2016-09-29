@@ -3,7 +3,6 @@ var database = new Engine.Db(__dirname + '/db',{});
 var databaseName = 'Synco-Stair';
 var databasePeople = 'Synco-Stair-People';
 var databaseSensor = 'SyncoStairs_';
-var sensorsOn = false;
 
 var sideThreshold = 200;
 
@@ -120,95 +119,59 @@ function getSensorByDateByHour(position, datetime, callback) {
 
 //getPeopleByDateByHour(results[0]);
 
-var app = require('express')();
-var server = require('http').Server(app);
-var io = require('socket.io')(server);
+var app = require('http').createServer(handler);
+var io = require('socket.io')(app);
 var fs = require('fs');
 var ip = require("ip");
 
 var db = new Engine.Db(__dirname + '/db',{});
 
-app.get('/', function (req, res) {
-  res.sendfile(__dirname + '/public/index.html');
-});
-app.get('/styles', function (req, res) {
-  res.sendfile(__dirname + '/public/css/styles.css');
-});
-app.get('/scripts', function (req, res) {
-  res.sendfile(__dirname + '/public/js/scripts.js');
-});
-app.get('*', function (req, res) {
-  res.sendfile(__dirname + '/public/' + req.originalUrl);
-
-});
-
-function start(live) {
-  sensorsOn = live !== undefined;
-
-  console.log("Listening post 8000");
-  console.log ( ip.address() + ":8000");
-  server.listen(8000);
-
-  io.on('connection', function (socket) {
-    console.log("user connected to socket");
-
-    function sendSensorData(position, datetime, results) {
-      socket.emit('syncoSensorData', {
-        "position": position,
-        "datetime": datetime,
-        "results": results
-      });
-    }
-
-    function sendPeopleData(datetime, results) {
-      socket.emit('syncoPeopleData', {
-        "datetime": datetime,
-        "results": results
-      });
-    }
-
-    function getSensorData(datetime) {
-      getSensorByDateByHour('bottom', datetime, sendSensorData);
-      getSensorByDateByHour('top', datetime, sendSensorData);
-      getPeopleByDateByHour(datetime, sendPeopleData);
-    }
-    
-    socket.on('requestSyncoByDate', function(data){
-      getSensorData(new Date(data));
+function handler (req, res) {
+  fs.readFile(__dirname + '/public/index.html',
+    function (err, data) {
+      res.writeHead(200);
+      res.end(data);
     });
-
-    console.log('getSyncoDates');
-
-    getSyncoDates(function(results) {
-      console.log(results);
-      socket.emit('syncoDates', results);
-    });
-    
-    socket.on('disconnect', function(){
-      console.log("user disconnected from socket");
-    });
-
-    if (sensorsOn) {
-      socket.emit('syncoSensorLive');
-
-      module.exports.update = function (data) {
-        console.log(':::::::: update');
-        getSensorData(new Date());
-
-        if (data.distance) {
-          if (data.distance < sideThreshold) {
-            data.side = 'right';
-          } else {
-            data.side = 'left';
-          }
-        }
-        socket.emit('syncoUpdate', data);
-      };
-    }
-  });
+  console.log("user connected");
 }
 
-module.exports = {
-  start: start,
-  update: function() {}
-};
+console.log("Listening post 8000");
+console.log ( ip.address() + ":8000");
+app.listen(8000);
+
+io.on('connection', function (socket) {
+  console.log("user connected to socket");
+
+  function sendSensorData(position, datetime, results) {
+    socket.emit('syncoSensorData', {
+      "position": position,
+      "datetime": datetime,
+      "results": results
+    });
+  }
+
+  function sendPeopleData(datetime, results) {
+    socket.emit('syncoPeopleData', {
+      "datetime": datetime,
+      "results": results
+    });
+  }
+  
+  socket.on('requestSyncoByDate', function(data){
+    var datetime = new Date(data);
+    getSensorByDateByHour('bottom', datetime, sendSensorData);
+    getSensorByDateByHour('top', datetime, sendSensorData);
+    getPeopleByDateByHour(datetime, sendPeopleData);
+  });
+
+  console.log('getSyncoDates');
+
+  getSyncoDates(function(results) {
+    console.log(results);
+    socket.emit('syncoDates', results);
+  });
+  
+  socket.on('disconnect', function(){
+    console.log("user disconnected from socket");
+  });
+});
