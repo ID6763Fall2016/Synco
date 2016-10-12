@@ -1,6 +1,7 @@
 # Synco - Stairs monitor
 
 Monitors traffic and directions on stairs
+
 [Blog](http://ipdl.gatech.edu/doie2016/projects/stair-monitor-team-5ynco/)
 
 This folder holds the source code of the Stairs Monitor.
