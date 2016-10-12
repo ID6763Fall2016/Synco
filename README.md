@@ -25,7 +25,7 @@ This folder holds the source code of the Stairs Monitor.
 * Output
   * TingoDB data base
   	* Record of people passing up and down
-  	* Record of sensors activities
+  	* Record of sensors activity
   * Data visualizaation server
     * Web server using express
     * Sockets server to communicate sensors data with web server, using socketsIO
@@ -36,5 +36,5 @@ The following libraries are needed:
 
 #### GrovePi
 
-Reference: [GrovePi Website](http://www.dexterindustries.com/grovepi/)
-Library: [GrovePi NodeJS Module](https://github.com/marcellobarile/GrovePi)
+* Reference: [GrovePi Website](http://www.dexterindustries.com/grovepi/)
+* Library: [GrovePi NodeJS Module](https://github.com/marcellobarile/GrovePi)
