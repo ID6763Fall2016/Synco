@@ -3,24 +3,76 @@
 	{
 		"selected_items":
 		[
+			[
+				"flex",
+				"flex"
+			],
+			[
+				"online",
+				"onlineValues"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ali",
+				"align-self"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"b",
+				"text-bottom"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"backgroun",
+				"background-repeat"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"hae",
+				"header\tTag"
+			],
+			[
+				"inl",
+				"inline-block"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "tingo-chart/app.js",
+			"file": "/projects/DoIE/partyboat/Fereshteh_Shambhavi_Diego/README.md",
 			"settings":
 			{
-				"buffer_size": 1791,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "tingo-chart/synco.sublime-project",
-			"settings":
-			{
-				"buffer_size": 64,
-				"line_ending": "Unix"
+				"buffer_size": 1231,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -56,16 +108,53 @@
 	},
 	"expanded_folders":
 	[
-		"/projects/DoIE/Synco/tingo-chart"
+		"/projects/DoIE/Synco",
+		"/projects/DoIE/Synco/project-stairs",
+		"/projects/DoIE/Synco/project-stairs/public/images"
 	],
 	"file_history":
 	[
+		"/projects/DoIE/Synco/README.md",
+		"/projects/DoIE/Synco/tingo-chart/app.js",
+		"/projects/DoIE/Synco/project-stairs/public/js/scripts.js",
+		"/projects/DoIE/Synco/project-stairs/public/css/styles.css",
+		"/projects/DoIE/Synco/project-stairs/public/index.html",
+		"/projects/DoIE/Synco/project-stairs/server.js",
+		"/projects/DoIE/Synco/project-stairs/package.json",
+		"/projects/DoIE/Synco/project-stairs/app.js",
+		"/projects/DoIE/Synco/project-stairs/stairs.js",
+		"/projects/DoIE/Synco/tingo-chart/public/index.html",
+		"/projects/DoIE/Synco/project-stairs/public/app.js",
+		"/etc/ssh/sshd_config",
+		"/etc/sudoers",
+		"/Users/dlosorioa/Downloads/style.css",
+		"/projects/DoIE/Synco/project-stairs/db/SyncoStairs_bottom",
+		"/projects/DoIE/Synco/project-stairs/db/Synco-Stair",
+		"/projects/DoIE/Synco/project-alive/app.js",
+		"/projects/DoIE/Synco/project-stairs/db/Synco-Stair-People",
+		"/projects/DoIE/Synco/project-alive/db/Synco-Alive",
+		"/projects/DoIE/GrovePi/Software/NodeJS/tests/basicTest.js",
+		"/projects/DoIE/Synco/project-tingo/app.js",
+		"/projects/DoIE/Synco/project-servo/server.js",
+		"/projects/DoIE/Synco/project-servo/span.js",
+		"/projects/DoIE/Synco/motion-sensor/sensor.js",
+		"/projects/DoIE/Synco/project-i2c/i2c.js",
+		"/projects/DoIE/test input rasp pi.js",
+		"/projects/DoIE/Synco/project-socket/app.js",
+		"/projects/DoIE/Synco/project-socket/public/index.html",
+		"/projects/DoIE/Synco/realtime-chart/index.html",
+		"/projects/DoIE/Synco/project-onoff/test.js",
+		"/projects/DoIE/Synco/motion-sensor/motion.js",
+		"/projects/DoIE/Synco/project-servo/package.json",
+		"/projects/DoIE/Synco/.gitignore",
+		"/projects/DoIE/Synco/motion-sensor/package.json",
+		"/Users/dlosorioa/Documents/MS-HCI/Fall 2016/CS 8803 - HCI Introduction/Papers/portal.html",
 		"/Users/dlosorioa/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/dlosorioa/Downloads/Test/Test.h"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -80,13 +169,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"DOTSTAR_BRG",
-			"__AVR_ATtiny85__",
-			"SPI",
-			"clearInterrupt",
-			"color",
-			"setPi",
-			"ixelCol"
+			"server",
+			"mapSyncoDates",
+			"getSyncoDates",
+			"getSensorByDateByHour",
+			"sendPeopleData",
+			"syncoSensorData",
+			"syncoPeopleData",
+			"console",
+			"createOnlineChartData",
+			"::before",
+			":before",
+			"<h2>",
+			"h2",
+			"online",
+			".stairs",
+			"stairs",
+			"createOnlineChartData",
+			"up",
+			".stairs",
+			"left-s",
+			"-right",
+			"stairs",
+			".item",
+			"online",
+			"sensors-off",
+			".update()",
+			"peopleChartData",
+			"console.l",
+			"peopleChartData",
+			"addChart",
+			"chartData",
+			"syncoCharts",
+			"chart",
+			"chartLabels",
+			"peopleChartData",
+			"'people-chart'",
+			"socket.on('",
+			"updateBothSensorChart",
+			"updateSideSensorChart",
+			".charts",
+			"legend",
+			"colorAll",
+			"item.distance < sideThreshold",
+			"-sensor-chart",
+			"bottom-sensor-chart",
+			"stairsSensorSideChartData",
+			"bottom-sensor-chart",
+			"stairsSensorSideChartData",
+			"left",
+			"distance",
+			"sensorsOn",
+			"syncoSensorLive",
+			"sendSensorData",
+			"socket",
+			"sensorsOn",
+			"alive",
+			"socket",
+			"server",
+			"getSensorData",
+			"server",
+			"databaseName",
+			"process.",
+			".send",
+			"socket",
+			"mapSyncoDates",
+			"Array.prototype.reduce.call",
+			"socket",
+			"app",
+			"left",
+			"people-chart'",
+			"peopleChartData",
+			"#",
+			"X11",
+			"0,220,220,1",
+			"220,220,0,1",
+			"select",
+			"socket",
+			"sendSensorData",
+			"stairsSensorsChartData",
+			"peopleChartData",
+			"initLineChart",
+			"lineChartData",
+			"sendPeopleData",
+			"dates",
+			"getSyncoDates",
+			"messageFromClientToServer",
+			".project-single {",
+			".project-single",
+			"margin: 100",
+			"margin-top:100",
+			"margin-top: 100",
+			"margin-top:",
+			"assert",
+			"getPeopleByDateByHour",
+			"getDBQueriesByDateQuery",
+			"console",
+			"2016-09-20T",
+			"getDBQueriesByDateQuery",
+			"2016-09-21",
+			"getSensorByDateByHour",
+			"getDBQueriesByDateQuery",
+			"getSensorByDateByHour",
+			"getDBQueriesByDate",
+			"getSyncoDates",
+			"sort",
+			"field",
+			"ssert",
+			"docList",
+			"setupMode",
+			"console",
+			"currentValue",
+			"lastReading",
+			"setupMode",
+			"initial",
+			"setupMode",
+			"setupTime",
+			"console.log",
+			"ultrasonicThreshold",
+			"bottom",
+			"top",
+			"Alive",
+			"SyncoUltrasonicSensor",
+			"ultrasonicThreshold",
+			"databaseName",
+			"syncoAliveCollection",
+			"motionSensor",
+			"acceler",
+			"Board"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -94,6 +304,13 @@
 		"regex": false,
 		"replace_history":
 		[
+			".h2",
+			"chart",
+			".history",
+			"colorBoth",
+			"0,255,0,1",
+			"255,0,0,1",
+			"up"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -104,63 +321,32 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "tingo-chart/app.js",
+					"file": "/projects/DoIE/partyboat/Fereshteh_Shambhavi_Diego/README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1791,
+						"buffer_size": 1231,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								246,
-								246
+								818,
+								818
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "tingo-chart/synco.sublime-project",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 64,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 179.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -175,7 +361,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -208,7 +394,7 @@
 	"project": "synco.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -246,7 +432,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 358.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

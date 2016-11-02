@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<body copyright="All data copyright Georgia Tech Campus 2016.">
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Green" routeTag="green" stopTitle="Ferst Dr &amp; State St" stopTag="fersstat_ob">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477322179593" seconds="394" minutes="6" isDeparture="false" dirTag="hub" vehicle="791" block="0402" />
+  <prediction epochTime="1477323009940" seconds="1224" minutes="20" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="793" block="0401" />
+  <prediction epochTime="1477323789940" seconds="2004" minutes="33" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="791" block="0402" />
+  <prediction epochTime="1477324809940" seconds="3024" minutes="50" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="793" block="0401" />
+  <prediction epochTime="1477325589940" seconds="3804" minutes="63" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="791" block="0402" />
+  </direction>
+<message text="4. Due to roadway reconfiguration, outbound Green bus stop at Ferst&amp;State closed permanently.  Please use the bus stop at the North Deck or Ferst&amp;Hemphill." priority="Normal"/>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Green" routeTag="green" stopTitle="North Deck" stopTag="ndec">
+  <direction title="to 14th Street">
+  <prediction epochTime="1477322262316" seconds="477" minutes="7" isDeparture="false" dirTag="14thbusy" vehicle="793" block="0401" />
+  <prediction epochTime="1477322770709" seconds="985" minutes="16" isDeparture="false" dirTag="14thbusy" vehicle="791" block="0402" />
+  <prediction epochTime="1477323601056" seconds="1815" minutes="30" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="793" block="0401" />
+  <prediction epochTime="1477324381056" seconds="2595" minutes="43" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="791" block="0402" />
+  <prediction epochTime="1477325401056" seconds="3615" minutes="60" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="793" block="0401" />
+  </direction>
+<message text="4. Due to roadway reconfiguration, outbound Green bus stop at Ferst&amp;State closed permanently.  Please use the bus stop at the North Deck or Ferst&amp;Hemphill." priority="Normal"/>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Green" routeTag="green" stopTitle="Hemphill Ave &amp; 10th St" stopTag="10thhemp">
+  <direction title="to 14th Street">
+  <prediction epochTime="1477322372927" seconds="587" minutes="9" isDeparture="false" dirTag="14thbusy" vehicle="793" block="0401" />
+  <prediction epochTime="1477322881320" seconds="1096" minutes="18" isDeparture="false" dirTag="14thbusy" vehicle="791" block="0402" />
+  <prediction epochTime="1477323711667" seconds="1926" minutes="32" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="793" block="0401" />
+  <prediction epochTime="1477324491667" seconds="2706" minutes="45" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="791" block="0402" />
+  <prediction epochTime="1477325511667" seconds="3726" minutes="62" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="793" block="0401" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Green" routeTag="green" stopTitle="14th St &amp; State St" stopTag="14thstat">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477321819651" seconds="34" minutes="0" isDeparture="false" dirTag="hub" vehicle="791" block="0402" />
+  <prediction epochTime="1477322649998" seconds="864" minutes="14" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="793" block="0401" />
+  <prediction epochTime="1477323429998" seconds="1644" minutes="27" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="791" block="0402" />
+  <prediction epochTime="1477324449998" seconds="2664" minutes="44" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="793" block="0401" />
+  <prediction epochTime="1477325229998" seconds="3444" minutes="57" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="791" block="0402" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Green" routeTag="green" stopTitle="14th St Bus Yard - Arrival" stopTag="14thbusy_a">
+  <direction title="to 14th Street">
+  <prediction epochTime="1477322464361" seconds="679" minutes="11" isDeparture="false" dirTag="14thbusy" vehicle="793" block="0401" />
+  <prediction epochTime="1477322972754" seconds="1187" minutes="19" isDeparture="false" dirTag="14thbusy" vehicle="791" block="0402" />
+  <prediction epochTime="1477323803101" seconds="2017" minutes="33" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="793" block="0401" />
+  <prediction epochTime="1477324583101" seconds="2797" minutes="46" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="791" block="0402" />
+  <prediction epochTime="1477325603101" seconds="3817" minutes="63" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="793" block="0401" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Green" routeTag="green" stopTitle="Recreation Center" stopTag="reccent_ob">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477321813473" seconds="28" minutes="0" isDeparture="false" dirTag="hub" vehicle="793" block="0401" />
+  <prediction epochTime="1477322321866" seconds="536" minutes="8" isDeparture="false" dirTag="hub" vehicle="791" block="0402" />
+  <prediction epochTime="1477323152213" seconds="1366" minutes="22" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="793" block="0401" />
+  <prediction epochTime="1477323932213" seconds="2146" minutes="35" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="791" block="0402" />
+  <prediction epochTime="1477324952213" seconds="3166" minutes="52" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="793" block="0401" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Green" routeTag="green" stopTitle="Recreation Center" stopTag="creccent">
+  <direction title="to 14th Street">
+  <prediction epochTime="1477322083594" seconds="298" minutes="4" isDeparture="false" dirTag="14thbusy" vehicle="793" block="0401" />
+  <prediction epochTime="1477322591987" seconds="806" minutes="13" isDeparture="false" dirTag="14thbusy" vehicle="791" block="0402" />
+  <prediction epochTime="1477323422334" seconds="1637" minutes="27" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="793" block="0401" />
+  <prediction epochTime="1477324202334" seconds="2417" minutes="40" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="791" block="0402" />
+  <prediction epochTime="1477325222334" seconds="3437" minutes="57" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="793" block="0401" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Green" routeTag="green" stopTitle="Student Center" stopTag="studcent">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477321891600" seconds="106" minutes="1" isDeparture="false" dirTag="hub" vehicle="793" block="0401" />
+  <prediction epochTime="1477322399993" seconds="614" minutes="10" isDeparture="false" dirTag="hub" vehicle="791" block="0402" />
+  <prediction epochTime="1477323230340" seconds="1445" minutes="24" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="793" block="0401" />
+  <prediction epochTime="1477324010340" seconds="2225" minutes="37" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="791" block="0402" />
+  <prediction epochTime="1477325030340" seconds="3245" minutes="54" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="793" block="0401" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Green" routeTag="green" stopTitle="Ferst Dr &amp; Hemphill Ave" stopTag="fershemp">
+  <direction title="to 14th Street">
+  <prediction epochTime="1477322194376" seconds="409" minutes="6" isDeparture="false" dirTag="14thbusy" vehicle="793" block="0401" />
+  <prediction epochTime="1477322702769" seconds="917" minutes="15" isDeparture="false" dirTag="14thbusy" vehicle="791" block="0402" />
+  <prediction epochTime="1477323533116" seconds="1747" minutes="29" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="793" block="0401" />
+  <prediction epochTime="1477324313116" seconds="2527" minutes="42" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="791" block="0402" />
+  <prediction epochTime="1477325333116" seconds="3547" minutes="59" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="793" block="0401" />
+  </direction>
+<message text="4. Due to roadway reconfiguration, outbound Green bus stop at Ferst&amp;State closed permanently.  Please use the bus stop at the North Deck or Ferst&amp;Hemphill." priority="Normal"/>
+<message text="2. Due to sidewalk reconstruction, bus stop shifted temporarily, to across street from Couch Park." priority="Normal"/>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Green" routeTag="green" stopTitle="Baker Bldg" stopTag="bakebldg">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477322141499" seconds="356" minutes="5" isDeparture="false" dirTag="hub" vehicle="791" block="0402" />
+  <prediction epochTime="1477322971846" seconds="1186" minutes="19" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="793" block="0401" />
+  <prediction epochTime="1477323751846" seconds="1966" minutes="32" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="791" block="0402" />
+  <prediction epochTime="1477324771846" seconds="2986" minutes="49" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="793" block="0401" />
+  <prediction epochTime="1477325551846" seconds="3766" minutes="62" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="791" block="0402" />
+  </direction>
+<message text="4. Due to roadway reconfiguration, outbound Green bus stop at Ferst&amp;State closed permanently.  Please use the bus stop at the North Deck or Ferst&amp;Hemphill." priority="Normal"/>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Green" routeTag="green" stopTitle="GLC" stopTag="glc">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477322070715" seconds="285" minutes="4" isDeparture="false" dirTag="hub" vehicle="791" block="0402" />
+  <prediction epochTime="1477322901062" seconds="1115" minutes="18" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="793" block="0401" />
+  <prediction epochTime="1477323681062" seconds="1895" minutes="31" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="791" block="0402" />
+  <prediction epochTime="1477324701062" seconds="2915" minutes="48" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="793" block="0401" />
+  <prediction epochTime="1477325481062" seconds="3695" minutes="61" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="791" block="0402" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Green" routeTag="green" stopTitle="GCATT" stopTag="gcat">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477321850205" seconds="64" minutes="1" isDeparture="false" dirTag="hub" vehicle="791" block="0402" />
+  <prediction epochTime="1477322680552" seconds="895" minutes="14" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="793" block="0401" />
+  <prediction epochTime="1477323460552" seconds="1675" minutes="27" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="791" block="0402" />
+  <prediction epochTime="1477324480552" seconds="2695" minutes="44" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="793" block="0401" />
+  <prediction epochTime="1477325260552" seconds="3475" minutes="57" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="791" block="0402" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Green" routeTag="green" stopTitle="Student Center" stopTag="studcent_ib">
+  <direction title="to 14th Street">
+  <prediction epochTime="1477322002518" seconds="217" minutes="3" isDeparture="false" dirTag="14thbusy" vehicle="793" block="0401" />
+  <prediction epochTime="1477322510911" seconds="725" minutes="12" isDeparture="false" dirTag="14thbusy" vehicle="791" block="0402" />
+  <prediction epochTime="1477323341258" seconds="1556" minutes="25" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="793" block="0401" />
+  <prediction epochTime="1477324121258" seconds="2336" minutes="38" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="791" block="0402" />
+  <prediction epochTime="1477325141258" seconds="3356" minutes="55" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="793" block="0401" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Green" routeTag="green" stopTitle="Transit HUB" stopTag="tranhub">
+  <direction title="to 14th Street">
+  <prediction epochTime="1477321927196" seconds="141" minutes="2" isDeparture="false" dirTag="14thbusy" vehicle="793" block="0401" />
+  <prediction epochTime="1477322435589" seconds="650" minutes="10" isDeparture="false" dirTag="14thbusy" vehicle="791" block="0402" />
+  <prediction epochTime="1477323265936" seconds="1480" minutes="24" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="793" block="0401" />
+  <prediction epochTime="1477324045936" seconds="2260" minutes="37" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="791" block="0402" />
+  <prediction epochTime="1477325065936" seconds="3280" minutes="54" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="793" block="0401" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Green" routeTag="green" stopTitle="Ferst Dr &amp; Hemphill Ave" stopTag="fershemp_ob">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477322238494" seconds="453" minutes="7" isDeparture="false" dirTag="hub" vehicle="791" block="0402" />
+  <prediction epochTime="1477323068841" seconds="1283" minutes="21" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="793" block="0401" />
+  <prediction epochTime="1477323848841" seconds="2063" minutes="34" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="791" block="0402" />
+  <prediction epochTime="1477324868841" seconds="3083" minutes="51" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="793" block="0401" />
+  <prediction epochTime="1477325648841" seconds="3863" minutes="64" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="791" block="0402" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Green" routeTag="green" stopTitle="Hemphill Ave &amp; Curran St" stopTag="hempcurr">
+  <direction title="to 14th Street">
+  <prediction epochTime="1477322414903" seconds="629" minutes="10" isDeparture="false" dirTag="14thbusy" vehicle="793" block="0401" />
+  <prediction epochTime="1477322923296" seconds="1138" minutes="18" isDeparture="false" dirTag="14thbusy" vehicle="791" block="0402" />
+  <prediction epochTime="1477323753643" seconds="1968" minutes="32" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="793" block="0401" />
+  <prediction epochTime="1477324533643" seconds="2748" minutes="45" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="791" block="0402" />
+  <prediction epochTime="1477325553643" seconds="3768" minutes="62" isDeparture="false" affectedByLayover="true" dirTag="14thbusy" vehicle="793" block="0401" />
+  </direction>
+</predictions>
+<keyForNextTime value="2801364561834" />
+</body>

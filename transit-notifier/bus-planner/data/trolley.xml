@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<body copyright="All data copyright Georgia Tech Campus 2016.">
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Ferst Dr &amp; Hemphill Ave" stopTag="fersherec">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477322232288" seconds="540" minutes="9" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="437" block="0105" />
+  <prediction epochTime="1477322575219" seconds="883" minutes="14" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="401" block="0102" />
+  <prediction epochTime="1477322995219" seconds="1303" minutes="21" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="402" block="0104" />
+  <prediction epochTime="1477323415219" seconds="1723" minutes="28" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="406" block="0103" />
+  <prediction epochTime="1477323835219" seconds="2143" minutes="35" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="403" block="0101" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Klaus Building" stopTag="ferschrec">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477322056123" seconds="364" minutes="6" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="437" block="0105" />
+  <prediction epochTime="1477322399054" seconds="707" minutes="11" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="401" block="0102" />
+  <prediction epochTime="1477322819054" seconds="1127" minutes="18" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="402" block="0104" />
+  <prediction epochTime="1477323239054" seconds="1547" minutes="25" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="406" block="0103" />
+  <prediction epochTime="1477323659054" seconds="1967" minutes="32" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="403" block="0101" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Recreation Center" stopTag="ferstdr">
+  <direction title="To MARTA Station">
+  <prediction epochTime="1477321850631" seconds="159" minutes="2" isDeparture="false" dirTag="marta" vehicle="406" block="0103" />
+  <prediction epochTime="1477321957217" seconds="265" minutes="4" isDeparture="false" dirTag="marta" vehicle="403" block="0101" />
+  <prediction epochTime="1477322619455" seconds="928" minutes="15" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="437" block="0105" />
+  <prediction epochTime="1477322962386" seconds="1271" minutes="21" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="401" block="0102" />
+  <prediction epochTime="1477323382386" seconds="1691" minutes="28" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="402" block="0104" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Ferst Dr &amp; Fowler St" stopTag="fersfomrt">
+  <direction title="To MARTA Station">
+  <prediction epochTime="1477321698236" seconds="6" minutes="0" isDeparture="false" dirTag="marta" vehicle="402" block="0104" />
+  <prediction epochTime="1477322160435" seconds="469" minutes="7" isDeparture="false" dirTag="marta" vehicle="406" block="0103" />
+  <prediction epochTime="1477322267021" seconds="575" minutes="9" isDeparture="false" dirTag="marta" vehicle="403" block="0101" />
+  <prediction epochTime="1477322929259" seconds="1237" minutes="20" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="437" block="0105" />
+  <prediction epochTime="1477323272190" seconds="1580" minutes="26" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="401" block="0102" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Ferst Dr &amp; Fowler St" stopTag="fersforec">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477322021186" seconds="329" minutes="5" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="437" block="0105" />
+  <prediction epochTime="1477322364117" seconds="672" minutes="11" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="401" block="0102" />
+  <prediction epochTime="1477322784117" seconds="1092" minutes="18" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="402" block="0104" />
+  <prediction epochTime="1477323204117" seconds="1512" minutes="25" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="406" block="0103" />
+  <prediction epochTime="1477323624117" seconds="1932" minutes="32" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="403" block="0101" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Technology Square" stopTag="techsqua_ib">
+  <direction title="To MARTA Station">
+  <prediction epochTime="1477321812358" seconds="120" minutes="2" isDeparture="false" dirTag="marta" vehicle="402" block="0104" />
+  <prediction epochTime="1477322274557" seconds="583" minutes="9" isDeparture="false" dirTag="marta" vehicle="406" block="0103" />
+  <prediction epochTime="1477322381143" seconds="689" minutes="11" isDeparture="false" dirTag="marta" vehicle="403" block="0101" />
+  <prediction epochTime="1477323043381" seconds="1351" minutes="22" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="437" block="0105" />
+  <prediction epochTime="1477323386312" seconds="1694" minutes="28" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="401" block="0102" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Transit HUB - Arrival" stopTag="tranhub_a">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477321777477" seconds="86" minutes="1" isDeparture="false" dirTag="hub" vehicle="403" block="0101" />
+  <prediction epochTime="1477322439715" seconds="748" minutes="12" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="437" block="0105" />
+  <prediction epochTime="1477322782646" seconds="1091" minutes="18" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="401" block="0102" />
+  <prediction epochTime="1477323202646" seconds="1511" minutes="25" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="402" block="0104" />
+  <prediction epochTime="1477323622646" seconds="1931" minutes="32" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="406" block="0103" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Academy of Medicine" stopTag="wpe7mrt">
+  <direction title="To MARTA Station">
+  <prediction epochTime="1477321696266" seconds="4" minutes="0" isDeparture="false" dirTag="marta" vehicle="401" block="0102" />
+  <prediction epochTime="1477321959169" seconds="267" minutes="4" isDeparture="false" dirTag="marta" vehicle="402" block="0104" />
+  <prediction epochTime="1477322421368" seconds="729" minutes="12" isDeparture="false" dirTag="marta" vehicle="406" block="0103" />
+  <prediction epochTime="1477322527954" seconds="836" minutes="13" isDeparture="false" dirTag="marta" vehicle="403" block="0101" />
+  <prediction epochTime="1477323190192" seconds="1498" minutes="24" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="437" block="0105" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Student Center" stopTag="studcentr">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477321744757" seconds="53" minutes="0" isDeparture="false" dirTag="hub" vehicle="403" block="0101" />
+  <prediction epochTime="1477322406995" seconds="715" minutes="11" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="437" block="0105" />
+  <prediction epochTime="1477322749926" seconds="1058" minutes="17" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="401" block="0102" />
+  <prediction epochTime="1477323169926" seconds="1478" minutes="24" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="402" block="0104" />
+  <prediction epochTime="1477323589926" seconds="1898" minutes="31" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="406" block="0103" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Recreation Center" stopTag="recctr">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477322323723" seconds="632" minutes="10" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="437" block="0105" />
+  <prediction epochTime="1477322666654" seconds="975" minutes="16" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="401" block="0102" />
+  <prediction epochTime="1477323086654" seconds="1395" minutes="23" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="402" block="0104" />
+  <prediction epochTime="1477323506654" seconds="1815" minutes="30" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="406" block="0103" />
+  <prediction epochTime="1477323926654" seconds="2235" minutes="37" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="403" block="0101" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Ferst Dr &amp; Atlantic Dr" stopTag="fersatl_ib">
+  <direction title="To MARTA Station">
+  <prediction epochTime="1477322038379" seconds="346" minutes="5" isDeparture="false" dirTag="marta" vehicle="406" block="0103" />
+  <prediction epochTime="1477322144965" seconds="453" minutes="7" isDeparture="false" dirTag="marta" vehicle="403" block="0101" />
+  <prediction epochTime="1477322807203" seconds="1115" minutes="18" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="437" block="0105" />
+  <prediction epochTime="1477323150134" seconds="1458" minutes="24" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="401" block="0102" />
+  <prediction epochTime="1477323570134" seconds="1878" minutes="31" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="402" block="0104" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Student Center" stopTag="centrstud">
+  <direction title="To MARTA Station">
+  <prediction epochTime="1477321761113" seconds="69" minutes="1" isDeparture="false" dirTag="marta" vehicle="406" block="0103" />
+  <prediction epochTime="1477321867699" seconds="176" minutes="2" isDeparture="false" dirTag="marta" vehicle="403" block="0101" />
+  <prediction epochTime="1477322529937" seconds="838" minutes="13" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="437" block="0105" />
+  <prediction epochTime="1477322872868" seconds="1181" minutes="19" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="401" block="0102" />
+  <prediction epochTime="1477323292868" seconds="1601" minutes="26" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="402" block="0104" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Techwood Dr &amp; 5th St" stopTag="tech5rec">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477321950298" seconds="258" minutes="4" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="437" block="0105" />
+  <prediction epochTime="1477322293229" seconds="601" minutes="10" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="401" block="0102" />
+  <prediction epochTime="1477322713229" seconds="1021" minutes="17" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="402" block="0104" />
+  <prediction epochTime="1477323133229" seconds="1441" minutes="24" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="406" block="0103" />
+  <prediction epochTime="1477323553229" seconds="1861" minutes="31" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="403" block="0101" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Klaus Building" stopTag="ferschmrt">
+  <direction title="To MARTA Station">
+  <prediction epochTime="1477322110252" seconds="418" minutes="6" isDeparture="false" dirTag="marta" vehicle="406" block="0103" />
+  <prediction epochTime="1477322216838" seconds="525" minutes="8" isDeparture="false" dirTag="marta" vehicle="403" block="0101" />
+  <prediction epochTime="1477322879076" seconds="1187" minutes="19" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="437" block="0105" />
+  <prediction epochTime="1477323222007" seconds="1530" minutes="25" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="401" block="0102" />
+  <prediction epochTime="1477323642007" seconds="1950" minutes="32" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="402" block="0104" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="MARTA Midtown Station - Arrival" stopTag="marta_a">
+  <direction title="To MARTA Station">
+  <prediction epochTime="1477321880170" seconds="188" minutes="3" isDeparture="false" dirTag="marta" vehicle="401" block="0102" />
+  <prediction epochTime="1477322143073" seconds="451" minutes="7" isDeparture="false" dirTag="marta" vehicle="402" block="0104" />
+  <prediction epochTime="1477322605272" seconds="913" minutes="15" isDeparture="false" dirTag="marta" vehicle="406" block="0103" />
+  <prediction epochTime="1477322711858" seconds="1020" minutes="17" isDeparture="false" dirTag="marta" vehicle="403" block="0101" />
+  <prediction epochTime="1477323374096" seconds="1682" minutes="28" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="437" block="0105" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Ferst Dr &amp; Hemphill Ave" stopTag="fershemrt">
+  <direction title="To MARTA Station">
+  <prediction epochTime="1477321968416" seconds="277" minutes="4" isDeparture="false" dirTag="marta" vehicle="406" block="0103" />
+  <prediction epochTime="1477322075002" seconds="383" minutes="6" isDeparture="false" dirTag="marta" vehicle="403" block="0101" />
+  <prediction epochTime="1477322737240" seconds="1045" minutes="17" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="437" block="0105" />
+  <prediction epochTime="1477323080171" seconds="1388" minutes="23" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="401" block="0102" />
+  <prediction epochTime="1477323500171" seconds="1808" minutes="30" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="402" block="0104" />
+  </direction>
+<message text="2. Due to sidewalk reconstruction, bus stop shifted temporarily, to across street from Couch Park." priority="Normal"/>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Ferst Dr &amp; Atlantic Dr" stopTag="fersatla">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477322120436" seconds="429" minutes="7" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="437" block="0105" />
+  <prediction epochTime="1477322463367" seconds="771" minutes="12" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="401" block="0102" />
+  <prediction epochTime="1477322883367" seconds="1191" minutes="19" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="402" block="0104" />
+  <prediction epochTime="1477323303367" seconds="1611" minutes="26" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="406" block="0103" />
+  <prediction epochTime="1477323723367" seconds="2031" minutes="33" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="403" block="0101" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Techwood Dr &amp; 5th St" stopTag="tech5mrt">
+  <direction title="To MARTA Station">
+  <prediction epochTime="1477321741196" seconds="49" minutes="0" isDeparture="false" dirTag="marta" vehicle="402" block="0104" />
+  <prediction epochTime="1477322203395" seconds="512" minutes="8" isDeparture="false" dirTag="marta" vehicle="406" block="0103" />
+  <prediction epochTime="1477322309981" seconds="618" minutes="10" isDeparture="false" dirTag="marta" vehicle="403" block="0101" />
+  <prediction epochTime="1477322972219" seconds="1280" minutes="21" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="437" block="0105" />
+  <prediction epochTime="1477323315150" seconds="1623" minutes="27" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="401" block="0102" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="Technology Square" stopTag="techsqua">
+  <direction title="Transit Hub">
+  <prediction epochTime="1477321897097" seconds="205" minutes="3" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="437" block="0105" />
+  <prediction epochTime="1477322240028" seconds="548" minutes="9" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="401" block="0102" />
+  <prediction epochTime="1477322660028" seconds="968" minutes="16" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="402" block="0104" />
+  <prediction epochTime="1477323080028" seconds="1388" minutes="23" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="406" block="0103" />
+  <prediction epochTime="1477323500028" seconds="1808" minutes="30" isDeparture="false" affectedByLayover="true" dirTag="hub" vehicle="403" block="0101" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Tech Trolley" routeTag="trolley" stopTitle="College of Business" stopTag="duprmrt">
+  <direction title="To MARTA Station">
+  <prediction epochTime="1477321916617" seconds="225" minutes="3" isDeparture="false" dirTag="marta" vehicle="402" block="0104" />
+  <prediction epochTime="1477322378816" seconds="687" minutes="11" isDeparture="false" dirTag="marta" vehicle="406" block="0103" />
+  <prediction epochTime="1477322485402" seconds="794" minutes="13" isDeparture="false" dirTag="marta" vehicle="403" block="0101" />
+  <prediction epochTime="1477323147640" seconds="1456" minutes="24" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="437" block="0105" />
+  <prediction epochTime="1477323490571" seconds="1799" minutes="29" isDeparture="false" affectedByLayover="true" dirTag="marta" vehicle="401" block="0102" />
+  </direction>
+</predictions>
+<keyForNextTime value="3004061018450" />
+</body>

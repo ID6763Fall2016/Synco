@@ -1,0 +1,2550 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<body copyright="All data copyright Georgia Tech Campus 2016.">
+  <route tag="blue" title="Blue" scheduleClass="full" serviceClass="f" direction="fitthall">
+    <header>
+      <stop tag="fersatla">Ferst Dr &amp; Atlantic Dr</stop>
+      <stop tag="fitthall_a">Fitten Hall - Arrival</stop>
+    </header>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="26400000">07:20:00</stop>
+      <stop tag="fitthall_a" epochTime="26640000">07:24:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="27240000">07:34:00</stop>
+      <stop tag="fitthall_a" epochTime="27480000">07:38:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="28080000">07:48:00</stop>
+      <stop tag="fitthall_a" epochTime="28320000">07:52:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="28500000">07:55:00</stop>
+      <stop tag="fitthall_a" epochTime="28740000">07:59:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="28500000">07:55:00</stop>
+      <stop tag="fitthall_a" epochTime="28740000">07:59:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="28920000">08:02:00</stop>
+      <stop tag="fitthall_a" epochTime="29160000">08:06:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="29340000">08:09:00</stop>
+      <stop tag="fitthall_a" epochTime="29580000">08:13:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="29760000">08:16:00</stop>
+      <stop tag="fitthall_a" epochTime="30000000">08:20:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="30180000">08:23:00</stop>
+      <stop tag="fitthall_a" epochTime="30420000">08:27:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="30180000">08:23:00</stop>
+      <stop tag="fitthall_a" epochTime="30420000">08:27:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="30600000">08:30:00</stop>
+      <stop tag="fitthall_a" epochTime="30840000">08:34:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="31020000">08:37:00</stop>
+      <stop tag="fitthall_a" epochTime="31260000">08:41:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="31440000">08:44:00</stop>
+      <stop tag="fitthall_a" epochTime="31680000">08:48:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="31860000">08:51:00</stop>
+      <stop tag="fitthall_a" epochTime="32100000">08:55:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="31860000">08:51:00</stop>
+      <stop tag="fitthall_a" epochTime="32100000">08:55:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="32280000">08:58:00</stop>
+      <stop tag="fitthall_a" epochTime="32520000">09:02:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="32700000">09:05:00</stop>
+      <stop tag="fitthall_a" epochTime="32940000">09:09:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="33120000">09:12:00</stop>
+      <stop tag="fitthall_a" epochTime="33360000">09:16:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="33540000">09:19:00</stop>
+      <stop tag="fitthall_a" epochTime="33780000">09:23:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="33540000">09:19:00</stop>
+      <stop tag="fitthall_a" epochTime="33780000">09:23:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="33960000">09:26:00</stop>
+      <stop tag="fitthall_a" epochTime="34200000">09:30:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="34380000">09:33:00</stop>
+      <stop tag="fitthall_a" epochTime="34620000">09:37:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="34800000">09:40:00</stop>
+      <stop tag="fitthall_a" epochTime="35040000">09:44:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="35220000">09:47:00</stop>
+      <stop tag="fitthall_a" epochTime="35460000">09:51:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="35220000">09:47:00</stop>
+      <stop tag="fitthall_a" epochTime="35460000">09:51:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="35640000">09:54:00</stop>
+      <stop tag="fitthall_a" epochTime="35880000">09:58:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="36060000">10:01:00</stop>
+      <stop tag="fitthall_a" epochTime="36300000">10:05:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="36480000">10:08:00</stop>
+      <stop tag="fitthall_a" epochTime="36720000">10:12:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="36900000">10:15:00</stop>
+      <stop tag="fitthall_a" epochTime="37140000">10:19:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="36900000">10:15:00</stop>
+      <stop tag="fitthall_a" epochTime="37140000">10:19:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="37320000">10:22:00</stop>
+      <stop tag="fitthall_a" epochTime="37560000">10:26:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="37740000">10:29:00</stop>
+      <stop tag="fitthall_a" epochTime="37980000">10:33:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="38160000">10:36:00</stop>
+      <stop tag="fitthall_a" epochTime="38400000">10:40:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="38580000">10:43:00</stop>
+      <stop tag="fitthall_a" epochTime="38820000">10:47:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="38580000">10:43:00</stop>
+      <stop tag="fitthall_a" epochTime="38820000">10:47:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="39000000">10:50:00</stop>
+      <stop tag="fitthall_a" epochTime="39240000">10:54:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="39420000">10:57:00</stop>
+      <stop tag="fitthall_a" epochTime="39660000">11:01:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="39840000">11:04:00</stop>
+      <stop tag="fitthall_a" epochTime="40080000">11:08:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="40260000">11:11:00</stop>
+      <stop tag="fitthall_a" epochTime="40500000">11:15:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="40260000">11:11:00</stop>
+      <stop tag="fitthall_a" epochTime="40500000">11:15:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="40680000">11:18:00</stop>
+      <stop tag="fitthall_a" epochTime="40920000">11:22:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="41100000">11:25:00</stop>
+      <stop tag="fitthall_a" epochTime="41340000">11:29:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="41520000">11:32:00</stop>
+      <stop tag="fitthall_a" epochTime="41760000">11:36:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="41940000">11:39:00</stop>
+      <stop tag="fitthall_a" epochTime="42180000">11:43:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="41940000">11:39:00</stop>
+      <stop tag="fitthall_a" epochTime="42180000">11:43:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="42360000">11:46:00</stop>
+      <stop tag="fitthall_a" epochTime="42600000">11:50:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="42780000">11:53:00</stop>
+      <stop tag="fitthall_a" epochTime="43020000">11:57:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="43200000">12:00:00</stop>
+      <stop tag="fitthall_a" epochTime="43440000">12:04:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="43620000">12:07:00</stop>
+      <stop tag="fitthall_a" epochTime="43860000">12:11:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="43620000">12:07:00</stop>
+      <stop tag="fitthall_a" epochTime="43860000">12:11:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="44040000">12:14:00</stop>
+      <stop tag="fitthall_a" epochTime="44280000">12:18:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="44460000">12:21:00</stop>
+      <stop tag="fitthall_a" epochTime="44700000">12:25:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="44880000">12:28:00</stop>
+      <stop tag="fitthall_a" epochTime="45120000">12:32:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="45300000">12:35:00</stop>
+      <stop tag="fitthall_a" epochTime="45540000">12:39:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="45300000">12:35:00</stop>
+      <stop tag="fitthall_a" epochTime="45540000">12:39:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="45720000">12:42:00</stop>
+      <stop tag="fitthall_a" epochTime="45960000">12:46:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="46140000">12:49:00</stop>
+      <stop tag="fitthall_a" epochTime="46380000">12:53:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="46560000">12:56:00</stop>
+      <stop tag="fitthall_a" epochTime="46800000">13:00:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="46980000">13:03:00</stop>
+      <stop tag="fitthall_a" epochTime="47220000">13:07:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="46980000">13:03:00</stop>
+      <stop tag="fitthall_a" epochTime="47220000">13:07:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="47400000">13:10:00</stop>
+      <stop tag="fitthall_a" epochTime="47640000">13:14:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="47820000">13:17:00</stop>
+      <stop tag="fitthall_a" epochTime="48060000">13:21:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="48240000">13:24:00</stop>
+      <stop tag="fitthall_a" epochTime="48480000">13:28:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="48660000">13:31:00</stop>
+      <stop tag="fitthall_a" epochTime="48900000">13:35:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="48660000">13:31:00</stop>
+      <stop tag="fitthall_a" epochTime="48900000">13:35:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="49080000">13:38:00</stop>
+      <stop tag="fitthall_a" epochTime="49320000">13:42:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="49500000">13:45:00</stop>
+      <stop tag="fitthall_a" epochTime="49740000">13:49:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="49920000">13:52:00</stop>
+      <stop tag="fitthall_a" epochTime="50160000">13:56:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="50340000">13:59:00</stop>
+      <stop tag="fitthall_a" epochTime="50580000">14:03:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="50340000">13:59:00</stop>
+      <stop tag="fitthall_a" epochTime="50580000">14:03:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="50760000">14:06:00</stop>
+      <stop tag="fitthall_a" epochTime="51000000">14:10:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="51180000">14:13:00</stop>
+      <stop tag="fitthall_a" epochTime="51420000">14:17:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="51600000">14:20:00</stop>
+      <stop tag="fitthall_a" epochTime="51840000">14:24:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="52020000">14:27:00</stop>
+      <stop tag="fitthall_a" epochTime="52260000">14:31:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="52020000">14:27:00</stop>
+      <stop tag="fitthall_a" epochTime="52260000">14:31:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="52440000">14:34:00</stop>
+      <stop tag="fitthall_a" epochTime="52680000">14:38:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="52860000">14:41:00</stop>
+      <stop tag="fitthall_a" epochTime="53100000">14:45:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="53280000">14:48:00</stop>
+      <stop tag="fitthall_a" epochTime="53520000">14:52:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="53700000">14:55:00</stop>
+      <stop tag="fitthall_a" epochTime="53940000">14:59:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="53700000">14:55:00</stop>
+      <stop tag="fitthall_a" epochTime="53940000">14:59:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="54120000">15:02:00</stop>
+      <stop tag="fitthall_a" epochTime="54360000">15:06:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="54540000">15:09:00</stop>
+      <stop tag="fitthall_a" epochTime="54780000">15:13:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="54960000">15:16:00</stop>
+      <stop tag="fitthall_a" epochTime="55200000">15:20:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="55380000">15:23:00</stop>
+      <stop tag="fitthall_a" epochTime="55620000">15:27:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="55380000">15:23:00</stop>
+      <stop tag="fitthall_a" epochTime="55620000">15:27:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="55800000">15:30:00</stop>
+      <stop tag="fitthall_a" epochTime="56040000">15:34:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="56220000">15:37:00</stop>
+      <stop tag="fitthall_a" epochTime="56460000">15:41:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="56640000">15:44:00</stop>
+      <stop tag="fitthall_a" epochTime="56880000">15:48:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="57060000">15:51:00</stop>
+      <stop tag="fitthall_a" epochTime="57300000">15:55:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="57060000">15:51:00</stop>
+      <stop tag="fitthall_a" epochTime="57300000">15:55:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="57480000">15:58:00</stop>
+      <stop tag="fitthall_a" epochTime="57720000">16:02:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="57900000">16:05:00</stop>
+      <stop tag="fitthall_a" epochTime="58140000">16:09:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="58320000">16:12:00</stop>
+      <stop tag="fitthall_a" epochTime="58560000">16:16:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="58740000">16:19:00</stop>
+      <stop tag="fitthall_a" epochTime="58980000">16:23:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="58740000">16:19:00</stop>
+      <stop tag="fitthall_a" epochTime="58980000">16:23:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="59160000">16:26:00</stop>
+      <stop tag="fitthall_a" epochTime="59400000">16:30:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="59580000">16:33:00</stop>
+      <stop tag="fitthall_a" epochTime="59820000">16:37:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="60000000">16:40:00</stop>
+      <stop tag="fitthall_a" epochTime="60240000">16:44:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="60420000">16:47:00</stop>
+      <stop tag="fitthall_a" epochTime="60660000">16:51:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="60420000">16:47:00</stop>
+      <stop tag="fitthall_a" epochTime="60660000">16:51:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="60840000">16:54:00</stop>
+      <stop tag="fitthall_a" epochTime="61080000">16:58:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="61260000">17:01:00</stop>
+      <stop tag="fitthall_a" epochTime="61500000">17:05:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="61680000">17:08:00</stop>
+      <stop tag="fitthall_a" epochTime="61920000">17:12:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="62100000">17:15:00</stop>
+      <stop tag="fitthall_a" epochTime="62340000">17:19:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="62100000">17:15:00</stop>
+      <stop tag="fitthall_a" epochTime="62340000">17:19:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="62520000">17:22:00</stop>
+      <stop tag="fitthall_a" epochTime="62760000">17:26:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="62940000">17:29:00</stop>
+      <stop tag="fitthall_a" epochTime="63180000">17:33:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="63360000">17:36:00</stop>
+      <stop tag="fitthall_a" epochTime="63600000">17:40:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="63780000">17:43:00</stop>
+      <stop tag="fitthall_a" epochTime="64020000">17:47:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="63780000">17:43:00</stop>
+      <stop tag="fitthall_a" epochTime="64020000">17:47:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="64200000">17:50:00</stop>
+      <stop tag="fitthall_a" epochTime="64440000">17:54:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="64620000">17:57:00</stop>
+      <stop tag="fitthall_a" epochTime="64860000">18:01:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="65040000">18:04:00</stop>
+      <stop tag="fitthall_a" epochTime="65280000">18:08:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="65460000">18:11:00</stop>
+      <stop tag="fitthall_a" epochTime="65700000">18:15:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="65460000">18:11:00</stop>
+      <stop tag="fitthall_a" epochTime="65700000">18:15:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="66300000">18:25:00</stop>
+      <stop tag="fitthall_a" epochTime="66540000">18:29:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="67140000">18:39:00</stop>
+      <stop tag="fitthall_a" epochTime="67380000">18:43:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="67140000">18:39:00</stop>
+      <stop tag="fitthall_a" epochTime="67380000">18:43:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="67980000">18:53:00</stop>
+      <stop tag="fitthall_a" epochTime="68220000">18:57:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="68820000">19:07:00</stop>
+      <stop tag="fitthall_a" epochTime="69060000">19:11:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="68820000">19:07:00</stop>
+      <stop tag="fitthall_a" epochTime="69060000">19:11:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="70500000">19:35:00</stop>
+      <stop tag="fitthall_a" epochTime="70740000">19:39:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="70500000">19:35:00</stop>
+      <stop tag="fitthall_a" epochTime="70740000">19:39:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="72180000">20:03:00</stop>
+      <stop tag="fitthall_a" epochTime="72420000">20:07:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="72180000">20:03:00</stop>
+      <stop tag="fitthall_a" epochTime="72420000">20:07:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="73680000">20:28:00</stop>
+      <stop tag="fitthall_a" epochTime="73860000">20:31:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="73680000">20:28:00</stop>
+      <stop tag="fitthall_a" epochTime="73860000">20:31:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="75120000">20:52:00</stop>
+      <stop tag="fitthall_a" epochTime="75300000">20:55:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="75120000">20:52:00</stop>
+      <stop tag="fitthall_a" epochTime="75300000">20:55:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="76560000">21:16:00</stop>
+      <stop tag="fitthall_a" epochTime="76740000">21:19:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="76560000">21:16:00</stop>
+      <stop tag="fitthall_a" epochTime="76740000">21:19:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="78000000">21:40:00</stop>
+      <stop tag="fitthall_a" epochTime="78180000">21:43:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="78000000">21:40:00</stop>
+      <stop tag="fitthall_a" epochTime="78180000">21:43:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="79440000">22:04:00</stop>
+      <stop tag="fitthall_a" epochTime="79620000">22:07:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="79440000">22:04:00</stop>
+      <stop tag="fitthall_a" epochTime="79620000">22:07:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="80880000">22:28:00</stop>
+      <stop tag="fitthall_a" epochTime="81060000">22:31:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="82320000">22:52:00</stop>
+      <stop tag="fitthall_a" epochTime="82500000">22:55:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="83760000">23:16:00</stop>
+      <stop tag="fitthall_a" epochTime="83940000">23:19:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="85200000">23:40:00</stop>
+      <stop tag="fitthall_a" epochTime="85380000">23:43:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="86640000">00:04:00</stop>
+      <stop tag="fitthall_a" epochTime="86820000">00:07:00</stop>
+    </tr>
+  </route>
+  <route tag="blue" title="Blue" scheduleClass="full" serviceClass="f" direction="naveapts">
+    <header>
+      <stop tag="fitthall">Fitten Hall</stop>
+      <stop tag="fershub">HUB/Ferst Dr</stop>
+      <stop tag="naveapts_a">North Avenue Apartments - Arrival</stop>
+    </header>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="25200000">07:00:00</stop>
+      <stop tag="fershub" epochTime="25560000">07:06:00</stop>
+      <stop tag="naveapts_a" epochTime="25920000">07:12:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="26040000">07:14:00</stop>
+      <stop tag="fershub" epochTime="26400000">07:20:00</stop>
+      <stop tag="naveapts_a" epochTime="26760000">07:26:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="26880000">07:28:00</stop>
+      <stop tag="fershub" epochTime="27240000">07:34:00</stop>
+      <stop tag="naveapts_a" epochTime="27600000">07:40:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="27300000">07:35:00</stop>
+      <stop tag="fershub" epochTime="27660000">07:41:00</stop>
+      <stop tag="naveapts_a" epochTime="28020000">07:47:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="27300000">07:35:00</stop>
+      <stop tag="fershub" epochTime="27660000">07:41:00</stop>
+      <stop tag="naveapts_a" epochTime="28020000">07:47:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="27720000">07:42:00</stop>
+      <stop tag="fershub" epochTime="28080000">07:48:00</stop>
+      <stop tag="naveapts_a" epochTime="28440000">07:54:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="28140000">07:49:00</stop>
+      <stop tag="fershub" epochTime="28500000">07:55:00</stop>
+      <stop tag="naveapts_a" epochTime="28860000">08:01:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="28560000">07:56:00</stop>
+      <stop tag="fershub" epochTime="28920000">08:02:00</stop>
+      <stop tag="naveapts_a" epochTime="29280000">08:08:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="28980000">08:03:00</stop>
+      <stop tag="fershub" epochTime="29340000">08:09:00</stop>
+      <stop tag="naveapts_a" epochTime="29700000">08:15:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="28980000">08:03:00</stop>
+      <stop tag="fershub" epochTime="29340000">08:09:00</stop>
+      <stop tag="naveapts_a" epochTime="29700000">08:15:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="29400000">08:10:00</stop>
+      <stop tag="fershub" epochTime="29760000">08:16:00</stop>
+      <stop tag="naveapts_a" epochTime="30120000">08:22:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="29820000">08:17:00</stop>
+      <stop tag="fershub" epochTime="30180000">08:23:00</stop>
+      <stop tag="naveapts_a" epochTime="30540000">08:29:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="30240000">08:24:00</stop>
+      <stop tag="fershub" epochTime="30600000">08:30:00</stop>
+      <stop tag="naveapts_a" epochTime="30960000">08:36:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="30660000">08:31:00</stop>
+      <stop tag="fershub" epochTime="31020000">08:37:00</stop>
+      <stop tag="naveapts_a" epochTime="31380000">08:43:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="30660000">08:31:00</stop>
+      <stop tag="fershub" epochTime="31020000">08:37:00</stop>
+      <stop tag="naveapts_a" epochTime="31380000">08:43:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="31080000">08:38:00</stop>
+      <stop tag="fershub" epochTime="31440000">08:44:00</stop>
+      <stop tag="naveapts_a" epochTime="31800000">08:50:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="31500000">08:45:00</stop>
+      <stop tag="fershub" epochTime="31860000">08:51:00</stop>
+      <stop tag="naveapts_a" epochTime="32220000">08:57:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="31920000">08:52:00</stop>
+      <stop tag="fershub" epochTime="32280000">08:58:00</stop>
+      <stop tag="naveapts_a" epochTime="32640000">09:04:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="32340000">08:59:00</stop>
+      <stop tag="fershub" epochTime="32700000">09:05:00</stop>
+      <stop tag="naveapts_a" epochTime="33060000">09:11:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="32340000">08:59:00</stop>
+      <stop tag="fershub" epochTime="32700000">09:05:00</stop>
+      <stop tag="naveapts_a" epochTime="33060000">09:11:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="32760000">09:06:00</stop>
+      <stop tag="fershub" epochTime="33120000">09:12:00</stop>
+      <stop tag="naveapts_a" epochTime="33480000">09:18:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="33180000">09:13:00</stop>
+      <stop tag="fershub" epochTime="33540000">09:19:00</stop>
+      <stop tag="naveapts_a" epochTime="33900000">09:25:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="33600000">09:20:00</stop>
+      <stop tag="fershub" epochTime="33960000">09:26:00</stop>
+      <stop tag="naveapts_a" epochTime="34320000">09:32:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="34020000">09:27:00</stop>
+      <stop tag="fershub" epochTime="34380000">09:33:00</stop>
+      <stop tag="naveapts_a" epochTime="34740000">09:39:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="34020000">09:27:00</stop>
+      <stop tag="fershub" epochTime="34380000">09:33:00</stop>
+      <stop tag="naveapts_a" epochTime="34740000">09:39:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="34440000">09:34:00</stop>
+      <stop tag="fershub" epochTime="34800000">09:40:00</stop>
+      <stop tag="naveapts_a" epochTime="35160000">09:46:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="34860000">09:41:00</stop>
+      <stop tag="fershub" epochTime="35220000">09:47:00</stop>
+      <stop tag="naveapts_a" epochTime="35580000">09:53:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="35280000">09:48:00</stop>
+      <stop tag="fershub" epochTime="35640000">09:54:00</stop>
+      <stop tag="naveapts_a" epochTime="36000000">10:00:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="35700000">09:55:00</stop>
+      <stop tag="fershub" epochTime="36060000">10:01:00</stop>
+      <stop tag="naveapts_a" epochTime="36420000">10:07:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="35700000">09:55:00</stop>
+      <stop tag="fershub" epochTime="36060000">10:01:00</stop>
+      <stop tag="naveapts_a" epochTime="36420000">10:07:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="36120000">10:02:00</stop>
+      <stop tag="fershub" epochTime="36480000">10:08:00</stop>
+      <stop tag="naveapts_a" epochTime="36840000">10:14:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="36540000">10:09:00</stop>
+      <stop tag="fershub" epochTime="36900000">10:15:00</stop>
+      <stop tag="naveapts_a" epochTime="37260000">10:21:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="36960000">10:16:00</stop>
+      <stop tag="fershub" epochTime="37320000">10:22:00</stop>
+      <stop tag="naveapts_a" epochTime="37680000">10:28:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="37380000">10:23:00</stop>
+      <stop tag="fershub" epochTime="37740000">10:29:00</stop>
+      <stop tag="naveapts_a" epochTime="38100000">10:35:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="37380000">10:23:00</stop>
+      <stop tag="fershub" epochTime="37740000">10:29:00</stop>
+      <stop tag="naveapts_a" epochTime="38100000">10:35:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="37800000">10:30:00</stop>
+      <stop tag="fershub" epochTime="38160000">10:36:00</stop>
+      <stop tag="naveapts_a" epochTime="38520000">10:42:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="38220000">10:37:00</stop>
+      <stop tag="fershub" epochTime="38580000">10:43:00</stop>
+      <stop tag="naveapts_a" epochTime="38940000">10:49:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="38640000">10:44:00</stop>
+      <stop tag="fershub" epochTime="39000000">10:50:00</stop>
+      <stop tag="naveapts_a" epochTime="39360000">10:56:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="39060000">10:51:00</stop>
+      <stop tag="fershub" epochTime="39420000">10:57:00</stop>
+      <stop tag="naveapts_a" epochTime="39780000">11:03:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="39060000">10:51:00</stop>
+      <stop tag="fershub" epochTime="39420000">10:57:00</stop>
+      <stop tag="naveapts_a" epochTime="39780000">11:03:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="39480000">10:58:00</stop>
+      <stop tag="fershub" epochTime="39840000">11:04:00</stop>
+      <stop tag="naveapts_a" epochTime="40200000">11:10:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="39900000">11:05:00</stop>
+      <stop tag="fershub" epochTime="40260000">11:11:00</stop>
+      <stop tag="naveapts_a" epochTime="40620000">11:17:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="40320000">11:12:00</stop>
+      <stop tag="fershub" epochTime="40680000">11:18:00</stop>
+      <stop tag="naveapts_a" epochTime="41040000">11:24:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="40740000">11:19:00</stop>
+      <stop tag="fershub" epochTime="41100000">11:25:00</stop>
+      <stop tag="naveapts_a" epochTime="41460000">11:31:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="40740000">11:19:00</stop>
+      <stop tag="fershub" epochTime="41100000">11:25:00</stop>
+      <stop tag="naveapts_a" epochTime="41460000">11:31:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="41160000">11:26:00</stop>
+      <stop tag="fershub" epochTime="41520000">11:32:00</stop>
+      <stop tag="naveapts_a" epochTime="41880000">11:38:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="41580000">11:33:00</stop>
+      <stop tag="fershub" epochTime="41940000">11:39:00</stop>
+      <stop tag="naveapts_a" epochTime="42300000">11:45:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="42000000">11:40:00</stop>
+      <stop tag="fershub" epochTime="42360000">11:46:00</stop>
+      <stop tag="naveapts_a" epochTime="42720000">11:52:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="42420000">11:47:00</stop>
+      <stop tag="fershub" epochTime="42780000">11:53:00</stop>
+      <stop tag="naveapts_a" epochTime="43140000">11:59:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="42420000">11:47:00</stop>
+      <stop tag="fershub" epochTime="42780000">11:53:00</stop>
+      <stop tag="naveapts_a" epochTime="43140000">11:59:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="42840000">11:54:00</stop>
+      <stop tag="fershub" epochTime="43200000">12:00:00</stop>
+      <stop tag="naveapts_a" epochTime="43560000">12:06:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="43260000">12:01:00</stop>
+      <stop tag="fershub" epochTime="43620000">12:07:00</stop>
+      <stop tag="naveapts_a" epochTime="43980000">12:13:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="43680000">12:08:00</stop>
+      <stop tag="fershub" epochTime="44040000">12:14:00</stop>
+      <stop tag="naveapts_a" epochTime="44400000">12:20:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="44100000">12:15:00</stop>
+      <stop tag="fershub" epochTime="44460000">12:21:00</stop>
+      <stop tag="naveapts_a" epochTime="44820000">12:27:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="44100000">12:15:00</stop>
+      <stop tag="fershub" epochTime="44460000">12:21:00</stop>
+      <stop tag="naveapts_a" epochTime="44820000">12:27:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="44520000">12:22:00</stop>
+      <stop tag="fershub" epochTime="44880000">12:28:00</stop>
+      <stop tag="naveapts_a" epochTime="45240000">12:34:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="44940000">12:29:00</stop>
+      <stop tag="fershub" epochTime="45300000">12:35:00</stop>
+      <stop tag="naveapts_a" epochTime="45660000">12:41:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="45360000">12:36:00</stop>
+      <stop tag="fershub" epochTime="45720000">12:42:00</stop>
+      <stop tag="naveapts_a" epochTime="46080000">12:48:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="45780000">12:43:00</stop>
+      <stop tag="fershub" epochTime="46140000">12:49:00</stop>
+      <stop tag="naveapts_a" epochTime="46500000">12:55:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="45780000">12:43:00</stop>
+      <stop tag="fershub" epochTime="46140000">12:49:00</stop>
+      <stop tag="naveapts_a" epochTime="46500000">12:55:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="46200000">12:50:00</stop>
+      <stop tag="fershub" epochTime="46560000">12:56:00</stop>
+      <stop tag="naveapts_a" epochTime="46920000">13:02:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="46620000">12:57:00</stop>
+      <stop tag="fershub" epochTime="46980000">13:03:00</stop>
+      <stop tag="naveapts_a" epochTime="47340000">13:09:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="47040000">13:04:00</stop>
+      <stop tag="fershub" epochTime="47400000">13:10:00</stop>
+      <stop tag="naveapts_a" epochTime="47760000">13:16:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="47460000">13:11:00</stop>
+      <stop tag="fershub" epochTime="47820000">13:17:00</stop>
+      <stop tag="naveapts_a" epochTime="48180000">13:23:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="47460000">13:11:00</stop>
+      <stop tag="fershub" epochTime="47820000">13:17:00</stop>
+      <stop tag="naveapts_a" epochTime="48180000">13:23:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="47880000">13:18:00</stop>
+      <stop tag="fershub" epochTime="48240000">13:24:00</stop>
+      <stop tag="naveapts_a" epochTime="48600000">13:30:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="48300000">13:25:00</stop>
+      <stop tag="fershub" epochTime="48660000">13:31:00</stop>
+      <stop tag="naveapts_a" epochTime="49020000">13:37:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="48720000">13:32:00</stop>
+      <stop tag="fershub" epochTime="49080000">13:38:00</stop>
+      <stop tag="naveapts_a" epochTime="49440000">13:44:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="49140000">13:39:00</stop>
+      <stop tag="fershub" epochTime="49500000">13:45:00</stop>
+      <stop tag="naveapts_a" epochTime="49860000">13:51:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="49140000">13:39:00</stop>
+      <stop tag="fershub" epochTime="49500000">13:45:00</stop>
+      <stop tag="naveapts_a" epochTime="49860000">13:51:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="49560000">13:46:00</stop>
+      <stop tag="fershub" epochTime="49920000">13:52:00</stop>
+      <stop tag="naveapts_a" epochTime="50280000">13:58:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="49980000">13:53:00</stop>
+      <stop tag="fershub" epochTime="50340000">13:59:00</stop>
+      <stop tag="naveapts_a" epochTime="50700000">14:05:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="50400000">14:00:00</stop>
+      <stop tag="fershub" epochTime="50760000">14:06:00</stop>
+      <stop tag="naveapts_a" epochTime="51120000">14:12:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="50820000">14:07:00</stop>
+      <stop tag="fershub" epochTime="51180000">14:13:00</stop>
+      <stop tag="naveapts_a" epochTime="51540000">14:19:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="50820000">14:07:00</stop>
+      <stop tag="fershub" epochTime="51180000">14:13:00</stop>
+      <stop tag="naveapts_a" epochTime="51540000">14:19:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="51240000">14:14:00</stop>
+      <stop tag="fershub" epochTime="51600000">14:20:00</stop>
+      <stop tag="naveapts_a" epochTime="51960000">14:26:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="51660000">14:21:00</stop>
+      <stop tag="fershub" epochTime="52020000">14:27:00</stop>
+      <stop tag="naveapts_a" epochTime="52380000">14:33:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="52080000">14:28:00</stop>
+      <stop tag="fershub" epochTime="52440000">14:34:00</stop>
+      <stop tag="naveapts_a" epochTime="52800000">14:40:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="52500000">14:35:00</stop>
+      <stop tag="fershub" epochTime="52860000">14:41:00</stop>
+      <stop tag="naveapts_a" epochTime="53220000">14:47:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="52500000">14:35:00</stop>
+      <stop tag="fershub" epochTime="52860000">14:41:00</stop>
+      <stop tag="naveapts_a" epochTime="53220000">14:47:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="52920000">14:42:00</stop>
+      <stop tag="fershub" epochTime="53280000">14:48:00</stop>
+      <stop tag="naveapts_a" epochTime="53640000">14:54:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="53340000">14:49:00</stop>
+      <stop tag="fershub" epochTime="53700000">14:55:00</stop>
+      <stop tag="naveapts_a" epochTime="54060000">15:01:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="53760000">14:56:00</stop>
+      <stop tag="fershub" epochTime="54120000">15:02:00</stop>
+      <stop tag="naveapts_a" epochTime="54480000">15:08:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="54180000">15:03:00</stop>
+      <stop tag="fershub" epochTime="54540000">15:09:00</stop>
+      <stop tag="naveapts_a" epochTime="54900000">15:15:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="54180000">15:03:00</stop>
+      <stop tag="fershub" epochTime="54540000">15:09:00</stop>
+      <stop tag="naveapts_a" epochTime="54900000">15:15:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="54600000">15:10:00</stop>
+      <stop tag="fershub" epochTime="54960000">15:16:00</stop>
+      <stop tag="naveapts_a" epochTime="55320000">15:22:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="55020000">15:17:00</stop>
+      <stop tag="fershub" epochTime="55380000">15:23:00</stop>
+      <stop tag="naveapts_a" epochTime="55740000">15:29:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="55440000">15:24:00</stop>
+      <stop tag="fershub" epochTime="55800000">15:30:00</stop>
+      <stop tag="naveapts_a" epochTime="56160000">15:36:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="55860000">15:31:00</stop>
+      <stop tag="fershub" epochTime="56220000">15:37:00</stop>
+      <stop tag="naveapts_a" epochTime="56580000">15:43:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="55860000">15:31:00</stop>
+      <stop tag="fershub" epochTime="56220000">15:37:00</stop>
+      <stop tag="naveapts_a" epochTime="56580000">15:43:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="56280000">15:38:00</stop>
+      <stop tag="fershub" epochTime="56640000">15:44:00</stop>
+      <stop tag="naveapts_a" epochTime="57000000">15:50:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="56700000">15:45:00</stop>
+      <stop tag="fershub" epochTime="57060000">15:51:00</stop>
+      <stop tag="naveapts_a" epochTime="57420000">15:57:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="57120000">15:52:00</stop>
+      <stop tag="fershub" epochTime="57480000">15:58:00</stop>
+      <stop tag="naveapts_a" epochTime="57840000">16:04:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="57540000">15:59:00</stop>
+      <stop tag="fershub" epochTime="57900000">16:05:00</stop>
+      <stop tag="naveapts_a" epochTime="58260000">16:11:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="57540000">15:59:00</stop>
+      <stop tag="fershub" epochTime="57900000">16:05:00</stop>
+      <stop tag="naveapts_a" epochTime="58260000">16:11:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="57960000">16:06:00</stop>
+      <stop tag="fershub" epochTime="58320000">16:12:00</stop>
+      <stop tag="naveapts_a" epochTime="58680000">16:18:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="58380000">16:13:00</stop>
+      <stop tag="fershub" epochTime="58740000">16:19:00</stop>
+      <stop tag="naveapts_a" epochTime="59100000">16:25:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="58800000">16:20:00</stop>
+      <stop tag="fershub" epochTime="59160000">16:26:00</stop>
+      <stop tag="naveapts_a" epochTime="59520000">16:32:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="59220000">16:27:00</stop>
+      <stop tag="fershub" epochTime="59580000">16:33:00</stop>
+      <stop tag="naveapts_a" epochTime="59940000">16:39:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="59220000">16:27:00</stop>
+      <stop tag="fershub" epochTime="59580000">16:33:00</stop>
+      <stop tag="naveapts_a" epochTime="59940000">16:39:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="59640000">16:34:00</stop>
+      <stop tag="fershub" epochTime="60000000">16:40:00</stop>
+      <stop tag="naveapts_a" epochTime="60360000">16:46:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="60060000">16:41:00</stop>
+      <stop tag="fershub" epochTime="60420000">16:47:00</stop>
+      <stop tag="naveapts_a" epochTime="60780000">16:53:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="60480000">16:48:00</stop>
+      <stop tag="fershub" epochTime="60840000">16:54:00</stop>
+      <stop tag="naveapts_a" epochTime="61200000">17:00:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="60900000">16:55:00</stop>
+      <stop tag="fershub" epochTime="61260000">17:01:00</stop>
+      <stop tag="naveapts_a" epochTime="61620000">17:07:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="60900000">16:55:00</stop>
+      <stop tag="fershub" epochTime="61260000">17:01:00</stop>
+      <stop tag="naveapts_a" epochTime="61620000">17:07:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="61320000">17:02:00</stop>
+      <stop tag="fershub" epochTime="61680000">17:08:00</stop>
+      <stop tag="naveapts_a" epochTime="62040000">17:14:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="61740000">17:09:00</stop>
+      <stop tag="fershub" epochTime="62100000">17:15:00</stop>
+      <stop tag="naveapts_a" epochTime="62460000">17:21:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="62160000">17:16:00</stop>
+      <stop tag="fershub" epochTime="62520000">17:22:00</stop>
+      <stop tag="naveapts_a" epochTime="62880000">17:28:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="62580000">17:23:00</stop>
+      <stop tag="fershub" epochTime="62940000">17:29:00</stop>
+      <stop tag="naveapts_a" epochTime="63300000">17:35:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="62580000">17:23:00</stop>
+      <stop tag="fershub" epochTime="62940000">17:29:00</stop>
+      <stop tag="naveapts_a" epochTime="63300000">17:35:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="63000000">17:30:00</stop>
+      <stop tag="fershub" epochTime="63360000">17:36:00</stop>
+      <stop tag="naveapts_a" epochTime="63720000">17:42:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="63420000">17:37:00</stop>
+      <stop tag="fershub" epochTime="63780000">17:43:00</stop>
+      <stop tag="naveapts_a" epochTime="64140000">17:49:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="63840000">17:44:00</stop>
+      <stop tag="fershub" epochTime="64200000">17:50:00</stop>
+      <stop tag="naveapts_a" epochTime="64560000">17:56:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="64260000">17:51:00</stop>
+      <stop tag="fershub" epochTime="64620000">17:57:00</stop>
+      <stop tag="naveapts_a" epochTime="64980000">18:03:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="64260000">17:51:00</stop>
+      <stop tag="fershub" epochTime="64620000">17:57:00</stop>
+      <stop tag="naveapts_a" epochTime="64980000">18:03:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="65100000">18:05:00</stop>
+      <stop tag="fershub" epochTime="65460000">18:11:00</stop>
+      <stop tag="naveapts_a" epochTime="65820000">18:17:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="65940000">18:19:00</stop>
+      <stop tag="fershub" epochTime="66300000">18:25:00</stop>
+      <stop tag="naveapts_a" epochTime="66660000">18:31:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="65940000">18:19:00</stop>
+      <stop tag="fershub" epochTime="66300000">18:25:00</stop>
+      <stop tag="naveapts_a" epochTime="66660000">18:31:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="66780000">18:33:00</stop>
+      <stop tag="fershub" epochTime="67140000">18:39:00</stop>
+      <stop tag="naveapts_a" epochTime="67500000">18:45:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="67620000">18:47:00</stop>
+      <stop tag="fershub" epochTime="67980000">18:53:00</stop>
+      <stop tag="naveapts_a" epochTime="68340000">18:59:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="67620000">18:47:00</stop>
+      <stop tag="fershub" epochTime="67980000">18:53:00</stop>
+      <stop tag="naveapts_a" epochTime="68340000">18:59:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="69300000">19:15:00</stop>
+      <stop tag="fershub" epochTime="69660000">19:21:00</stop>
+      <stop tag="naveapts_a" epochTime="70020000">19:27:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="69300000">19:15:00</stop>
+      <stop tag="fershub" epochTime="69660000">19:21:00</stop>
+      <stop tag="naveapts_a" epochTime="70020000">19:27:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="70980000">19:43:00</stop>
+      <stop tag="fershub" epochTime="71340000">19:49:00</stop>
+      <stop tag="naveapts_a" epochTime="71700000">19:55:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="70980000">19:43:00</stop>
+      <stop tag="fershub" epochTime="71340000">19:49:00</stop>
+      <stop tag="naveapts_a" epochTime="71700000">19:55:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="72600000">20:10:00</stop>
+      <stop tag="fershub" epochTime="72900000">20:15:00</stop>
+      <stop tag="naveapts_a" epochTime="73260000">20:21:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="72600000">20:10:00</stop>
+      <stop tag="fershub" epochTime="72900000">20:15:00</stop>
+      <stop tag="naveapts_a" epochTime="73260000">20:21:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="74040000">20:34:00</stop>
+      <stop tag="fershub" epochTime="74340000">20:39:00</stop>
+      <stop tag="naveapts_a" epochTime="74700000">20:45:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="74040000">20:34:00</stop>
+      <stop tag="fershub" epochTime="74340000">20:39:00</stop>
+      <stop tag="naveapts_a" epochTime="74700000">20:45:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="75480000">20:58:00</stop>
+      <stop tag="fershub" epochTime="75780000">21:03:00</stop>
+      <stop tag="naveapts_a" epochTime="76140000">21:09:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="75480000">20:58:00</stop>
+      <stop tag="fershub" epochTime="75780000">21:03:00</stop>
+      <stop tag="naveapts_a" epochTime="76140000">21:09:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="76920000">21:22:00</stop>
+      <stop tag="fershub" epochTime="77220000">21:27:00</stop>
+      <stop tag="naveapts_a" epochTime="77580000">21:33:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="76920000">21:22:00</stop>
+      <stop tag="fershub" epochTime="77220000">21:27:00</stop>
+      <stop tag="naveapts_a" epochTime="77580000">21:33:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="78360000">21:46:00</stop>
+      <stop tag="fershub" epochTime="78660000">21:51:00</stop>
+      <stop tag="naveapts_a" epochTime="79020000">21:57:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="78360000">21:46:00</stop>
+      <stop tag="fershub" epochTime="78660000">21:51:00</stop>
+      <stop tag="naveapts_a" epochTime="79020000">21:57:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="79800000">22:10:00</stop>
+      <stop tag="fershub" epochTime="80100000">22:15:00</stop>
+      <stop tag="naveapts_a" epochTime="80460000">22:21:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="81240000">22:34:00</stop>
+      <stop tag="fershub" epochTime="81540000">22:39:00</stop>
+      <stop tag="naveapts_a" epochTime="81900000">22:45:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="82680000">22:58:00</stop>
+      <stop tag="fershub" epochTime="82980000">23:03:00</stop>
+      <stop tag="naveapts_a" epochTime="83340000">23:09:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="84120000">23:22:00</stop>
+      <stop tag="fershub" epochTime="84420000">23:27:00</stop>
+      <stop tag="naveapts_a" epochTime="84780000">23:33:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="85560000">23:46:00</stop>
+      <stop tag="fershub" epochTime="85860000">23:51:00</stop>
+      <stop tag="naveapts_a" epochTime="86220000">23:57:00</stop>
+    </tr>
+  </route>
+  <route tag="blue" title="Blue" scheduleClass="full" serviceClass="mtwth" direction="fitthall">
+    <header>
+      <stop tag="fersatla">Ferst Dr &amp; Atlantic Dr</stop>
+      <stop tag="fitthall_a">Fitten Hall - Arrival</stop>
+    </header>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="26400000">07:20:00</stop>
+      <stop tag="fitthall_a" epochTime="26640000">07:24:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="27240000">07:34:00</stop>
+      <stop tag="fitthall_a" epochTime="27480000">07:38:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="28080000">07:48:00</stop>
+      <stop tag="fitthall_a" epochTime="28320000">07:52:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="28500000">07:55:00</stop>
+      <stop tag="fitthall_a" epochTime="28740000">07:59:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="28500000">07:55:00</stop>
+      <stop tag="fitthall_a" epochTime="28740000">07:59:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="28920000">08:02:00</stop>
+      <stop tag="fitthall_a" epochTime="29160000">08:06:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="29340000">08:09:00</stop>
+      <stop tag="fitthall_a" epochTime="29580000">08:13:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="29760000">08:16:00</stop>
+      <stop tag="fitthall_a" epochTime="30000000">08:20:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="30180000">08:23:00</stop>
+      <stop tag="fitthall_a" epochTime="30420000">08:27:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="30180000">08:23:00</stop>
+      <stop tag="fitthall_a" epochTime="30420000">08:27:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="30600000">08:30:00</stop>
+      <stop tag="fitthall_a" epochTime="30840000">08:34:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="31020000">08:37:00</stop>
+      <stop tag="fitthall_a" epochTime="31260000">08:41:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="31440000">08:44:00</stop>
+      <stop tag="fitthall_a" epochTime="31680000">08:48:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="31860000">08:51:00</stop>
+      <stop tag="fitthall_a" epochTime="32100000">08:55:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="31860000">08:51:00</stop>
+      <stop tag="fitthall_a" epochTime="32100000">08:55:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="32280000">08:58:00</stop>
+      <stop tag="fitthall_a" epochTime="32520000">09:02:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="32700000">09:05:00</stop>
+      <stop tag="fitthall_a" epochTime="32940000">09:09:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="33120000">09:12:00</stop>
+      <stop tag="fitthall_a" epochTime="33360000">09:16:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="33540000">09:19:00</stop>
+      <stop tag="fitthall_a" epochTime="33780000">09:23:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="33540000">09:19:00</stop>
+      <stop tag="fitthall_a" epochTime="33780000">09:23:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="33960000">09:26:00</stop>
+      <stop tag="fitthall_a" epochTime="34200000">09:30:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="34380000">09:33:00</stop>
+      <stop tag="fitthall_a" epochTime="34620000">09:37:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="34800000">09:40:00</stop>
+      <stop tag="fitthall_a" epochTime="35040000">09:44:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="35220000">09:47:00</stop>
+      <stop tag="fitthall_a" epochTime="35460000">09:51:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="35220000">09:47:00</stop>
+      <stop tag="fitthall_a" epochTime="35460000">09:51:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="35640000">09:54:00</stop>
+      <stop tag="fitthall_a" epochTime="35880000">09:58:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="36060000">10:01:00</stop>
+      <stop tag="fitthall_a" epochTime="36300000">10:05:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="36480000">10:08:00</stop>
+      <stop tag="fitthall_a" epochTime="36720000">10:12:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="36900000">10:15:00</stop>
+      <stop tag="fitthall_a" epochTime="37140000">10:19:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="36900000">10:15:00</stop>
+      <stop tag="fitthall_a" epochTime="37140000">10:19:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="37320000">10:22:00</stop>
+      <stop tag="fitthall_a" epochTime="37560000">10:26:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="37740000">10:29:00</stop>
+      <stop tag="fitthall_a" epochTime="37980000">10:33:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="38160000">10:36:00</stop>
+      <stop tag="fitthall_a" epochTime="38400000">10:40:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="38580000">10:43:00</stop>
+      <stop tag="fitthall_a" epochTime="38820000">10:47:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="38580000">10:43:00</stop>
+      <stop tag="fitthall_a" epochTime="38820000">10:47:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="39000000">10:50:00</stop>
+      <stop tag="fitthall_a" epochTime="39240000">10:54:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="39420000">10:57:00</stop>
+      <stop tag="fitthall_a" epochTime="39660000">11:01:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="39840000">11:04:00</stop>
+      <stop tag="fitthall_a" epochTime="40080000">11:08:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="40260000">11:11:00</stop>
+      <stop tag="fitthall_a" epochTime="40500000">11:15:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="40260000">11:11:00</stop>
+      <stop tag="fitthall_a" epochTime="40500000">11:15:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="40680000">11:18:00</stop>
+      <stop tag="fitthall_a" epochTime="40920000">11:22:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="41100000">11:25:00</stop>
+      <stop tag="fitthall_a" epochTime="41340000">11:29:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="41520000">11:32:00</stop>
+      <stop tag="fitthall_a" epochTime="41760000">11:36:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="41940000">11:39:00</stop>
+      <stop tag="fitthall_a" epochTime="42180000">11:43:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="41940000">11:39:00</stop>
+      <stop tag="fitthall_a" epochTime="42180000">11:43:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="42360000">11:46:00</stop>
+      <stop tag="fitthall_a" epochTime="42600000">11:50:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="42780000">11:53:00</stop>
+      <stop tag="fitthall_a" epochTime="43020000">11:57:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="43200000">12:00:00</stop>
+      <stop tag="fitthall_a" epochTime="43440000">12:04:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="43620000">12:07:00</stop>
+      <stop tag="fitthall_a" epochTime="43860000">12:11:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="43620000">12:07:00</stop>
+      <stop tag="fitthall_a" epochTime="43860000">12:11:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="44040000">12:14:00</stop>
+      <stop tag="fitthall_a" epochTime="44280000">12:18:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="44460000">12:21:00</stop>
+      <stop tag="fitthall_a" epochTime="44700000">12:25:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="44880000">12:28:00</stop>
+      <stop tag="fitthall_a" epochTime="45120000">12:32:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="45300000">12:35:00</stop>
+      <stop tag="fitthall_a" epochTime="45540000">12:39:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="45300000">12:35:00</stop>
+      <stop tag="fitthall_a" epochTime="45540000">12:39:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="45720000">12:42:00</stop>
+      <stop tag="fitthall_a" epochTime="45960000">12:46:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="46140000">12:49:00</stop>
+      <stop tag="fitthall_a" epochTime="46380000">12:53:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="46560000">12:56:00</stop>
+      <stop tag="fitthall_a" epochTime="46800000">13:00:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="46980000">13:03:00</stop>
+      <stop tag="fitthall_a" epochTime="47220000">13:07:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="46980000">13:03:00</stop>
+      <stop tag="fitthall_a" epochTime="47220000">13:07:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="47400000">13:10:00</stop>
+      <stop tag="fitthall_a" epochTime="47640000">13:14:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="47820000">13:17:00</stop>
+      <stop tag="fitthall_a" epochTime="48060000">13:21:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="48240000">13:24:00</stop>
+      <stop tag="fitthall_a" epochTime="48480000">13:28:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="48660000">13:31:00</stop>
+      <stop tag="fitthall_a" epochTime="48900000">13:35:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="48660000">13:31:00</stop>
+      <stop tag="fitthall_a" epochTime="48900000">13:35:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="49080000">13:38:00</stop>
+      <stop tag="fitthall_a" epochTime="49320000">13:42:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="49500000">13:45:00</stop>
+      <stop tag="fitthall_a" epochTime="49740000">13:49:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="49920000">13:52:00</stop>
+      <stop tag="fitthall_a" epochTime="50160000">13:56:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="50340000">13:59:00</stop>
+      <stop tag="fitthall_a" epochTime="50580000">14:03:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="50340000">13:59:00</stop>
+      <stop tag="fitthall_a" epochTime="50580000">14:03:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="50760000">14:06:00</stop>
+      <stop tag="fitthall_a" epochTime="51000000">14:10:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="51180000">14:13:00</stop>
+      <stop tag="fitthall_a" epochTime="51420000">14:17:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="51600000">14:20:00</stop>
+      <stop tag="fitthall_a" epochTime="51840000">14:24:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="52020000">14:27:00</stop>
+      <stop tag="fitthall_a" epochTime="52260000">14:31:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="52020000">14:27:00</stop>
+      <stop tag="fitthall_a" epochTime="52260000">14:31:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="52440000">14:34:00</stop>
+      <stop tag="fitthall_a" epochTime="52680000">14:38:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="52860000">14:41:00</stop>
+      <stop tag="fitthall_a" epochTime="53100000">14:45:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="53280000">14:48:00</stop>
+      <stop tag="fitthall_a" epochTime="53520000">14:52:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="53700000">14:55:00</stop>
+      <stop tag="fitthall_a" epochTime="53940000">14:59:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="53700000">14:55:00</stop>
+      <stop tag="fitthall_a" epochTime="53940000">14:59:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="54120000">15:02:00</stop>
+      <stop tag="fitthall_a" epochTime="54360000">15:06:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="54540000">15:09:00</stop>
+      <stop tag="fitthall_a" epochTime="54780000">15:13:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="54960000">15:16:00</stop>
+      <stop tag="fitthall_a" epochTime="55200000">15:20:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="55380000">15:23:00</stop>
+      <stop tag="fitthall_a" epochTime="55620000">15:27:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="55380000">15:23:00</stop>
+      <stop tag="fitthall_a" epochTime="55620000">15:27:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="55800000">15:30:00</stop>
+      <stop tag="fitthall_a" epochTime="56040000">15:34:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="56220000">15:37:00</stop>
+      <stop tag="fitthall_a" epochTime="56460000">15:41:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="56640000">15:44:00</stop>
+      <stop tag="fitthall_a" epochTime="56880000">15:48:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="57060000">15:51:00</stop>
+      <stop tag="fitthall_a" epochTime="57300000">15:55:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="57060000">15:51:00</stop>
+      <stop tag="fitthall_a" epochTime="57300000">15:55:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="57480000">15:58:00</stop>
+      <stop tag="fitthall_a" epochTime="57720000">16:02:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="57900000">16:05:00</stop>
+      <stop tag="fitthall_a" epochTime="58140000">16:09:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="58320000">16:12:00</stop>
+      <stop tag="fitthall_a" epochTime="58560000">16:16:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="58740000">16:19:00</stop>
+      <stop tag="fitthall_a" epochTime="58980000">16:23:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="58740000">16:19:00</stop>
+      <stop tag="fitthall_a" epochTime="58980000">16:23:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="59160000">16:26:00</stop>
+      <stop tag="fitthall_a" epochTime="59400000">16:30:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="59580000">16:33:00</stop>
+      <stop tag="fitthall_a" epochTime="59820000">16:37:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="60000000">16:40:00</stop>
+      <stop tag="fitthall_a" epochTime="60240000">16:44:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="60420000">16:47:00</stop>
+      <stop tag="fitthall_a" epochTime="60660000">16:51:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="60420000">16:47:00</stop>
+      <stop tag="fitthall_a" epochTime="60660000">16:51:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="60840000">16:54:00</stop>
+      <stop tag="fitthall_a" epochTime="61080000">16:58:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="61260000">17:01:00</stop>
+      <stop tag="fitthall_a" epochTime="61500000">17:05:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="61680000">17:08:00</stop>
+      <stop tag="fitthall_a" epochTime="61920000">17:12:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="62100000">17:15:00</stop>
+      <stop tag="fitthall_a" epochTime="62340000">17:19:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="62100000">17:15:00</stop>
+      <stop tag="fitthall_a" epochTime="62340000">17:19:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="62520000">17:22:00</stop>
+      <stop tag="fitthall_a" epochTime="62760000">17:26:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="62940000">17:29:00</stop>
+      <stop tag="fitthall_a" epochTime="63180000">17:33:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="63360000">17:36:00</stop>
+      <stop tag="fitthall_a" epochTime="63600000">17:40:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="63780000">17:43:00</stop>
+      <stop tag="fitthall_a" epochTime="64020000">17:47:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="63780000">17:43:00</stop>
+      <stop tag="fitthall_a" epochTime="64020000">17:47:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fersatla" epochTime="64200000">17:50:00</stop>
+      <stop tag="fitthall_a" epochTime="64440000">17:54:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="64620000">17:57:00</stop>
+      <stop tag="fitthall_a" epochTime="64860000">18:01:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fersatla" epochTime="65040000">18:04:00</stop>
+      <stop tag="fitthall_a" epochTime="65280000">18:08:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="65460000">18:11:00</stop>
+      <stop tag="fitthall_a" epochTime="65700000">18:15:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="65460000">18:11:00</stop>
+      <stop tag="fitthall_a" epochTime="65700000">18:15:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="66300000">18:25:00</stop>
+      <stop tag="fitthall_a" epochTime="66540000">18:29:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="67140000">18:39:00</stop>
+      <stop tag="fitthall_a" epochTime="67380000">18:43:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="67140000">18:39:00</stop>
+      <stop tag="fitthall_a" epochTime="67380000">18:43:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fersatla" epochTime="67980000">18:53:00</stop>
+      <stop tag="fitthall_a" epochTime="68220000">18:57:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="68820000">19:07:00</stop>
+      <stop tag="fitthall_a" epochTime="69060000">19:11:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="68820000">19:07:00</stop>
+      <stop tag="fitthall_a" epochTime="69060000">19:11:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="70500000">19:35:00</stop>
+      <stop tag="fitthall_a" epochTime="70740000">19:39:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="70500000">19:35:00</stop>
+      <stop tag="fitthall_a" epochTime="70740000">19:39:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="72180000">20:03:00</stop>
+      <stop tag="fitthall_a" epochTime="72420000">20:07:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="72180000">20:03:00</stop>
+      <stop tag="fitthall_a" epochTime="72420000">20:07:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="73680000">20:28:00</stop>
+      <stop tag="fitthall_a" epochTime="73860000">20:31:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="73680000">20:28:00</stop>
+      <stop tag="fitthall_a" epochTime="73860000">20:31:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="75120000">20:52:00</stop>
+      <stop tag="fitthall_a" epochTime="75300000">20:55:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="75120000">20:52:00</stop>
+      <stop tag="fitthall_a" epochTime="75300000">20:55:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="76560000">21:16:00</stop>
+      <stop tag="fitthall_a" epochTime="76740000">21:19:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="76560000">21:16:00</stop>
+      <stop tag="fitthall_a" epochTime="76740000">21:19:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="78000000">21:40:00</stop>
+      <stop tag="fitthall_a" epochTime="78180000">21:43:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="78000000">21:40:00</stop>
+      <stop tag="fitthall_a" epochTime="78180000">21:43:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fersatla" epochTime="79440000">22:04:00</stop>
+      <stop tag="fitthall_a" epochTime="79620000">22:07:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="79440000">22:04:00</stop>
+      <stop tag="fitthall_a" epochTime="79620000">22:07:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="80880000">22:28:00</stop>
+      <stop tag="fitthall_a" epochTime="81060000">22:31:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="82320000">22:52:00</stop>
+      <stop tag="fitthall_a" epochTime="82500000">22:55:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="83760000">23:16:00</stop>
+      <stop tag="fitthall_a" epochTime="83940000">23:19:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="85200000">23:40:00</stop>
+      <stop tag="fitthall_a" epochTime="85380000">23:43:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fersatla" epochTime="86640000">00:04:00</stop>
+      <stop tag="fitthall_a" epochTime="86820000">00:07:00</stop>
+    </tr>
+  </route>
+  <route tag="blue" title="Blue" scheduleClass="full" serviceClass="mtwth" direction="naveapts">
+    <header>
+      <stop tag="fitthall">Fitten Hall</stop>
+      <stop tag="fershub">HUB/Ferst Dr</stop>
+      <stop tag="naveapts_a">North Avenue Apartments - Arrival</stop>
+    </header>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="25200000">07:00:00</stop>
+      <stop tag="fershub" epochTime="25560000">07:06:00</stop>
+      <stop tag="naveapts_a" epochTime="25920000">07:12:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="26040000">07:14:00</stop>
+      <stop tag="fershub" epochTime="26400000">07:20:00</stop>
+      <stop tag="naveapts_a" epochTime="26760000">07:26:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="26880000">07:28:00</stop>
+      <stop tag="fershub" epochTime="27240000">07:34:00</stop>
+      <stop tag="naveapts_a" epochTime="27600000">07:40:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="27300000">07:35:00</stop>
+      <stop tag="fershub" epochTime="27660000">07:41:00</stop>
+      <stop tag="naveapts_a" epochTime="28020000">07:47:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="27300000">07:35:00</stop>
+      <stop tag="fershub" epochTime="27660000">07:41:00</stop>
+      <stop tag="naveapts_a" epochTime="28020000">07:47:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="27720000">07:42:00</stop>
+      <stop tag="fershub" epochTime="28080000">07:48:00</stop>
+      <stop tag="naveapts_a" epochTime="28440000">07:54:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="28140000">07:49:00</stop>
+      <stop tag="fershub" epochTime="28500000">07:55:00</stop>
+      <stop tag="naveapts_a" epochTime="28860000">08:01:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="28560000">07:56:00</stop>
+      <stop tag="fershub" epochTime="28920000">08:02:00</stop>
+      <stop tag="naveapts_a" epochTime="29280000">08:08:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="28980000">08:03:00</stop>
+      <stop tag="fershub" epochTime="29340000">08:09:00</stop>
+      <stop tag="naveapts_a" epochTime="29700000">08:15:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="28980000">08:03:00</stop>
+      <stop tag="fershub" epochTime="29340000">08:09:00</stop>
+      <stop tag="naveapts_a" epochTime="29700000">08:15:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="29400000">08:10:00</stop>
+      <stop tag="fershub" epochTime="29760000">08:16:00</stop>
+      <stop tag="naveapts_a" epochTime="30120000">08:22:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="29820000">08:17:00</stop>
+      <stop tag="fershub" epochTime="30180000">08:23:00</stop>
+      <stop tag="naveapts_a" epochTime="30540000">08:29:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="30240000">08:24:00</stop>
+      <stop tag="fershub" epochTime="30600000">08:30:00</stop>
+      <stop tag="naveapts_a" epochTime="30960000">08:36:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="30660000">08:31:00</stop>
+      <stop tag="fershub" epochTime="31020000">08:37:00</stop>
+      <stop tag="naveapts_a" epochTime="31380000">08:43:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="30660000">08:31:00</stop>
+      <stop tag="fershub" epochTime="31020000">08:37:00</stop>
+      <stop tag="naveapts_a" epochTime="31380000">08:43:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="31080000">08:38:00</stop>
+      <stop tag="fershub" epochTime="31440000">08:44:00</stop>
+      <stop tag="naveapts_a" epochTime="31800000">08:50:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="31500000">08:45:00</stop>
+      <stop tag="fershub" epochTime="31860000">08:51:00</stop>
+      <stop tag="naveapts_a" epochTime="32220000">08:57:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="31920000">08:52:00</stop>
+      <stop tag="fershub" epochTime="32280000">08:58:00</stop>
+      <stop tag="naveapts_a" epochTime="32640000">09:04:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="32340000">08:59:00</stop>
+      <stop tag="fershub" epochTime="32700000">09:05:00</stop>
+      <stop tag="naveapts_a" epochTime="33060000">09:11:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="32340000">08:59:00</stop>
+      <stop tag="fershub" epochTime="32700000">09:05:00</stop>
+      <stop tag="naveapts_a" epochTime="33060000">09:11:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="32760000">09:06:00</stop>
+      <stop tag="fershub" epochTime="33120000">09:12:00</stop>
+      <stop tag="naveapts_a" epochTime="33480000">09:18:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="33180000">09:13:00</stop>
+      <stop tag="fershub" epochTime="33540000">09:19:00</stop>
+      <stop tag="naveapts_a" epochTime="33900000">09:25:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="33600000">09:20:00</stop>
+      <stop tag="fershub" epochTime="33960000">09:26:00</stop>
+      <stop tag="naveapts_a" epochTime="34320000">09:32:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="34020000">09:27:00</stop>
+      <stop tag="fershub" epochTime="34380000">09:33:00</stop>
+      <stop tag="naveapts_a" epochTime="34740000">09:39:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="34020000">09:27:00</stop>
+      <stop tag="fershub" epochTime="34380000">09:33:00</stop>
+      <stop tag="naveapts_a" epochTime="34740000">09:39:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="34440000">09:34:00</stop>
+      <stop tag="fershub" epochTime="34800000">09:40:00</stop>
+      <stop tag="naveapts_a" epochTime="35160000">09:46:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="34860000">09:41:00</stop>
+      <stop tag="fershub" epochTime="35220000">09:47:00</stop>
+      <stop tag="naveapts_a" epochTime="35580000">09:53:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="35280000">09:48:00</stop>
+      <stop tag="fershub" epochTime="35640000">09:54:00</stop>
+      <stop tag="naveapts_a" epochTime="36000000">10:00:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="35700000">09:55:00</stop>
+      <stop tag="fershub" epochTime="36060000">10:01:00</stop>
+      <stop tag="naveapts_a" epochTime="36420000">10:07:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="35700000">09:55:00</stop>
+      <stop tag="fershub" epochTime="36060000">10:01:00</stop>
+      <stop tag="naveapts_a" epochTime="36420000">10:07:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="36120000">10:02:00</stop>
+      <stop tag="fershub" epochTime="36480000">10:08:00</stop>
+      <stop tag="naveapts_a" epochTime="36840000">10:14:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="36540000">10:09:00</stop>
+      <stop tag="fershub" epochTime="36900000">10:15:00</stop>
+      <stop tag="naveapts_a" epochTime="37260000">10:21:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="36960000">10:16:00</stop>
+      <stop tag="fershub" epochTime="37320000">10:22:00</stop>
+      <stop tag="naveapts_a" epochTime="37680000">10:28:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="37380000">10:23:00</stop>
+      <stop tag="fershub" epochTime="37740000">10:29:00</stop>
+      <stop tag="naveapts_a" epochTime="38100000">10:35:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="37380000">10:23:00</stop>
+      <stop tag="fershub" epochTime="37740000">10:29:00</stop>
+      <stop tag="naveapts_a" epochTime="38100000">10:35:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="37800000">10:30:00</stop>
+      <stop tag="fershub" epochTime="38160000">10:36:00</stop>
+      <stop tag="naveapts_a" epochTime="38520000">10:42:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="38220000">10:37:00</stop>
+      <stop tag="fershub" epochTime="38580000">10:43:00</stop>
+      <stop tag="naveapts_a" epochTime="38940000">10:49:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="38640000">10:44:00</stop>
+      <stop tag="fershub" epochTime="39000000">10:50:00</stop>
+      <stop tag="naveapts_a" epochTime="39360000">10:56:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="39060000">10:51:00</stop>
+      <stop tag="fershub" epochTime="39420000">10:57:00</stop>
+      <stop tag="naveapts_a" epochTime="39780000">11:03:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="39060000">10:51:00</stop>
+      <stop tag="fershub" epochTime="39420000">10:57:00</stop>
+      <stop tag="naveapts_a" epochTime="39780000">11:03:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="39480000">10:58:00</stop>
+      <stop tag="fershub" epochTime="39840000">11:04:00</stop>
+      <stop tag="naveapts_a" epochTime="40200000">11:10:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="39900000">11:05:00</stop>
+      <stop tag="fershub" epochTime="40260000">11:11:00</stop>
+      <stop tag="naveapts_a" epochTime="40620000">11:17:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="40320000">11:12:00</stop>
+      <stop tag="fershub" epochTime="40680000">11:18:00</stop>
+      <stop tag="naveapts_a" epochTime="41040000">11:24:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="40740000">11:19:00</stop>
+      <stop tag="fershub" epochTime="41100000">11:25:00</stop>
+      <stop tag="naveapts_a" epochTime="41460000">11:31:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="40740000">11:19:00</stop>
+      <stop tag="fershub" epochTime="41100000">11:25:00</stop>
+      <stop tag="naveapts_a" epochTime="41460000">11:31:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="41160000">11:26:00</stop>
+      <stop tag="fershub" epochTime="41520000">11:32:00</stop>
+      <stop tag="naveapts_a" epochTime="41880000">11:38:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="41580000">11:33:00</stop>
+      <stop tag="fershub" epochTime="41940000">11:39:00</stop>
+      <stop tag="naveapts_a" epochTime="42300000">11:45:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="42000000">11:40:00</stop>
+      <stop tag="fershub" epochTime="42360000">11:46:00</stop>
+      <stop tag="naveapts_a" epochTime="42720000">11:52:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="42420000">11:47:00</stop>
+      <stop tag="fershub" epochTime="42780000">11:53:00</stop>
+      <stop tag="naveapts_a" epochTime="43140000">11:59:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="42420000">11:47:00</stop>
+      <stop tag="fershub" epochTime="42780000">11:53:00</stop>
+      <stop tag="naveapts_a" epochTime="43140000">11:59:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="42840000">11:54:00</stop>
+      <stop tag="fershub" epochTime="43200000">12:00:00</stop>
+      <stop tag="naveapts_a" epochTime="43560000">12:06:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="43260000">12:01:00</stop>
+      <stop tag="fershub" epochTime="43620000">12:07:00</stop>
+      <stop tag="naveapts_a" epochTime="43980000">12:13:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="43680000">12:08:00</stop>
+      <stop tag="fershub" epochTime="44040000">12:14:00</stop>
+      <stop tag="naveapts_a" epochTime="44400000">12:20:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="44100000">12:15:00</stop>
+      <stop tag="fershub" epochTime="44460000">12:21:00</stop>
+      <stop tag="naveapts_a" epochTime="44820000">12:27:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="44100000">12:15:00</stop>
+      <stop tag="fershub" epochTime="44460000">12:21:00</stop>
+      <stop tag="naveapts_a" epochTime="44820000">12:27:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="44520000">12:22:00</stop>
+      <stop tag="fershub" epochTime="44880000">12:28:00</stop>
+      <stop tag="naveapts_a" epochTime="45240000">12:34:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="44940000">12:29:00</stop>
+      <stop tag="fershub" epochTime="45300000">12:35:00</stop>
+      <stop tag="naveapts_a" epochTime="45660000">12:41:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="45360000">12:36:00</stop>
+      <stop tag="fershub" epochTime="45720000">12:42:00</stop>
+      <stop tag="naveapts_a" epochTime="46080000">12:48:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="45780000">12:43:00</stop>
+      <stop tag="fershub" epochTime="46140000">12:49:00</stop>
+      <stop tag="naveapts_a" epochTime="46500000">12:55:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="45780000">12:43:00</stop>
+      <stop tag="fershub" epochTime="46140000">12:49:00</stop>
+      <stop tag="naveapts_a" epochTime="46500000">12:55:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="46200000">12:50:00</stop>
+      <stop tag="fershub" epochTime="46560000">12:56:00</stop>
+      <stop tag="naveapts_a" epochTime="46920000">13:02:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="46620000">12:57:00</stop>
+      <stop tag="fershub" epochTime="46980000">13:03:00</stop>
+      <stop tag="naveapts_a" epochTime="47340000">13:09:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="47040000">13:04:00</stop>
+      <stop tag="fershub" epochTime="47400000">13:10:00</stop>
+      <stop tag="naveapts_a" epochTime="47760000">13:16:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="47460000">13:11:00</stop>
+      <stop tag="fershub" epochTime="47820000">13:17:00</stop>
+      <stop tag="naveapts_a" epochTime="48180000">13:23:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="47460000">13:11:00</stop>
+      <stop tag="fershub" epochTime="47820000">13:17:00</stop>
+      <stop tag="naveapts_a" epochTime="48180000">13:23:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="47880000">13:18:00</stop>
+      <stop tag="fershub" epochTime="48240000">13:24:00</stop>
+      <stop tag="naveapts_a" epochTime="48600000">13:30:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="48300000">13:25:00</stop>
+      <stop tag="fershub" epochTime="48660000">13:31:00</stop>
+      <stop tag="naveapts_a" epochTime="49020000">13:37:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="48720000">13:32:00</stop>
+      <stop tag="fershub" epochTime="49080000">13:38:00</stop>
+      <stop tag="naveapts_a" epochTime="49440000">13:44:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="49140000">13:39:00</stop>
+      <stop tag="fershub" epochTime="49500000">13:45:00</stop>
+      <stop tag="naveapts_a" epochTime="49860000">13:51:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="49140000">13:39:00</stop>
+      <stop tag="fershub" epochTime="49500000">13:45:00</stop>
+      <stop tag="naveapts_a" epochTime="49860000">13:51:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="49560000">13:46:00</stop>
+      <stop tag="fershub" epochTime="49920000">13:52:00</stop>
+      <stop tag="naveapts_a" epochTime="50280000">13:58:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="49980000">13:53:00</stop>
+      <stop tag="fershub" epochTime="50340000">13:59:00</stop>
+      <stop tag="naveapts_a" epochTime="50700000">14:05:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="50400000">14:00:00</stop>
+      <stop tag="fershub" epochTime="50760000">14:06:00</stop>
+      <stop tag="naveapts_a" epochTime="51120000">14:12:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="50820000">14:07:00</stop>
+      <stop tag="fershub" epochTime="51180000">14:13:00</stop>
+      <stop tag="naveapts_a" epochTime="51540000">14:19:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="50820000">14:07:00</stop>
+      <stop tag="fershub" epochTime="51180000">14:13:00</stop>
+      <stop tag="naveapts_a" epochTime="51540000">14:19:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="51240000">14:14:00</stop>
+      <stop tag="fershub" epochTime="51600000">14:20:00</stop>
+      <stop tag="naveapts_a" epochTime="51960000">14:26:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="51660000">14:21:00</stop>
+      <stop tag="fershub" epochTime="52020000">14:27:00</stop>
+      <stop tag="naveapts_a" epochTime="52380000">14:33:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="52080000">14:28:00</stop>
+      <stop tag="fershub" epochTime="52440000">14:34:00</stop>
+      <stop tag="naveapts_a" epochTime="52800000">14:40:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="52500000">14:35:00</stop>
+      <stop tag="fershub" epochTime="52860000">14:41:00</stop>
+      <stop tag="naveapts_a" epochTime="53220000">14:47:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="52500000">14:35:00</stop>
+      <stop tag="fershub" epochTime="52860000">14:41:00</stop>
+      <stop tag="naveapts_a" epochTime="53220000">14:47:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="52920000">14:42:00</stop>
+      <stop tag="fershub" epochTime="53280000">14:48:00</stop>
+      <stop tag="naveapts_a" epochTime="53640000">14:54:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="53340000">14:49:00</stop>
+      <stop tag="fershub" epochTime="53700000">14:55:00</stop>
+      <stop tag="naveapts_a" epochTime="54060000">15:01:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="53760000">14:56:00</stop>
+      <stop tag="fershub" epochTime="54120000">15:02:00</stop>
+      <stop tag="naveapts_a" epochTime="54480000">15:08:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="54180000">15:03:00</stop>
+      <stop tag="fershub" epochTime="54540000">15:09:00</stop>
+      <stop tag="naveapts_a" epochTime="54900000">15:15:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="54180000">15:03:00</stop>
+      <stop tag="fershub" epochTime="54540000">15:09:00</stop>
+      <stop tag="naveapts_a" epochTime="54900000">15:15:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="54600000">15:10:00</stop>
+      <stop tag="fershub" epochTime="54960000">15:16:00</stop>
+      <stop tag="naveapts_a" epochTime="55320000">15:22:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="55020000">15:17:00</stop>
+      <stop tag="fershub" epochTime="55380000">15:23:00</stop>
+      <stop tag="naveapts_a" epochTime="55740000">15:29:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="55440000">15:24:00</stop>
+      <stop tag="fershub" epochTime="55800000">15:30:00</stop>
+      <stop tag="naveapts_a" epochTime="56160000">15:36:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="55860000">15:31:00</stop>
+      <stop tag="fershub" epochTime="56220000">15:37:00</stop>
+      <stop tag="naveapts_a" epochTime="56580000">15:43:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="55860000">15:31:00</stop>
+      <stop tag="fershub" epochTime="56220000">15:37:00</stop>
+      <stop tag="naveapts_a" epochTime="56580000">15:43:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="56280000">15:38:00</stop>
+      <stop tag="fershub" epochTime="56640000">15:44:00</stop>
+      <stop tag="naveapts_a" epochTime="57000000">15:50:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="56700000">15:45:00</stop>
+      <stop tag="fershub" epochTime="57060000">15:51:00</stop>
+      <stop tag="naveapts_a" epochTime="57420000">15:57:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="57120000">15:52:00</stop>
+      <stop tag="fershub" epochTime="57480000">15:58:00</stop>
+      <stop tag="naveapts_a" epochTime="57840000">16:04:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="57540000">15:59:00</stop>
+      <stop tag="fershub" epochTime="57900000">16:05:00</stop>
+      <stop tag="naveapts_a" epochTime="58260000">16:11:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="57540000">15:59:00</stop>
+      <stop tag="fershub" epochTime="57900000">16:05:00</stop>
+      <stop tag="naveapts_a" epochTime="58260000">16:11:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="57960000">16:06:00</stop>
+      <stop tag="fershub" epochTime="58320000">16:12:00</stop>
+      <stop tag="naveapts_a" epochTime="58680000">16:18:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="58380000">16:13:00</stop>
+      <stop tag="fershub" epochTime="58740000">16:19:00</stop>
+      <stop tag="naveapts_a" epochTime="59100000">16:25:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="58800000">16:20:00</stop>
+      <stop tag="fershub" epochTime="59160000">16:26:00</stop>
+      <stop tag="naveapts_a" epochTime="59520000">16:32:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="59220000">16:27:00</stop>
+      <stop tag="fershub" epochTime="59580000">16:33:00</stop>
+      <stop tag="naveapts_a" epochTime="59940000">16:39:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="59220000">16:27:00</stop>
+      <stop tag="fershub" epochTime="59580000">16:33:00</stop>
+      <stop tag="naveapts_a" epochTime="59940000">16:39:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="59640000">16:34:00</stop>
+      <stop tag="fershub" epochTime="60000000">16:40:00</stop>
+      <stop tag="naveapts_a" epochTime="60360000">16:46:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="60060000">16:41:00</stop>
+      <stop tag="fershub" epochTime="60420000">16:47:00</stop>
+      <stop tag="naveapts_a" epochTime="60780000">16:53:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="60480000">16:48:00</stop>
+      <stop tag="fershub" epochTime="60840000">16:54:00</stop>
+      <stop tag="naveapts_a" epochTime="61200000">17:00:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="60900000">16:55:00</stop>
+      <stop tag="fershub" epochTime="61260000">17:01:00</stop>
+      <stop tag="naveapts_a" epochTime="61620000">17:07:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="60900000">16:55:00</stop>
+      <stop tag="fershub" epochTime="61260000">17:01:00</stop>
+      <stop tag="naveapts_a" epochTime="61620000">17:07:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="61320000">17:02:00</stop>
+      <stop tag="fershub" epochTime="61680000">17:08:00</stop>
+      <stop tag="naveapts_a" epochTime="62040000">17:14:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="61740000">17:09:00</stop>
+      <stop tag="fershub" epochTime="62100000">17:15:00</stop>
+      <stop tag="naveapts_a" epochTime="62460000">17:21:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="62160000">17:16:00</stop>
+      <stop tag="fershub" epochTime="62520000">17:22:00</stop>
+      <stop tag="naveapts_a" epochTime="62880000">17:28:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="62580000">17:23:00</stop>
+      <stop tag="fershub" epochTime="62940000">17:29:00</stop>
+      <stop tag="naveapts_a" epochTime="63300000">17:35:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="62580000">17:23:00</stop>
+      <stop tag="fershub" epochTime="62940000">17:29:00</stop>
+      <stop tag="naveapts_a" epochTime="63300000">17:35:00</stop>
+    </tr>
+    <tr blockID="0303">
+      <stop tag="fitthall" epochTime="63000000">17:30:00</stop>
+      <stop tag="fershub" epochTime="63360000">17:36:00</stop>
+      <stop tag="naveapts_a" epochTime="63720000">17:42:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="63420000">17:37:00</stop>
+      <stop tag="fershub" epochTime="63780000">17:43:00</stop>
+      <stop tag="naveapts_a" epochTime="64140000">17:49:00</stop>
+    </tr>
+    <tr blockID="0301">
+      <stop tag="fitthall" epochTime="63840000">17:44:00</stop>
+      <stop tag="fershub" epochTime="64200000">17:50:00</stop>
+      <stop tag="naveapts_a" epochTime="64560000">17:56:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="64260000">17:51:00</stop>
+      <stop tag="fershub" epochTime="64620000">17:57:00</stop>
+      <stop tag="naveapts_a" epochTime="64980000">18:03:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="64260000">17:51:00</stop>
+      <stop tag="fershub" epochTime="64620000">17:57:00</stop>
+      <stop tag="naveapts_a" epochTime="64980000">18:03:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="65100000">18:05:00</stop>
+      <stop tag="fershub" epochTime="65460000">18:11:00</stop>
+      <stop tag="naveapts_a" epochTime="65820000">18:17:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="65940000">18:19:00</stop>
+      <stop tag="fershub" epochTime="66300000">18:25:00</stop>
+      <stop tag="naveapts_a" epochTime="66660000">18:31:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="65940000">18:19:00</stop>
+      <stop tag="fershub" epochTime="66300000">18:25:00</stop>
+      <stop tag="naveapts_a" epochTime="66660000">18:31:00</stop>
+    </tr>
+    <tr blockID="0304">
+      <stop tag="fitthall" epochTime="66780000">18:33:00</stop>
+      <stop tag="fershub" epochTime="67140000">18:39:00</stop>
+      <stop tag="naveapts_a" epochTime="67500000">18:45:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="67620000">18:47:00</stop>
+      <stop tag="fershub" epochTime="67980000">18:53:00</stop>
+      <stop tag="naveapts_a" epochTime="68340000">18:59:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="67620000">18:47:00</stop>
+      <stop tag="fershub" epochTime="67980000">18:53:00</stop>
+      <stop tag="naveapts_a" epochTime="68340000">18:59:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="69300000">19:15:00</stop>
+      <stop tag="fershub" epochTime="69660000">19:21:00</stop>
+      <stop tag="naveapts_a" epochTime="70020000">19:27:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="69300000">19:15:00</stop>
+      <stop tag="fershub" epochTime="69660000">19:21:00</stop>
+      <stop tag="naveapts_a" epochTime="70020000">19:27:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="70980000">19:43:00</stop>
+      <stop tag="fershub" epochTime="71340000">19:49:00</stop>
+      <stop tag="naveapts_a" epochTime="71700000">19:55:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="70980000">19:43:00</stop>
+      <stop tag="fershub" epochTime="71340000">19:49:00</stop>
+      <stop tag="naveapts_a" epochTime="71700000">19:55:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="72600000">20:10:00</stop>
+      <stop tag="fershub" epochTime="72900000">20:15:00</stop>
+      <stop tag="naveapts_a" epochTime="73260000">20:21:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="72600000">20:10:00</stop>
+      <stop tag="fershub" epochTime="72900000">20:15:00</stop>
+      <stop tag="naveapts_a" epochTime="73260000">20:21:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="74040000">20:34:00</stop>
+      <stop tag="fershub" epochTime="74340000">20:39:00</stop>
+      <stop tag="naveapts_a" epochTime="74700000">20:45:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="74040000">20:34:00</stop>
+      <stop tag="fershub" epochTime="74340000">20:39:00</stop>
+      <stop tag="naveapts_a" epochTime="74700000">20:45:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="75480000">20:58:00</stop>
+      <stop tag="fershub" epochTime="75780000">21:03:00</stop>
+      <stop tag="naveapts_a" epochTime="76140000">21:09:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="75480000">20:58:00</stop>
+      <stop tag="fershub" epochTime="75780000">21:03:00</stop>
+      <stop tag="naveapts_a" epochTime="76140000">21:09:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="76920000">21:22:00</stop>
+      <stop tag="fershub" epochTime="77220000">21:27:00</stop>
+      <stop tag="naveapts_a" epochTime="77580000">21:33:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="76920000">21:22:00</stop>
+      <stop tag="fershub" epochTime="77220000">21:27:00</stop>
+      <stop tag="naveapts_a" epochTime="77580000">21:33:00</stop>
+    </tr>
+    <tr blockID="0302">
+      <stop tag="fitthall" epochTime="78360000">21:46:00</stop>
+      <stop tag="fershub" epochTime="78660000">21:51:00</stop>
+      <stop tag="naveapts_a" epochTime="79020000">21:57:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="78360000">21:46:00</stop>
+      <stop tag="fershub" epochTime="78660000">21:51:00</stop>
+      <stop tag="naveapts_a" epochTime="79020000">21:57:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="79800000">22:10:00</stop>
+      <stop tag="fershub" epochTime="80100000">22:15:00</stop>
+      <stop tag="naveapts_a" epochTime="80460000">22:21:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="81240000">22:34:00</stop>
+      <stop tag="fershub" epochTime="81540000">22:39:00</stop>
+      <stop tag="naveapts_a" epochTime="81900000">22:45:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="82680000">22:58:00</stop>
+      <stop tag="fershub" epochTime="82980000">23:03:00</stop>
+      <stop tag="naveapts_a" epochTime="83340000">23:09:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="84120000">23:22:00</stop>
+      <stop tag="fershub" epochTime="84420000">23:27:00</stop>
+      <stop tag="naveapts_a" epochTime="84780000">23:33:00</stop>
+    </tr>
+    <tr blockID="0305">
+      <stop tag="fitthall" epochTime="85560000">23:46:00</stop>
+      <stop tag="fershub" epochTime="85860000">23:51:00</stop>
+      <stop tag="naveapts_a" epochTime="86220000">23:57:00</stop>
+    </tr>
+  </route>
+<keyForNextTime value="1198136182142" />
+</body>

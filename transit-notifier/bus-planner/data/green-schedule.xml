@@ -1,0 +1,2028 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<body copyright="All data copyright Georgia Tech Campus 2016.">
+  <route tag="green" title="Green" scheduleClass="full" serviceClass="f" direction="14thbusy">
+    <header>
+      <stop tag="tranhub">Transit HUB</stop>
+      <stop tag="creccent">Recreation Center</stop>
+      <stop tag="ndec">North Deck</stop>
+      <stop tag="14thbusy_a">14th St Bus Yard - Arrival</stop>
+    </header>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="25200000">07:00:00</stop>
+      <stop tag="creccent" epochTime="25380000">07:03:00</stop>
+      <stop tag="ndec" epochTime="25620000">07:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="25980000">07:13:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="25200000">07:00:00</stop>
+      <stop tag="creccent" epochTime="25380000">07:03:00</stop>
+      <stop tag="ndec" epochTime="25620000">07:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="25980000">07:13:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="27000000">07:30:00</stop>
+      <stop tag="creccent" epochTime="27180000">07:33:00</stop>
+      <stop tag="ndec" epochTime="27420000">07:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="27780000">07:43:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="27000000">07:30:00</stop>
+      <stop tag="creccent" epochTime="27180000">07:33:00</stop>
+      <stop tag="ndec" epochTime="27420000">07:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="27780000">07:43:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="29400000">08:10:00</stop>
+      <stop tag="creccent" epochTime="29580000">08:13:00</stop>
+      <stop tag="ndec" epochTime="29880000">08:18:00</stop>
+      <stop tag="14thbusy_a" epochTime="30240000">08:24:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="29400000">08:10:00</stop>
+      <stop tag="creccent" epochTime="29580000">08:13:00</stop>
+      <stop tag="ndec" epochTime="29880000">08:18:00</stop>
+      <stop tag="14thbusy_a" epochTime="30240000">08:24:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="30180000">08:23:00</stop>
+      <stop tag="creccent" epochTime="30360000">08:26:00</stop>
+      <stop tag="ndec" epochTime="30660000">08:31:00</stop>
+      <stop tag="14thbusy_a" epochTime="31020000">08:37:00</stop>
+    </tr>
+    <tr blockID="0403">
+      <stop tag="tranhub" epochTime="30960000">08:36:00</stop>
+      <stop tag="creccent" epochTime="31140000">08:39:00</stop>
+      <stop tag="ndec" epochTime="31440000">08:44:00</stop>
+      <stop tag="14thbusy_a" epochTime="31800000">08:50:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="31800000">08:50:00</stop>
+      <stop tag="creccent" epochTime="31980000">08:53:00</stop>
+      <stop tag="ndec" epochTime="32280000">08:58:00</stop>
+      <stop tag="14thbusy_a" epochTime="32640000">09:04:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="31800000">08:50:00</stop>
+      <stop tag="creccent" epochTime="31980000">08:53:00</stop>
+      <stop tag="ndec" epochTime="32280000">08:58:00</stop>
+      <stop tag="14thbusy_a" epochTime="32640000">09:04:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="32580000">09:03:00</stop>
+      <stop tag="creccent" epochTime="32760000">09:06:00</stop>
+      <stop tag="ndec" epochTime="33060000">09:11:00</stop>
+      <stop tag="14thbusy_a" epochTime="33420000">09:17:00</stop>
+    </tr>
+    <tr blockID="0403">
+      <stop tag="tranhub" epochTime="33360000">09:16:00</stop>
+      <stop tag="creccent" epochTime="33540000">09:19:00</stop>
+      <stop tag="ndec" epochTime="33840000">09:24:00</stop>
+      <stop tag="14thbusy_a" epochTime="34200000">09:30:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="34200000">09:30:00</stop>
+      <stop tag="creccent" epochTime="34380000">09:33:00</stop>
+      <stop tag="ndec" epochTime="34680000">09:38:00</stop>
+      <stop tag="14thbusy_a" epochTime="35040000">09:44:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="34200000">09:30:00</stop>
+      <stop tag="creccent" epochTime="34380000">09:33:00</stop>
+      <stop tag="ndec" epochTime="34680000">09:38:00</stop>
+      <stop tag="14thbusy_a" epochTime="35040000">09:44:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="34980000">09:43:00</stop>
+      <stop tag="creccent" epochTime="35160000">09:46:00</stop>
+      <stop tag="ndec" epochTime="35460000">09:51:00</stop>
+      <stop tag="14thbusy_a" epochTime="35820000">09:57:00</stop>
+    </tr>
+    <tr blockID="0403">
+      <stop tag="tranhub" epochTime="35760000">09:56:00</stop>
+      <stop tag="creccent" epochTime="35940000">09:59:00</stop>
+      <stop tag="ndec" epochTime="36240000">10:04:00</stop>
+      <stop tag="14thbusy_a" epochTime="36600000">10:10:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="36600000">10:10:00</stop>
+      <stop tag="creccent" epochTime="36780000">10:13:00</stop>
+      <stop tag="ndec" epochTime="37020000">10:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="37380000">10:23:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="36600000">10:10:00</stop>
+      <stop tag="creccent" epochTime="36780000">10:13:00</stop>
+      <stop tag="ndec" epochTime="37020000">10:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="37380000">10:23:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="37380000">10:23:00</stop>
+      <stop tag="creccent" epochTime="37560000">10:26:00</stop>
+      <stop tag="ndec" epochTime="37800000">10:30:00</stop>
+      <stop tag="14thbusy_a" epochTime="38160000">10:36:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="38400000">10:40:00</stop>
+      <stop tag="creccent" epochTime="38580000">10:43:00</stop>
+      <stop tag="ndec" epochTime="38820000">10:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="39180000">10:53:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="38400000">10:40:00</stop>
+      <stop tag="creccent" epochTime="38580000">10:43:00</stop>
+      <stop tag="ndec" epochTime="38820000">10:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="39180000">10:53:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="39180000">10:53:00</stop>
+      <stop tag="creccent" epochTime="39360000">10:56:00</stop>
+      <stop tag="ndec" epochTime="39600000">11:00:00</stop>
+      <stop tag="14thbusy_a" epochTime="39960000">11:06:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="40200000">11:10:00</stop>
+      <stop tag="creccent" epochTime="40380000">11:13:00</stop>
+      <stop tag="ndec" epochTime="40620000">11:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="40980000">11:23:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="40200000">11:10:00</stop>
+      <stop tag="creccent" epochTime="40380000">11:13:00</stop>
+      <stop tag="ndec" epochTime="40620000">11:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="40980000">11:23:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="40980000">11:23:00</stop>
+      <stop tag="creccent" epochTime="41160000">11:26:00</stop>
+      <stop tag="ndec" epochTime="41400000">11:30:00</stop>
+      <stop tag="14thbusy_a" epochTime="41760000">11:36:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="42000000">11:40:00</stop>
+      <stop tag="creccent" epochTime="42180000">11:43:00</stop>
+      <stop tag="ndec" epochTime="42420000">11:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="42780000">11:53:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="42000000">11:40:00</stop>
+      <stop tag="creccent" epochTime="42180000">11:43:00</stop>
+      <stop tag="ndec" epochTime="42420000">11:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="42780000">11:53:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="42780000">11:53:00</stop>
+      <stop tag="creccent" epochTime="42960000">11:56:00</stop>
+      <stop tag="ndec" epochTime="43200000">12:00:00</stop>
+      <stop tag="14thbusy_a" epochTime="43560000">12:06:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="43800000">12:10:00</stop>
+      <stop tag="creccent" epochTime="43980000">12:13:00</stop>
+      <stop tag="ndec" epochTime="44220000">12:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="44580000">12:23:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="43800000">12:10:00</stop>
+      <stop tag="creccent" epochTime="43980000">12:13:00</stop>
+      <stop tag="ndec" epochTime="44220000">12:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="44580000">12:23:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="44580000">12:23:00</stop>
+      <stop tag="creccent" epochTime="44760000">12:26:00</stop>
+      <stop tag="ndec" epochTime="45000000">12:30:00</stop>
+      <stop tag="14thbusy_a" epochTime="45360000">12:36:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="45600000">12:40:00</stop>
+      <stop tag="creccent" epochTime="45780000">12:43:00</stop>
+      <stop tag="ndec" epochTime="46020000">12:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="46380000">12:53:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="45600000">12:40:00</stop>
+      <stop tag="creccent" epochTime="45780000">12:43:00</stop>
+      <stop tag="ndec" epochTime="46020000">12:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="46380000">12:53:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="46380000">12:53:00</stop>
+      <stop tag="creccent" epochTime="46560000">12:56:00</stop>
+      <stop tag="ndec" epochTime="46800000">13:00:00</stop>
+      <stop tag="14thbusy_a" epochTime="47160000">13:06:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="47400000">13:10:00</stop>
+      <stop tag="creccent" epochTime="47580000">13:13:00</stop>
+      <stop tag="ndec" epochTime="47820000">13:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="48180000">13:23:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="47400000">13:10:00</stop>
+      <stop tag="creccent" epochTime="47580000">13:13:00</stop>
+      <stop tag="ndec" epochTime="47820000">13:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="48180000">13:23:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="48180000">13:23:00</stop>
+      <stop tag="creccent" epochTime="48360000">13:26:00</stop>
+      <stop tag="ndec" epochTime="48600000">13:30:00</stop>
+      <stop tag="14thbusy_a" epochTime="48960000">13:36:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="49200000">13:40:00</stop>
+      <stop tag="creccent" epochTime="49380000">13:43:00</stop>
+      <stop tag="ndec" epochTime="49620000">13:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="49980000">13:53:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="49200000">13:40:00</stop>
+      <stop tag="creccent" epochTime="49380000">13:43:00</stop>
+      <stop tag="ndec" epochTime="49620000">13:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="49980000">13:53:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="49980000">13:53:00</stop>
+      <stop tag="creccent" epochTime="50160000">13:56:00</stop>
+      <stop tag="ndec" epochTime="50400000">14:00:00</stop>
+      <stop tag="14thbusy_a" epochTime="50760000">14:06:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="51000000">14:10:00</stop>
+      <stop tag="creccent" epochTime="51180000">14:13:00</stop>
+      <stop tag="ndec" epochTime="51420000">14:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="51780000">14:23:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="51000000">14:10:00</stop>
+      <stop tag="creccent" epochTime="51180000">14:13:00</stop>
+      <stop tag="ndec" epochTime="51420000">14:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="51780000">14:23:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="51780000">14:23:00</stop>
+      <stop tag="creccent" epochTime="51960000">14:26:00</stop>
+      <stop tag="ndec" epochTime="52200000">14:30:00</stop>
+      <stop tag="14thbusy_a" epochTime="52560000">14:36:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="52800000">14:40:00</stop>
+      <stop tag="creccent" epochTime="52980000">14:43:00</stop>
+      <stop tag="ndec" epochTime="53220000">14:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="53580000">14:53:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="52800000">14:40:00</stop>
+      <stop tag="creccent" epochTime="52980000">14:43:00</stop>
+      <stop tag="ndec" epochTime="53220000">14:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="53580000">14:53:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="53580000">14:53:00</stop>
+      <stop tag="creccent" epochTime="53760000">14:56:00</stop>
+      <stop tag="ndec" epochTime="54000000">15:00:00</stop>
+      <stop tag="14thbusy_a" epochTime="54360000">15:06:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="54600000">15:10:00</stop>
+      <stop tag="creccent" epochTime="54780000">15:13:00</stop>
+      <stop tag="ndec" epochTime="55020000">15:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="55380000">15:23:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="54600000">15:10:00</stop>
+      <stop tag="creccent" epochTime="54780000">15:13:00</stop>
+      <stop tag="ndec" epochTime="55020000">15:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="55380000">15:23:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="55380000">15:23:00</stop>
+      <stop tag="creccent" epochTime="55560000">15:26:00</stop>
+      <stop tag="ndec" epochTime="55800000">15:30:00</stop>
+      <stop tag="14thbusy_a" epochTime="56160000">15:36:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="56400000">15:40:00</stop>
+      <stop tag="creccent" epochTime="56580000">15:43:00</stop>
+      <stop tag="ndec" epochTime="56820000">15:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="57180000">15:53:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="56400000">15:40:00</stop>
+      <stop tag="creccent" epochTime="56580000">15:43:00</stop>
+      <stop tag="ndec" epochTime="56820000">15:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="57180000">15:53:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="57180000">15:53:00</stop>
+      <stop tag="creccent" epochTime="57360000">15:56:00</stop>
+      <stop tag="ndec" epochTime="57600000">16:00:00</stop>
+      <stop tag="14thbusy_a" epochTime="57960000">16:06:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="tranhub" epochTime="57960000">16:06:00</stop>
+      <stop tag="creccent" epochTime="58140000">16:09:00</stop>
+      <stop tag="ndec" epochTime="58440000">16:14:00</stop>
+      <stop tag="14thbusy_a" epochTime="58800000">16:20:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="58800000">16:20:00</stop>
+      <stop tag="creccent" epochTime="58980000">16:23:00</stop>
+      <stop tag="ndec" epochTime="59280000">16:28:00</stop>
+      <stop tag="14thbusy_a" epochTime="59640000">16:34:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="58800000">16:20:00</stop>
+      <stop tag="creccent" epochTime="58980000">16:23:00</stop>
+      <stop tag="ndec" epochTime="59280000">16:28:00</stop>
+      <stop tag="14thbusy_a" epochTime="59640000">16:34:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="59580000">16:33:00</stop>
+      <stop tag="creccent" epochTime="59760000">16:36:00</stop>
+      <stop tag="ndec" epochTime="60060000">16:41:00</stop>
+      <stop tag="14thbusy_a" epochTime="60420000">16:47:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="tranhub" epochTime="60360000">16:46:00</stop>
+      <stop tag="creccent" epochTime="60540000">16:49:00</stop>
+      <stop tag="ndec" epochTime="60840000">16:54:00</stop>
+      <stop tag="14thbusy_a" epochTime="61200000">17:00:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="61200000">17:00:00</stop>
+      <stop tag="creccent" epochTime="61380000">17:03:00</stop>
+      <stop tag="ndec" epochTime="61680000">17:08:00</stop>
+      <stop tag="14thbusy_a" epochTime="62040000">17:14:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="61200000">17:00:00</stop>
+      <stop tag="creccent" epochTime="61380000">17:03:00</stop>
+      <stop tag="ndec" epochTime="61680000">17:08:00</stop>
+      <stop tag="14thbusy_a" epochTime="62040000">17:14:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="61980000">17:13:00</stop>
+      <stop tag="creccent" epochTime="62160000">17:16:00</stop>
+      <stop tag="ndec" epochTime="62460000">17:21:00</stop>
+      <stop tag="14thbusy_a" epochTime="62820000">17:27:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="tranhub" epochTime="62760000">17:26:00</stop>
+      <stop tag="creccent" epochTime="62940000">17:29:00</stop>
+      <stop tag="ndec" epochTime="63240000">17:34:00</stop>
+      <stop tag="14thbusy_a" epochTime="63600000">17:40:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="63600000">17:40:00</stop>
+      <stop tag="creccent" epochTime="63780000">17:43:00</stop>
+      <stop tag="ndec" epochTime="64080000">17:48:00</stop>
+      <stop tag="14thbusy_a" epochTime="64440000">17:54:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="63600000">17:40:00</stop>
+      <stop tag="creccent" epochTime="63780000">17:43:00</stop>
+      <stop tag="ndec" epochTime="64080000">17:48:00</stop>
+      <stop tag="14thbusy_a" epochTime="64440000">17:54:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="tranhub" epochTime="65160000">18:06:00</stop>
+      <stop tag="creccent" epochTime="65340000">18:09:00</stop>
+      <stop tag="ndec" epochTime="65640000">18:14:00</stop>
+      <stop tag="14thbusy_a" epochTime="66000000">18:20:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="66000000">18:20:00</stop>
+      <stop tag="creccent" epochTime="66180000">18:23:00</stop>
+      <stop tag="ndec" epochTime="66480000">18:28:00</stop>
+      <stop tag="14thbusy_a" epochTime="66840000">18:34:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="66000000">18:20:00</stop>
+      <stop tag="creccent" epochTime="66180000">18:23:00</stop>
+      <stop tag="ndec" epochTime="66480000">18:28:00</stop>
+      <stop tag="14thbusy_a" epochTime="66840000">18:34:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="tranhub" epochTime="67560000">18:46:00</stop>
+      <stop tag="creccent" epochTime="67740000">18:49:00</stop>
+      <stop tag="ndec" epochTime="68040000">18:54:00</stop>
+      <stop tag="14thbusy_a" epochTime="68400000">19:00:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="68400000">19:00:00</stop>
+      <stop tag="creccent" epochTime="68580000">19:03:00</stop>
+      <stop tag="ndec" epochTime="68820000">19:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="69180000">19:13:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="68400000">19:00:00</stop>
+      <stop tag="creccent" epochTime="68580000">19:03:00</stop>
+      <stop tag="ndec" epochTime="68820000">19:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="69180000">19:13:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="70200000">19:30:00</stop>
+      <stop tag="creccent" epochTime="70380000">19:33:00</stop>
+      <stop tag="ndec" epochTime="70620000">19:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="70980000">19:43:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="70200000">19:30:00</stop>
+      <stop tag="creccent" epochTime="70380000">19:33:00</stop>
+      <stop tag="ndec" epochTime="70620000">19:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="70980000">19:43:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="72000000">20:00:00</stop>
+      <stop tag="creccent" epochTime="72180000">20:03:00</stop>
+      <stop tag="ndec" epochTime="72420000">20:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="72780000">20:13:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="72000000">20:00:00</stop>
+      <stop tag="creccent" epochTime="72180000">20:03:00</stop>
+      <stop tag="ndec" epochTime="72420000">20:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="72780000">20:13:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="73800000">20:30:00</stop>
+      <stop tag="creccent" epochTime="73980000">20:33:00</stop>
+      <stop tag="ndec" epochTime="74220000">20:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="74580000">20:43:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="73800000">20:30:00</stop>
+      <stop tag="creccent" epochTime="73980000">20:33:00</stop>
+      <stop tag="ndec" epochTime="74220000">20:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="74580000">20:43:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="75600000">21:00:00</stop>
+      <stop tag="creccent" epochTime="75780000">21:03:00</stop>
+      <stop tag="ndec" epochTime="76020000">21:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="76380000">21:13:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="77400000">21:30:00</stop>
+      <stop tag="creccent" epochTime="77580000">21:33:00</stop>
+      <stop tag="ndec" epochTime="77820000">21:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="78180000">21:43:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="79200000">22:00:00</stop>
+      <stop tag="creccent" epochTime="79380000">22:03:00</stop>
+      <stop tag="ndec" epochTime="79620000">22:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="79980000">22:13:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="81000000">22:30:00</stop>
+      <stop tag="creccent" epochTime="81180000">22:33:00</stop>
+      <stop tag="ndec" epochTime="81420000">22:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="81780000">22:43:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="82800000">23:00:00</stop>
+      <stop tag="creccent" epochTime="82980000">23:03:00</stop>
+      <stop tag="ndec" epochTime="83220000">23:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="83580000">23:13:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="84600000">23:30:00</stop>
+      <stop tag="creccent" epochTime="84780000">23:33:00</stop>
+      <stop tag="ndec" epochTime="85020000">23:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="85380000">23:43:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="86400000">00:00:00</stop>
+      <stop tag="creccent" epochTime="86580000">00:03:00</stop>
+      <stop tag="ndec" epochTime="86820000">00:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="87180000">00:13:00</stop>
+    </tr>
+  </route>
+  <route tag="green" title="Green" scheduleClass="full" serviceClass="f" direction="hub">
+    <header>
+      <stop tag="14thbusy_d">14th St Bus Yard - Hidden Departure</stop>
+      <stop tag="glc">GLC</stop>
+      <stop tag="fershemp_ob">Ferst Dr &amp; Hemphill Ave</stop>
+      <stop tag="tranhub_a">Transit HUB - Arrival</stop>
+    </header>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="24180000">06:43:00</stop>
+      <stop tag="glc" epochTime="24600000">06:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="24840000">06:54:00</stop>
+      <stop tag="tranhub_a" epochTime="25020000">06:57:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="24180000">06:43:00</stop>
+      <stop tag="glc" epochTime="24600000">06:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="24840000">06:54:00</stop>
+      <stop tag="tranhub_a" epochTime="25020000">06:57:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="25980000">07:13:00</stop>
+      <stop tag="glc" epochTime="26400000">07:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="26640000">07:24:00</stop>
+      <stop tag="tranhub_a" epochTime="26820000">07:27:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="25980000">07:13:00</stop>
+      <stop tag="glc" epochTime="26400000">07:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="26640000">07:24:00</stop>
+      <stop tag="tranhub_a" epochTime="26820000">07:27:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="27780000">07:43:00</stop>
+      <stop tag="glc" epochTime="28560000">07:56:00</stop>
+      <stop tag="fershemp_ob" epochTime="28860000">08:01:00</stop>
+      <stop tag="tranhub_a" epochTime="29220000">08:07:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="27780000">07:43:00</stop>
+      <stop tag="glc" epochTime="28560000">07:56:00</stop>
+      <stop tag="fershemp_ob" epochTime="28860000">08:01:00</stop>
+      <stop tag="tranhub_a" epochTime="29220000">08:07:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="28620000">07:57:00</stop>
+      <stop tag="glc" epochTime="29340000">08:09:00</stop>
+      <stop tag="fershemp_ob" epochTime="29640000">08:14:00</stop>
+      <stop tag="tranhub_a" epochTime="30000000">08:20:00</stop>
+    </tr>
+    <tr blockID="0403">
+      <stop tag="14thbusy_d" epochTime="29400000">08:10:00</stop>
+      <stop tag="glc" epochTime="30120000">08:22:00</stop>
+      <stop tag="fershemp_ob" epochTime="30420000">08:27:00</stop>
+      <stop tag="tranhub_a" epochTime="30780000">08:33:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="30240000">08:24:00</stop>
+      <stop tag="glc" epochTime="30960000">08:36:00</stop>
+      <stop tag="fershemp_ob" epochTime="31260000">08:41:00</stop>
+      <stop tag="tranhub_a" epochTime="31620000">08:47:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="30240000">08:24:00</stop>
+      <stop tag="glc" epochTime="30960000">08:36:00</stop>
+      <stop tag="fershemp_ob" epochTime="31260000">08:41:00</stop>
+      <stop tag="tranhub_a" epochTime="31620000">08:47:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="31020000">08:37:00</stop>
+      <stop tag="glc" epochTime="31740000">08:49:00</stop>
+      <stop tag="fershemp_ob" epochTime="32040000">08:54:00</stop>
+      <stop tag="tranhub_a" epochTime="32400000">09:00:00</stop>
+    </tr>
+    <tr blockID="0403">
+      <stop tag="14thbusy_d" epochTime="31800000">08:50:00</stop>
+      <stop tag="glc" epochTime="32520000">09:02:00</stop>
+      <stop tag="fershemp_ob" epochTime="32820000">09:07:00</stop>
+      <stop tag="tranhub_a" epochTime="33180000">09:13:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="32640000">09:04:00</stop>
+      <stop tag="glc" epochTime="33360000">09:16:00</stop>
+      <stop tag="fershemp_ob" epochTime="33660000">09:21:00</stop>
+      <stop tag="tranhub_a" epochTime="34020000">09:27:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="32640000">09:04:00</stop>
+      <stop tag="glc" epochTime="33360000">09:16:00</stop>
+      <stop tag="fershemp_ob" epochTime="33660000">09:21:00</stop>
+      <stop tag="tranhub_a" epochTime="34020000">09:27:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="33420000">09:17:00</stop>
+      <stop tag="glc" epochTime="34140000">09:29:00</stop>
+      <stop tag="fershemp_ob" epochTime="34440000">09:34:00</stop>
+      <stop tag="tranhub_a" epochTime="34800000">09:40:00</stop>
+    </tr>
+    <tr blockID="0403">
+      <stop tag="14thbusy_d" epochTime="34200000">09:30:00</stop>
+      <stop tag="glc" epochTime="34920000">09:42:00</stop>
+      <stop tag="fershemp_ob" epochTime="35220000">09:47:00</stop>
+      <stop tag="tranhub_a" epochTime="35580000">09:53:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="35040000">09:44:00</stop>
+      <stop tag="glc" epochTime="35760000">09:56:00</stop>
+      <stop tag="fershemp_ob" epochTime="36060000">10:01:00</stop>
+      <stop tag="tranhub_a" epochTime="36420000">10:07:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="35040000">09:44:00</stop>
+      <stop tag="glc" epochTime="35760000">09:56:00</stop>
+      <stop tag="fershemp_ob" epochTime="36060000">10:01:00</stop>
+      <stop tag="tranhub_a" epochTime="36420000">10:07:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="35820000">09:57:00</stop>
+      <stop tag="glc" epochTime="36540000">10:09:00</stop>
+      <stop tag="fershemp_ob" epochTime="36840000">10:14:00</stop>
+      <stop tag="tranhub_a" epochTime="37200000">10:20:00</stop>
+    </tr>
+    <tr blockID="0403">
+      <stop tag="14thbusy_d" epochTime="36600000">10:10:00</stop>
+      <stop tag="glc" epochTime="37320000">10:22:00</stop>
+      <stop tag="fershemp_ob" epochTime="37620000">10:27:00</stop>
+      <stop tag="tranhub_a" epochTime="37980000">10:33:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="37380000">10:23:00</stop>
+      <stop tag="glc" epochTime="37800000">10:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="38040000">10:34:00</stop>
+      <stop tag="tranhub_a" epochTime="38220000">10:37:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="37380000">10:23:00</stop>
+      <stop tag="glc" epochTime="37800000">10:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="38040000">10:34:00</stop>
+      <stop tag="tranhub_a" epochTime="38220000">10:37:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="38160000">10:36:00</stop>
+      <stop tag="glc" epochTime="38580000">10:43:00</stop>
+      <stop tag="fershemp_ob" epochTime="38820000">10:47:00</stop>
+      <stop tag="tranhub_a" epochTime="39000000">10:50:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="39180000">10:53:00</stop>
+      <stop tag="glc" epochTime="39600000">11:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="39840000">11:04:00</stop>
+      <stop tag="tranhub_a" epochTime="40020000">11:07:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="39180000">10:53:00</stop>
+      <stop tag="glc" epochTime="39600000">11:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="39840000">11:04:00</stop>
+      <stop tag="tranhub_a" epochTime="40020000">11:07:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="39960000">11:06:00</stop>
+      <stop tag="glc" epochTime="40380000">11:13:00</stop>
+      <stop tag="fershemp_ob" epochTime="40620000">11:17:00</stop>
+      <stop tag="tranhub_a" epochTime="40800000">11:20:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="40980000">11:23:00</stop>
+      <stop tag="glc" epochTime="41400000">11:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="41640000">11:34:00</stop>
+      <stop tag="tranhub_a" epochTime="41820000">11:37:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="40980000">11:23:00</stop>
+      <stop tag="glc" epochTime="41400000">11:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="41640000">11:34:00</stop>
+      <stop tag="tranhub_a" epochTime="41820000">11:37:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="41760000">11:36:00</stop>
+      <stop tag="glc" epochTime="42180000">11:43:00</stop>
+      <stop tag="fershemp_ob" epochTime="42420000">11:47:00</stop>
+      <stop tag="tranhub_a" epochTime="42600000">11:50:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="42780000">11:53:00</stop>
+      <stop tag="glc" epochTime="43200000">12:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="43440000">12:04:00</stop>
+      <stop tag="tranhub_a" epochTime="43620000">12:07:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="42780000">11:53:00</stop>
+      <stop tag="glc" epochTime="43200000">12:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="43440000">12:04:00</stop>
+      <stop tag="tranhub_a" epochTime="43620000">12:07:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="43560000">12:06:00</stop>
+      <stop tag="glc" epochTime="43980000">12:13:00</stop>
+      <stop tag="fershemp_ob" epochTime="44220000">12:17:00</stop>
+      <stop tag="tranhub_a" epochTime="44400000">12:20:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="44580000">12:23:00</stop>
+      <stop tag="glc" epochTime="45000000">12:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="45240000">12:34:00</stop>
+      <stop tag="tranhub_a" epochTime="45420000">12:37:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="44580000">12:23:00</stop>
+      <stop tag="glc" epochTime="45000000">12:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="45240000">12:34:00</stop>
+      <stop tag="tranhub_a" epochTime="45420000">12:37:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="45360000">12:36:00</stop>
+      <stop tag="glc" epochTime="45780000">12:43:00</stop>
+      <stop tag="fershemp_ob" epochTime="46020000">12:47:00</stop>
+      <stop tag="tranhub_a" epochTime="46200000">12:50:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="46380000">12:53:00</stop>
+      <stop tag="glc" epochTime="46800000">13:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="47040000">13:04:00</stop>
+      <stop tag="tranhub_a" epochTime="47220000">13:07:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="46380000">12:53:00</stop>
+      <stop tag="glc" epochTime="46800000">13:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="47040000">13:04:00</stop>
+      <stop tag="tranhub_a" epochTime="47220000">13:07:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="47160000">13:06:00</stop>
+      <stop tag="glc" epochTime="47580000">13:13:00</stop>
+      <stop tag="fershemp_ob" epochTime="47820000">13:17:00</stop>
+      <stop tag="tranhub_a" epochTime="48000000">13:20:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="48180000">13:23:00</stop>
+      <stop tag="glc" epochTime="48600000">13:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="48840000">13:34:00</stop>
+      <stop tag="tranhub_a" epochTime="49020000">13:37:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="48180000">13:23:00</stop>
+      <stop tag="glc" epochTime="48600000">13:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="48840000">13:34:00</stop>
+      <stop tag="tranhub_a" epochTime="49020000">13:37:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="48960000">13:36:00</stop>
+      <stop tag="glc" epochTime="49380000">13:43:00</stop>
+      <stop tag="fershemp_ob" epochTime="49620000">13:47:00</stop>
+      <stop tag="tranhub_a" epochTime="49800000">13:50:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="49980000">13:53:00</stop>
+      <stop tag="glc" epochTime="50400000">14:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="50640000">14:04:00</stop>
+      <stop tag="tranhub_a" epochTime="50820000">14:07:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="49980000">13:53:00</stop>
+      <stop tag="glc" epochTime="50400000">14:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="50640000">14:04:00</stop>
+      <stop tag="tranhub_a" epochTime="50820000">14:07:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="50760000">14:06:00</stop>
+      <stop tag="glc" epochTime="51180000">14:13:00</stop>
+      <stop tag="fershemp_ob" epochTime="51420000">14:17:00</stop>
+      <stop tag="tranhub_a" epochTime="51600000">14:20:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="51780000">14:23:00</stop>
+      <stop tag="glc" epochTime="52200000">14:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="52440000">14:34:00</stop>
+      <stop tag="tranhub_a" epochTime="52620000">14:37:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="51780000">14:23:00</stop>
+      <stop tag="glc" epochTime="52200000">14:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="52440000">14:34:00</stop>
+      <stop tag="tranhub_a" epochTime="52620000">14:37:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="52560000">14:36:00</stop>
+      <stop tag="glc" epochTime="52980000">14:43:00</stop>
+      <stop tag="fershemp_ob" epochTime="53220000">14:47:00</stop>
+      <stop tag="tranhub_a" epochTime="53400000">14:50:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="53580000">14:53:00</stop>
+      <stop tag="glc" epochTime="54000000">15:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="54240000">15:04:00</stop>
+      <stop tag="tranhub_a" epochTime="54420000">15:07:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="53580000">14:53:00</stop>
+      <stop tag="glc" epochTime="54000000">15:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="54240000">15:04:00</stop>
+      <stop tag="tranhub_a" epochTime="54420000">15:07:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="54360000">15:06:00</stop>
+      <stop tag="glc" epochTime="54780000">15:13:00</stop>
+      <stop tag="fershemp_ob" epochTime="55020000">15:17:00</stop>
+      <stop tag="tranhub_a" epochTime="55200000">15:20:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="55380000">15:23:00</stop>
+      <stop tag="glc" epochTime="55800000">15:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="56040000">15:34:00</stop>
+      <stop tag="tranhub_a" epochTime="56220000">15:37:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="55380000">15:23:00</stop>
+      <stop tag="glc" epochTime="55800000">15:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="56040000">15:34:00</stop>
+      <stop tag="tranhub_a" epochTime="56220000">15:37:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="56160000">15:36:00</stop>
+      <stop tag="glc" epochTime="56580000">15:43:00</stop>
+      <stop tag="fershemp_ob" epochTime="56820000">15:47:00</stop>
+      <stop tag="tranhub_a" epochTime="57000000">15:50:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="57180000">15:53:00</stop>
+      <stop tag="glc" epochTime="57960000">16:06:00</stop>
+      <stop tag="fershemp_ob" epochTime="58260000">16:11:00</stop>
+      <stop tag="tranhub_a" epochTime="58620000">16:17:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="57180000">15:53:00</stop>
+      <stop tag="glc" epochTime="57960000">16:06:00</stop>
+      <stop tag="fershemp_ob" epochTime="58260000">16:11:00</stop>
+      <stop tag="tranhub_a" epochTime="58620000">16:17:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="57960000">16:06:00</stop>
+      <stop tag="glc" epochTime="58740000">16:19:00</stop>
+      <stop tag="fershemp_ob" epochTime="59040000">16:24:00</stop>
+      <stop tag="tranhub_a" epochTime="59400000">16:30:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="14thbusy_d" epochTime="58800000">16:20:00</stop>
+      <stop tag="glc" epochTime="59520000">16:32:00</stop>
+      <stop tag="fershemp_ob" epochTime="59820000">16:37:00</stop>
+      <stop tag="tranhub_a" epochTime="60180000">16:43:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="59640000">16:34:00</stop>
+      <stop tag="glc" epochTime="60360000">16:46:00</stop>
+      <stop tag="fershemp_ob" epochTime="60660000">16:51:00</stop>
+      <stop tag="tranhub_a" epochTime="61020000">16:57:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="59640000">16:34:00</stop>
+      <stop tag="glc" epochTime="60360000">16:46:00</stop>
+      <stop tag="fershemp_ob" epochTime="60660000">16:51:00</stop>
+      <stop tag="tranhub_a" epochTime="61020000">16:57:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="60420000">16:47:00</stop>
+      <stop tag="glc" epochTime="61140000">16:59:00</stop>
+      <stop tag="fershemp_ob" epochTime="61440000">17:04:00</stop>
+      <stop tag="tranhub_a" epochTime="61800000">17:10:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="14thbusy_d" epochTime="61200000">17:00:00</stop>
+      <stop tag="glc" epochTime="61920000">17:12:00</stop>
+      <stop tag="fershemp_ob" epochTime="62220000">17:17:00</stop>
+      <stop tag="tranhub_a" epochTime="62580000">17:23:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="62040000">17:14:00</stop>
+      <stop tag="glc" epochTime="62760000">17:26:00</stop>
+      <stop tag="fershemp_ob" epochTime="63060000">17:31:00</stop>
+      <stop tag="tranhub_a" epochTime="63420000">17:37:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="62040000">17:14:00</stop>
+      <stop tag="glc" epochTime="62760000">17:26:00</stop>
+      <stop tag="fershemp_ob" epochTime="63060000">17:31:00</stop>
+      <stop tag="tranhub_a" epochTime="63420000">17:37:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="62820000">17:27:00</stop>
+      <stop tag="glc" epochTime="63540000">17:39:00</stop>
+      <stop tag="fershemp_ob" epochTime="63840000">17:44:00</stop>
+      <stop tag="tranhub_a" epochTime="64200000">17:50:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="14thbusy_d" epochTime="63600000">17:40:00</stop>
+      <stop tag="glc" epochTime="64320000">17:52:00</stop>
+      <stop tag="fershemp_ob" epochTime="64620000">17:57:00</stop>
+      <stop tag="tranhub_a" epochTime="64980000">18:03:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="64440000">17:54:00</stop>
+      <stop tag="glc" epochTime="65160000">18:06:00</stop>
+      <stop tag="fershemp_ob" epochTime="65460000">18:11:00</stop>
+      <stop tag="tranhub_a" epochTime="65820000">18:17:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="64440000">17:54:00</stop>
+      <stop tag="glc" epochTime="65160000">18:06:00</stop>
+      <stop tag="fershemp_ob" epochTime="65460000">18:11:00</stop>
+      <stop tag="tranhub_a" epochTime="65820000">18:17:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="14thbusy_d" epochTime="66000000">18:20:00</stop>
+      <stop tag="glc" epochTime="66720000">18:32:00</stop>
+      <stop tag="fershemp_ob" epochTime="67020000">18:37:00</stop>
+      <stop tag="tranhub_a" epochTime="67380000">18:43:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="66840000">18:34:00</stop>
+      <stop tag="glc" epochTime="67560000">18:46:00</stop>
+      <stop tag="fershemp_ob" epochTime="67860000">18:51:00</stop>
+      <stop tag="tranhub_a" epochTime="68220000">18:57:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="66840000">18:34:00</stop>
+      <stop tag="glc" epochTime="67560000">18:46:00</stop>
+      <stop tag="fershemp_ob" epochTime="67860000">18:51:00</stop>
+      <stop tag="tranhub_a" epochTime="68220000">18:57:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="69180000">19:13:00</stop>
+      <stop tag="glc" epochTime="69600000">19:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="69840000">19:24:00</stop>
+      <stop tag="tranhub_a" epochTime="70020000">19:27:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="69180000">19:13:00</stop>
+      <stop tag="glc" epochTime="69600000">19:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="69840000">19:24:00</stop>
+      <stop tag="tranhub_a" epochTime="70020000">19:27:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="70980000">19:43:00</stop>
+      <stop tag="glc" epochTime="71400000">19:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="71640000">19:54:00</stop>
+      <stop tag="tranhub_a" epochTime="71820000">19:57:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="70980000">19:43:00</stop>
+      <stop tag="glc" epochTime="71400000">19:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="71640000">19:54:00</stop>
+      <stop tag="tranhub_a" epochTime="71820000">19:57:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="72780000">20:13:00</stop>
+      <stop tag="glc" epochTime="73200000">20:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="73440000">20:24:00</stop>
+      <stop tag="tranhub_a" epochTime="73620000">20:27:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="72780000">20:13:00</stop>
+      <stop tag="glc" epochTime="73200000">20:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="73440000">20:24:00</stop>
+      <stop tag="tranhub_a" epochTime="73620000">20:27:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="74580000">20:43:00</stop>
+      <stop tag="glc" epochTime="75000000">20:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="75240000">20:54:00</stop>
+      <stop tag="tranhub_a" epochTime="75420000">20:57:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="74580000">20:43:00</stop>
+      <stop tag="glc" epochTime="75000000">20:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="75240000">20:54:00</stop>
+      <stop tag="tranhub_a" epochTime="75420000">20:57:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="76380000">21:13:00</stop>
+      <stop tag="glc" epochTime="76800000">21:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="77040000">21:24:00</stop>
+      <stop tag="tranhub_a" epochTime="77220000">21:27:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="78180000">21:43:00</stop>
+      <stop tag="glc" epochTime="78600000">21:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="78840000">21:54:00</stop>
+      <stop tag="tranhub_a" epochTime="79020000">21:57:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="79980000">22:13:00</stop>
+      <stop tag="glc" epochTime="80400000">22:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="80640000">22:24:00</stop>
+      <stop tag="tranhub_a" epochTime="80820000">22:27:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="81780000">22:43:00</stop>
+      <stop tag="glc" epochTime="82200000">22:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="82440000">22:54:00</stop>
+      <stop tag="tranhub_a" epochTime="82620000">22:57:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="83580000">23:13:00</stop>
+      <stop tag="glc" epochTime="84000000">23:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="84240000">23:24:00</stop>
+      <stop tag="tranhub_a" epochTime="84420000">23:27:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="85380000">23:43:00</stop>
+      <stop tag="glc" epochTime="85800000">23:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="86040000">23:54:00</stop>
+      <stop tag="tranhub_a" epochTime="86220000">23:57:00</stop>
+    </tr>
+  </route>
+  <route tag="green" title="Green" scheduleClass="full" serviceClass="mtwth" direction="14thbusy">
+    <header>
+      <stop tag="tranhub">Transit HUB</stop>
+      <stop tag="creccent">Recreation Center</stop>
+      <stop tag="ndec">North Deck</stop>
+      <stop tag="14thbusy_a">14th St Bus Yard - Arrival</stop>
+    </header>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="25200000">07:00:00</stop>
+      <stop tag="creccent" epochTime="25380000">07:03:00</stop>
+      <stop tag="ndec" epochTime="25620000">07:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="25980000">07:13:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="25200000">07:00:00</stop>
+      <stop tag="creccent" epochTime="25380000">07:03:00</stop>
+      <stop tag="ndec" epochTime="25620000">07:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="25980000">07:13:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="27000000">07:30:00</stop>
+      <stop tag="creccent" epochTime="27180000">07:33:00</stop>
+      <stop tag="ndec" epochTime="27420000">07:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="27780000">07:43:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="27000000">07:30:00</stop>
+      <stop tag="creccent" epochTime="27180000">07:33:00</stop>
+      <stop tag="ndec" epochTime="27420000">07:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="27780000">07:43:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="29400000">08:10:00</stop>
+      <stop tag="creccent" epochTime="29580000">08:13:00</stop>
+      <stop tag="ndec" epochTime="29880000">08:18:00</stop>
+      <stop tag="14thbusy_a" epochTime="30240000">08:24:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="29400000">08:10:00</stop>
+      <stop tag="creccent" epochTime="29580000">08:13:00</stop>
+      <stop tag="ndec" epochTime="29880000">08:18:00</stop>
+      <stop tag="14thbusy_a" epochTime="30240000">08:24:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="30180000">08:23:00</stop>
+      <stop tag="creccent" epochTime="30360000">08:26:00</stop>
+      <stop tag="ndec" epochTime="30660000">08:31:00</stop>
+      <stop tag="14thbusy_a" epochTime="31020000">08:37:00</stop>
+    </tr>
+    <tr blockID="0403">
+      <stop tag="tranhub" epochTime="30960000">08:36:00</stop>
+      <stop tag="creccent" epochTime="31140000">08:39:00</stop>
+      <stop tag="ndec" epochTime="31440000">08:44:00</stop>
+      <stop tag="14thbusy_a" epochTime="31800000">08:50:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="31800000">08:50:00</stop>
+      <stop tag="creccent" epochTime="31980000">08:53:00</stop>
+      <stop tag="ndec" epochTime="32280000">08:58:00</stop>
+      <stop tag="14thbusy_a" epochTime="32640000">09:04:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="31800000">08:50:00</stop>
+      <stop tag="creccent" epochTime="31980000">08:53:00</stop>
+      <stop tag="ndec" epochTime="32280000">08:58:00</stop>
+      <stop tag="14thbusy_a" epochTime="32640000">09:04:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="32580000">09:03:00</stop>
+      <stop tag="creccent" epochTime="32760000">09:06:00</stop>
+      <stop tag="ndec" epochTime="33060000">09:11:00</stop>
+      <stop tag="14thbusy_a" epochTime="33420000">09:17:00</stop>
+    </tr>
+    <tr blockID="0403">
+      <stop tag="tranhub" epochTime="33360000">09:16:00</stop>
+      <stop tag="creccent" epochTime="33540000">09:19:00</stop>
+      <stop tag="ndec" epochTime="33840000">09:24:00</stop>
+      <stop tag="14thbusy_a" epochTime="34200000">09:30:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="34200000">09:30:00</stop>
+      <stop tag="creccent" epochTime="34380000">09:33:00</stop>
+      <stop tag="ndec" epochTime="34680000">09:38:00</stop>
+      <stop tag="14thbusy_a" epochTime="35040000">09:44:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="34200000">09:30:00</stop>
+      <stop tag="creccent" epochTime="34380000">09:33:00</stop>
+      <stop tag="ndec" epochTime="34680000">09:38:00</stop>
+      <stop tag="14thbusy_a" epochTime="35040000">09:44:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="34980000">09:43:00</stop>
+      <stop tag="creccent" epochTime="35160000">09:46:00</stop>
+      <stop tag="ndec" epochTime="35460000">09:51:00</stop>
+      <stop tag="14thbusy_a" epochTime="35820000">09:57:00</stop>
+    </tr>
+    <tr blockID="0403">
+      <stop tag="tranhub" epochTime="35760000">09:56:00</stop>
+      <stop tag="creccent" epochTime="35940000">09:59:00</stop>
+      <stop tag="ndec" epochTime="36240000">10:04:00</stop>
+      <stop tag="14thbusy_a" epochTime="36600000">10:10:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="36600000">10:10:00</stop>
+      <stop tag="creccent" epochTime="36780000">10:13:00</stop>
+      <stop tag="ndec" epochTime="37020000">10:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="37380000">10:23:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="36600000">10:10:00</stop>
+      <stop tag="creccent" epochTime="36780000">10:13:00</stop>
+      <stop tag="ndec" epochTime="37020000">10:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="37380000">10:23:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="37380000">10:23:00</stop>
+      <stop tag="creccent" epochTime="37560000">10:26:00</stop>
+      <stop tag="ndec" epochTime="37800000">10:30:00</stop>
+      <stop tag="14thbusy_a" epochTime="38160000">10:36:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="38400000">10:40:00</stop>
+      <stop tag="creccent" epochTime="38580000">10:43:00</stop>
+      <stop tag="ndec" epochTime="38820000">10:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="39180000">10:53:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="38400000">10:40:00</stop>
+      <stop tag="creccent" epochTime="38580000">10:43:00</stop>
+      <stop tag="ndec" epochTime="38820000">10:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="39180000">10:53:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="39180000">10:53:00</stop>
+      <stop tag="creccent" epochTime="39360000">10:56:00</stop>
+      <stop tag="ndec" epochTime="39600000">11:00:00</stop>
+      <stop tag="14thbusy_a" epochTime="39960000">11:06:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="40200000">11:10:00</stop>
+      <stop tag="creccent" epochTime="40380000">11:13:00</stop>
+      <stop tag="ndec" epochTime="40620000">11:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="40980000">11:23:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="40200000">11:10:00</stop>
+      <stop tag="creccent" epochTime="40380000">11:13:00</stop>
+      <stop tag="ndec" epochTime="40620000">11:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="40980000">11:23:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="40980000">11:23:00</stop>
+      <stop tag="creccent" epochTime="41160000">11:26:00</stop>
+      <stop tag="ndec" epochTime="41400000">11:30:00</stop>
+      <stop tag="14thbusy_a" epochTime="41760000">11:36:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="42000000">11:40:00</stop>
+      <stop tag="creccent" epochTime="42180000">11:43:00</stop>
+      <stop tag="ndec" epochTime="42420000">11:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="42780000">11:53:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="42000000">11:40:00</stop>
+      <stop tag="creccent" epochTime="42180000">11:43:00</stop>
+      <stop tag="ndec" epochTime="42420000">11:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="42780000">11:53:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="42780000">11:53:00</stop>
+      <stop tag="creccent" epochTime="42960000">11:56:00</stop>
+      <stop tag="ndec" epochTime="43200000">12:00:00</stop>
+      <stop tag="14thbusy_a" epochTime="43560000">12:06:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="43800000">12:10:00</stop>
+      <stop tag="creccent" epochTime="43980000">12:13:00</stop>
+      <stop tag="ndec" epochTime="44220000">12:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="44580000">12:23:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="43800000">12:10:00</stop>
+      <stop tag="creccent" epochTime="43980000">12:13:00</stop>
+      <stop tag="ndec" epochTime="44220000">12:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="44580000">12:23:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="44580000">12:23:00</stop>
+      <stop tag="creccent" epochTime="44760000">12:26:00</stop>
+      <stop tag="ndec" epochTime="45000000">12:30:00</stop>
+      <stop tag="14thbusy_a" epochTime="45360000">12:36:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="45600000">12:40:00</stop>
+      <stop tag="creccent" epochTime="45780000">12:43:00</stop>
+      <stop tag="ndec" epochTime="46020000">12:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="46380000">12:53:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="45600000">12:40:00</stop>
+      <stop tag="creccent" epochTime="45780000">12:43:00</stop>
+      <stop tag="ndec" epochTime="46020000">12:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="46380000">12:53:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="46380000">12:53:00</stop>
+      <stop tag="creccent" epochTime="46560000">12:56:00</stop>
+      <stop tag="ndec" epochTime="46800000">13:00:00</stop>
+      <stop tag="14thbusy_a" epochTime="47160000">13:06:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="47400000">13:10:00</stop>
+      <stop tag="creccent" epochTime="47580000">13:13:00</stop>
+      <stop tag="ndec" epochTime="47820000">13:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="48180000">13:23:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="47400000">13:10:00</stop>
+      <stop tag="creccent" epochTime="47580000">13:13:00</stop>
+      <stop tag="ndec" epochTime="47820000">13:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="48180000">13:23:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="48180000">13:23:00</stop>
+      <stop tag="creccent" epochTime="48360000">13:26:00</stop>
+      <stop tag="ndec" epochTime="48600000">13:30:00</stop>
+      <stop tag="14thbusy_a" epochTime="48960000">13:36:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="49200000">13:40:00</stop>
+      <stop tag="creccent" epochTime="49380000">13:43:00</stop>
+      <stop tag="ndec" epochTime="49620000">13:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="49980000">13:53:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="49200000">13:40:00</stop>
+      <stop tag="creccent" epochTime="49380000">13:43:00</stop>
+      <stop tag="ndec" epochTime="49620000">13:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="49980000">13:53:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="49980000">13:53:00</stop>
+      <stop tag="creccent" epochTime="50160000">13:56:00</stop>
+      <stop tag="ndec" epochTime="50400000">14:00:00</stop>
+      <stop tag="14thbusy_a" epochTime="50760000">14:06:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="51000000">14:10:00</stop>
+      <stop tag="creccent" epochTime="51180000">14:13:00</stop>
+      <stop tag="ndec" epochTime="51420000">14:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="51780000">14:23:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="51000000">14:10:00</stop>
+      <stop tag="creccent" epochTime="51180000">14:13:00</stop>
+      <stop tag="ndec" epochTime="51420000">14:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="51780000">14:23:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="51780000">14:23:00</stop>
+      <stop tag="creccent" epochTime="51960000">14:26:00</stop>
+      <stop tag="ndec" epochTime="52200000">14:30:00</stop>
+      <stop tag="14thbusy_a" epochTime="52560000">14:36:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="52800000">14:40:00</stop>
+      <stop tag="creccent" epochTime="52980000">14:43:00</stop>
+      <stop tag="ndec" epochTime="53220000">14:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="53580000">14:53:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="52800000">14:40:00</stop>
+      <stop tag="creccent" epochTime="52980000">14:43:00</stop>
+      <stop tag="ndec" epochTime="53220000">14:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="53580000">14:53:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="53580000">14:53:00</stop>
+      <stop tag="creccent" epochTime="53760000">14:56:00</stop>
+      <stop tag="ndec" epochTime="54000000">15:00:00</stop>
+      <stop tag="14thbusy_a" epochTime="54360000">15:06:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="54600000">15:10:00</stop>
+      <stop tag="creccent" epochTime="54780000">15:13:00</stop>
+      <stop tag="ndec" epochTime="55020000">15:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="55380000">15:23:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="54600000">15:10:00</stop>
+      <stop tag="creccent" epochTime="54780000">15:13:00</stop>
+      <stop tag="ndec" epochTime="55020000">15:17:00</stop>
+      <stop tag="14thbusy_a" epochTime="55380000">15:23:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="55380000">15:23:00</stop>
+      <stop tag="creccent" epochTime="55560000">15:26:00</stop>
+      <stop tag="ndec" epochTime="55800000">15:30:00</stop>
+      <stop tag="14thbusy_a" epochTime="56160000">15:36:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="56400000">15:40:00</stop>
+      <stop tag="creccent" epochTime="56580000">15:43:00</stop>
+      <stop tag="ndec" epochTime="56820000">15:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="57180000">15:53:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="56400000">15:40:00</stop>
+      <stop tag="creccent" epochTime="56580000">15:43:00</stop>
+      <stop tag="ndec" epochTime="56820000">15:47:00</stop>
+      <stop tag="14thbusy_a" epochTime="57180000">15:53:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="57180000">15:53:00</stop>
+      <stop tag="creccent" epochTime="57360000">15:56:00</stop>
+      <stop tag="ndec" epochTime="57600000">16:00:00</stop>
+      <stop tag="14thbusy_a" epochTime="57960000">16:06:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="tranhub" epochTime="57960000">16:06:00</stop>
+      <stop tag="creccent" epochTime="58140000">16:09:00</stop>
+      <stop tag="ndec" epochTime="58440000">16:14:00</stop>
+      <stop tag="14thbusy_a" epochTime="58800000">16:20:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="58800000">16:20:00</stop>
+      <stop tag="creccent" epochTime="58980000">16:23:00</stop>
+      <stop tag="ndec" epochTime="59280000">16:28:00</stop>
+      <stop tag="14thbusy_a" epochTime="59640000">16:34:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="58800000">16:20:00</stop>
+      <stop tag="creccent" epochTime="58980000">16:23:00</stop>
+      <stop tag="ndec" epochTime="59280000">16:28:00</stop>
+      <stop tag="14thbusy_a" epochTime="59640000">16:34:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="59580000">16:33:00</stop>
+      <stop tag="creccent" epochTime="59760000">16:36:00</stop>
+      <stop tag="ndec" epochTime="60060000">16:41:00</stop>
+      <stop tag="14thbusy_a" epochTime="60420000">16:47:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="tranhub" epochTime="60360000">16:46:00</stop>
+      <stop tag="creccent" epochTime="60540000">16:49:00</stop>
+      <stop tag="ndec" epochTime="60840000">16:54:00</stop>
+      <stop tag="14thbusy_a" epochTime="61200000">17:00:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="61200000">17:00:00</stop>
+      <stop tag="creccent" epochTime="61380000">17:03:00</stop>
+      <stop tag="ndec" epochTime="61680000">17:08:00</stop>
+      <stop tag="14thbusy_a" epochTime="62040000">17:14:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="61200000">17:00:00</stop>
+      <stop tag="creccent" epochTime="61380000">17:03:00</stop>
+      <stop tag="ndec" epochTime="61680000">17:08:00</stop>
+      <stop tag="14thbusy_a" epochTime="62040000">17:14:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="tranhub" epochTime="61980000">17:13:00</stop>
+      <stop tag="creccent" epochTime="62160000">17:16:00</stop>
+      <stop tag="ndec" epochTime="62460000">17:21:00</stop>
+      <stop tag="14thbusy_a" epochTime="62820000">17:27:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="tranhub" epochTime="62760000">17:26:00</stop>
+      <stop tag="creccent" epochTime="62940000">17:29:00</stop>
+      <stop tag="ndec" epochTime="63240000">17:34:00</stop>
+      <stop tag="14thbusy_a" epochTime="63600000">17:40:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="63600000">17:40:00</stop>
+      <stop tag="creccent" epochTime="63780000">17:43:00</stop>
+      <stop tag="ndec" epochTime="64080000">17:48:00</stop>
+      <stop tag="14thbusy_a" epochTime="64440000">17:54:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="63600000">17:40:00</stop>
+      <stop tag="creccent" epochTime="63780000">17:43:00</stop>
+      <stop tag="ndec" epochTime="64080000">17:48:00</stop>
+      <stop tag="14thbusy_a" epochTime="64440000">17:54:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="tranhub" epochTime="65160000">18:06:00</stop>
+      <stop tag="creccent" epochTime="65340000">18:09:00</stop>
+      <stop tag="ndec" epochTime="65640000">18:14:00</stop>
+      <stop tag="14thbusy_a" epochTime="66000000">18:20:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="66000000">18:20:00</stop>
+      <stop tag="creccent" epochTime="66180000">18:23:00</stop>
+      <stop tag="ndec" epochTime="66480000">18:28:00</stop>
+      <stop tag="14thbusy_a" epochTime="66840000">18:34:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="66000000">18:20:00</stop>
+      <stop tag="creccent" epochTime="66180000">18:23:00</stop>
+      <stop tag="ndec" epochTime="66480000">18:28:00</stop>
+      <stop tag="14thbusy_a" epochTime="66840000">18:34:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="tranhub" epochTime="67560000">18:46:00</stop>
+      <stop tag="creccent" epochTime="67740000">18:49:00</stop>
+      <stop tag="ndec" epochTime="68040000">18:54:00</stop>
+      <stop tag="14thbusy_a" epochTime="68400000">19:00:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="68400000">19:00:00</stop>
+      <stop tag="creccent" epochTime="68580000">19:03:00</stop>
+      <stop tag="ndec" epochTime="68820000">19:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="69180000">19:13:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="68400000">19:00:00</stop>
+      <stop tag="creccent" epochTime="68580000">19:03:00</stop>
+      <stop tag="ndec" epochTime="68820000">19:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="69180000">19:13:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="70200000">19:30:00</stop>
+      <stop tag="creccent" epochTime="70380000">19:33:00</stop>
+      <stop tag="ndec" epochTime="70620000">19:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="70980000">19:43:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="70200000">19:30:00</stop>
+      <stop tag="creccent" epochTime="70380000">19:33:00</stop>
+      <stop tag="ndec" epochTime="70620000">19:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="70980000">19:43:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="72000000">20:00:00</stop>
+      <stop tag="creccent" epochTime="72180000">20:03:00</stop>
+      <stop tag="ndec" epochTime="72420000">20:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="72780000">20:13:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="72000000">20:00:00</stop>
+      <stop tag="creccent" epochTime="72180000">20:03:00</stop>
+      <stop tag="ndec" epochTime="72420000">20:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="72780000">20:13:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="tranhub" epochTime="73800000">20:30:00</stop>
+      <stop tag="creccent" epochTime="73980000">20:33:00</stop>
+      <stop tag="ndec" epochTime="74220000">20:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="74580000">20:43:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="73800000">20:30:00</stop>
+      <stop tag="creccent" epochTime="73980000">20:33:00</stop>
+      <stop tag="ndec" epochTime="74220000">20:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="74580000">20:43:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="75600000">21:00:00</stop>
+      <stop tag="creccent" epochTime="75780000">21:03:00</stop>
+      <stop tag="ndec" epochTime="76020000">21:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="76380000">21:13:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="77400000">21:30:00</stop>
+      <stop tag="creccent" epochTime="77580000">21:33:00</stop>
+      <stop tag="ndec" epochTime="77820000">21:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="78180000">21:43:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="79200000">22:00:00</stop>
+      <stop tag="creccent" epochTime="79380000">22:03:00</stop>
+      <stop tag="ndec" epochTime="79620000">22:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="79980000">22:13:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="81000000">22:30:00</stop>
+      <stop tag="creccent" epochTime="81180000">22:33:00</stop>
+      <stop tag="ndec" epochTime="81420000">22:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="81780000">22:43:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="82800000">23:00:00</stop>
+      <stop tag="creccent" epochTime="82980000">23:03:00</stop>
+      <stop tag="ndec" epochTime="83220000">23:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="83580000">23:13:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="84600000">23:30:00</stop>
+      <stop tag="creccent" epochTime="84780000">23:33:00</stop>
+      <stop tag="ndec" epochTime="85020000">23:37:00</stop>
+      <stop tag="14thbusy_a" epochTime="85380000">23:43:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="tranhub" epochTime="86400000">00:00:00</stop>
+      <stop tag="creccent" epochTime="86580000">00:03:00</stop>
+      <stop tag="ndec" epochTime="86820000">00:07:00</stop>
+      <stop tag="14thbusy_a" epochTime="87180000">00:13:00</stop>
+    </tr>
+  </route>
+  <route tag="green" title="Green" scheduleClass="full" serviceClass="mtwth" direction="hub">
+    <header>
+      <stop tag="14thbusy_d">14th St Bus Yard - Hidden Departure</stop>
+      <stop tag="glc">GLC</stop>
+      <stop tag="fershemp_ob">Ferst Dr &amp; Hemphill Ave</stop>
+      <stop tag="tranhub_a">Transit HUB - Arrival</stop>
+    </header>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="24180000">06:43:00</stop>
+      <stop tag="glc" epochTime="24600000">06:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="24840000">06:54:00</stop>
+      <stop tag="tranhub_a" epochTime="25020000">06:57:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="24180000">06:43:00</stop>
+      <stop tag="glc" epochTime="24600000">06:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="24840000">06:54:00</stop>
+      <stop tag="tranhub_a" epochTime="25020000">06:57:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="25980000">07:13:00</stop>
+      <stop tag="glc" epochTime="26400000">07:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="26640000">07:24:00</stop>
+      <stop tag="tranhub_a" epochTime="26820000">07:27:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="25980000">07:13:00</stop>
+      <stop tag="glc" epochTime="26400000">07:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="26640000">07:24:00</stop>
+      <stop tag="tranhub_a" epochTime="26820000">07:27:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="27780000">07:43:00</stop>
+      <stop tag="glc" epochTime="28560000">07:56:00</stop>
+      <stop tag="fershemp_ob" epochTime="28860000">08:01:00</stop>
+      <stop tag="tranhub_a" epochTime="29220000">08:07:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="27780000">07:43:00</stop>
+      <stop tag="glc" epochTime="28560000">07:56:00</stop>
+      <stop tag="fershemp_ob" epochTime="28860000">08:01:00</stop>
+      <stop tag="tranhub_a" epochTime="29220000">08:07:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="28620000">07:57:00</stop>
+      <stop tag="glc" epochTime="29340000">08:09:00</stop>
+      <stop tag="fershemp_ob" epochTime="29640000">08:14:00</stop>
+      <stop tag="tranhub_a" epochTime="30000000">08:20:00</stop>
+    </tr>
+    <tr blockID="0403">
+      <stop tag="14thbusy_d" epochTime="29400000">08:10:00</stop>
+      <stop tag="glc" epochTime="30120000">08:22:00</stop>
+      <stop tag="fershemp_ob" epochTime="30420000">08:27:00</stop>
+      <stop tag="tranhub_a" epochTime="30780000">08:33:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="30240000">08:24:00</stop>
+      <stop tag="glc" epochTime="30960000">08:36:00</stop>
+      <stop tag="fershemp_ob" epochTime="31260000">08:41:00</stop>
+      <stop tag="tranhub_a" epochTime="31620000">08:47:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="30240000">08:24:00</stop>
+      <stop tag="glc" epochTime="30960000">08:36:00</stop>
+      <stop tag="fershemp_ob" epochTime="31260000">08:41:00</stop>
+      <stop tag="tranhub_a" epochTime="31620000">08:47:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="31020000">08:37:00</stop>
+      <stop tag="glc" epochTime="31740000">08:49:00</stop>
+      <stop tag="fershemp_ob" epochTime="32040000">08:54:00</stop>
+      <stop tag="tranhub_a" epochTime="32400000">09:00:00</stop>
+    </tr>
+    <tr blockID="0403">
+      <stop tag="14thbusy_d" epochTime="31800000">08:50:00</stop>
+      <stop tag="glc" epochTime="32520000">09:02:00</stop>
+      <stop tag="fershemp_ob" epochTime="32820000">09:07:00</stop>
+      <stop tag="tranhub_a" epochTime="33180000">09:13:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="32640000">09:04:00</stop>
+      <stop tag="glc" epochTime="33360000">09:16:00</stop>
+      <stop tag="fershemp_ob" epochTime="33660000">09:21:00</stop>
+      <stop tag="tranhub_a" epochTime="34020000">09:27:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="32640000">09:04:00</stop>
+      <stop tag="glc" epochTime="33360000">09:16:00</stop>
+      <stop tag="fershemp_ob" epochTime="33660000">09:21:00</stop>
+      <stop tag="tranhub_a" epochTime="34020000">09:27:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="33420000">09:17:00</stop>
+      <stop tag="glc" epochTime="34140000">09:29:00</stop>
+      <stop tag="fershemp_ob" epochTime="34440000">09:34:00</stop>
+      <stop tag="tranhub_a" epochTime="34800000">09:40:00</stop>
+    </tr>
+    <tr blockID="0403">
+      <stop tag="14thbusy_d" epochTime="34200000">09:30:00</stop>
+      <stop tag="glc" epochTime="34920000">09:42:00</stop>
+      <stop tag="fershemp_ob" epochTime="35220000">09:47:00</stop>
+      <stop tag="tranhub_a" epochTime="35580000">09:53:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="35040000">09:44:00</stop>
+      <stop tag="glc" epochTime="35760000">09:56:00</stop>
+      <stop tag="fershemp_ob" epochTime="36060000">10:01:00</stop>
+      <stop tag="tranhub_a" epochTime="36420000">10:07:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="35040000">09:44:00</stop>
+      <stop tag="glc" epochTime="35760000">09:56:00</stop>
+      <stop tag="fershemp_ob" epochTime="36060000">10:01:00</stop>
+      <stop tag="tranhub_a" epochTime="36420000">10:07:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="35820000">09:57:00</stop>
+      <stop tag="glc" epochTime="36540000">10:09:00</stop>
+      <stop tag="fershemp_ob" epochTime="36840000">10:14:00</stop>
+      <stop tag="tranhub_a" epochTime="37200000">10:20:00</stop>
+    </tr>
+    <tr blockID="0403">
+      <stop tag="14thbusy_d" epochTime="36600000">10:10:00</stop>
+      <stop tag="glc" epochTime="37320000">10:22:00</stop>
+      <stop tag="fershemp_ob" epochTime="37620000">10:27:00</stop>
+      <stop tag="tranhub_a" epochTime="37980000">10:33:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="37380000">10:23:00</stop>
+      <stop tag="glc" epochTime="37800000">10:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="38040000">10:34:00</stop>
+      <stop tag="tranhub_a" epochTime="38220000">10:37:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="37380000">10:23:00</stop>
+      <stop tag="glc" epochTime="37800000">10:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="38040000">10:34:00</stop>
+      <stop tag="tranhub_a" epochTime="38220000">10:37:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="38160000">10:36:00</stop>
+      <stop tag="glc" epochTime="38580000">10:43:00</stop>
+      <stop tag="fershemp_ob" epochTime="38820000">10:47:00</stop>
+      <stop tag="tranhub_a" epochTime="39000000">10:50:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="39180000">10:53:00</stop>
+      <stop tag="glc" epochTime="39600000">11:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="39840000">11:04:00</stop>
+      <stop tag="tranhub_a" epochTime="40020000">11:07:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="39180000">10:53:00</stop>
+      <stop tag="glc" epochTime="39600000">11:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="39840000">11:04:00</stop>
+      <stop tag="tranhub_a" epochTime="40020000">11:07:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="39960000">11:06:00</stop>
+      <stop tag="glc" epochTime="40380000">11:13:00</stop>
+      <stop tag="fershemp_ob" epochTime="40620000">11:17:00</stop>
+      <stop tag="tranhub_a" epochTime="40800000">11:20:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="40980000">11:23:00</stop>
+      <stop tag="glc" epochTime="41400000">11:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="41640000">11:34:00</stop>
+      <stop tag="tranhub_a" epochTime="41820000">11:37:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="40980000">11:23:00</stop>
+      <stop tag="glc" epochTime="41400000">11:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="41640000">11:34:00</stop>
+      <stop tag="tranhub_a" epochTime="41820000">11:37:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="41760000">11:36:00</stop>
+      <stop tag="glc" epochTime="42180000">11:43:00</stop>
+      <stop tag="fershemp_ob" epochTime="42420000">11:47:00</stop>
+      <stop tag="tranhub_a" epochTime="42600000">11:50:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="42780000">11:53:00</stop>
+      <stop tag="glc" epochTime="43200000">12:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="43440000">12:04:00</stop>
+      <stop tag="tranhub_a" epochTime="43620000">12:07:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="42780000">11:53:00</stop>
+      <stop tag="glc" epochTime="43200000">12:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="43440000">12:04:00</stop>
+      <stop tag="tranhub_a" epochTime="43620000">12:07:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="43560000">12:06:00</stop>
+      <stop tag="glc" epochTime="43980000">12:13:00</stop>
+      <stop tag="fershemp_ob" epochTime="44220000">12:17:00</stop>
+      <stop tag="tranhub_a" epochTime="44400000">12:20:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="44580000">12:23:00</stop>
+      <stop tag="glc" epochTime="45000000">12:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="45240000">12:34:00</stop>
+      <stop tag="tranhub_a" epochTime="45420000">12:37:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="44580000">12:23:00</stop>
+      <stop tag="glc" epochTime="45000000">12:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="45240000">12:34:00</stop>
+      <stop tag="tranhub_a" epochTime="45420000">12:37:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="45360000">12:36:00</stop>
+      <stop tag="glc" epochTime="45780000">12:43:00</stop>
+      <stop tag="fershemp_ob" epochTime="46020000">12:47:00</stop>
+      <stop tag="tranhub_a" epochTime="46200000">12:50:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="46380000">12:53:00</stop>
+      <stop tag="glc" epochTime="46800000">13:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="47040000">13:04:00</stop>
+      <stop tag="tranhub_a" epochTime="47220000">13:07:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="46380000">12:53:00</stop>
+      <stop tag="glc" epochTime="46800000">13:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="47040000">13:04:00</stop>
+      <stop tag="tranhub_a" epochTime="47220000">13:07:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="47160000">13:06:00</stop>
+      <stop tag="glc" epochTime="47580000">13:13:00</stop>
+      <stop tag="fershemp_ob" epochTime="47820000">13:17:00</stop>
+      <stop tag="tranhub_a" epochTime="48000000">13:20:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="48180000">13:23:00</stop>
+      <stop tag="glc" epochTime="48600000">13:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="48840000">13:34:00</stop>
+      <stop tag="tranhub_a" epochTime="49020000">13:37:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="48180000">13:23:00</stop>
+      <stop tag="glc" epochTime="48600000">13:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="48840000">13:34:00</stop>
+      <stop tag="tranhub_a" epochTime="49020000">13:37:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="48960000">13:36:00</stop>
+      <stop tag="glc" epochTime="49380000">13:43:00</stop>
+      <stop tag="fershemp_ob" epochTime="49620000">13:47:00</stop>
+      <stop tag="tranhub_a" epochTime="49800000">13:50:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="49980000">13:53:00</stop>
+      <stop tag="glc" epochTime="50400000">14:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="50640000">14:04:00</stop>
+      <stop tag="tranhub_a" epochTime="50820000">14:07:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="49980000">13:53:00</stop>
+      <stop tag="glc" epochTime="50400000">14:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="50640000">14:04:00</stop>
+      <stop tag="tranhub_a" epochTime="50820000">14:07:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="50760000">14:06:00</stop>
+      <stop tag="glc" epochTime="51180000">14:13:00</stop>
+      <stop tag="fershemp_ob" epochTime="51420000">14:17:00</stop>
+      <stop tag="tranhub_a" epochTime="51600000">14:20:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="51780000">14:23:00</stop>
+      <stop tag="glc" epochTime="52200000">14:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="52440000">14:34:00</stop>
+      <stop tag="tranhub_a" epochTime="52620000">14:37:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="51780000">14:23:00</stop>
+      <stop tag="glc" epochTime="52200000">14:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="52440000">14:34:00</stop>
+      <stop tag="tranhub_a" epochTime="52620000">14:37:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="52560000">14:36:00</stop>
+      <stop tag="glc" epochTime="52980000">14:43:00</stop>
+      <stop tag="fershemp_ob" epochTime="53220000">14:47:00</stop>
+      <stop tag="tranhub_a" epochTime="53400000">14:50:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="53580000">14:53:00</stop>
+      <stop tag="glc" epochTime="54000000">15:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="54240000">15:04:00</stop>
+      <stop tag="tranhub_a" epochTime="54420000">15:07:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="53580000">14:53:00</stop>
+      <stop tag="glc" epochTime="54000000">15:00:00</stop>
+      <stop tag="fershemp_ob" epochTime="54240000">15:04:00</stop>
+      <stop tag="tranhub_a" epochTime="54420000">15:07:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="54360000">15:06:00</stop>
+      <stop tag="glc" epochTime="54780000">15:13:00</stop>
+      <stop tag="fershemp_ob" epochTime="55020000">15:17:00</stop>
+      <stop tag="tranhub_a" epochTime="55200000">15:20:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="55380000">15:23:00</stop>
+      <stop tag="glc" epochTime="55800000">15:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="56040000">15:34:00</stop>
+      <stop tag="tranhub_a" epochTime="56220000">15:37:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="55380000">15:23:00</stop>
+      <stop tag="glc" epochTime="55800000">15:30:00</stop>
+      <stop tag="fershemp_ob" epochTime="56040000">15:34:00</stop>
+      <stop tag="tranhub_a" epochTime="56220000">15:37:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="56160000">15:36:00</stop>
+      <stop tag="glc" epochTime="56580000">15:43:00</stop>
+      <stop tag="fershemp_ob" epochTime="56820000">15:47:00</stop>
+      <stop tag="tranhub_a" epochTime="57000000">15:50:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="57180000">15:53:00</stop>
+      <stop tag="glc" epochTime="57960000">16:06:00</stop>
+      <stop tag="fershemp_ob" epochTime="58260000">16:11:00</stop>
+      <stop tag="tranhub_a" epochTime="58620000">16:17:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="57180000">15:53:00</stop>
+      <stop tag="glc" epochTime="57960000">16:06:00</stop>
+      <stop tag="fershemp_ob" epochTime="58260000">16:11:00</stop>
+      <stop tag="tranhub_a" epochTime="58620000">16:17:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="57960000">16:06:00</stop>
+      <stop tag="glc" epochTime="58740000">16:19:00</stop>
+      <stop tag="fershemp_ob" epochTime="59040000">16:24:00</stop>
+      <stop tag="tranhub_a" epochTime="59400000">16:30:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="14thbusy_d" epochTime="58800000">16:20:00</stop>
+      <stop tag="glc" epochTime="59520000">16:32:00</stop>
+      <stop tag="fershemp_ob" epochTime="59820000">16:37:00</stop>
+      <stop tag="tranhub_a" epochTime="60180000">16:43:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="59640000">16:34:00</stop>
+      <stop tag="glc" epochTime="60360000">16:46:00</stop>
+      <stop tag="fershemp_ob" epochTime="60660000">16:51:00</stop>
+      <stop tag="tranhub_a" epochTime="61020000">16:57:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="59640000">16:34:00</stop>
+      <stop tag="glc" epochTime="60360000">16:46:00</stop>
+      <stop tag="fershemp_ob" epochTime="60660000">16:51:00</stop>
+      <stop tag="tranhub_a" epochTime="61020000">16:57:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="60420000">16:47:00</stop>
+      <stop tag="glc" epochTime="61140000">16:59:00</stop>
+      <stop tag="fershemp_ob" epochTime="61440000">17:04:00</stop>
+      <stop tag="tranhub_a" epochTime="61800000">17:10:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="14thbusy_d" epochTime="61200000">17:00:00</stop>
+      <stop tag="glc" epochTime="61920000">17:12:00</stop>
+      <stop tag="fershemp_ob" epochTime="62220000">17:17:00</stop>
+      <stop tag="tranhub_a" epochTime="62580000">17:23:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="62040000">17:14:00</stop>
+      <stop tag="glc" epochTime="62760000">17:26:00</stop>
+      <stop tag="fershemp_ob" epochTime="63060000">17:31:00</stop>
+      <stop tag="tranhub_a" epochTime="63420000">17:37:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="62040000">17:14:00</stop>
+      <stop tag="glc" epochTime="62760000">17:26:00</stop>
+      <stop tag="fershemp_ob" epochTime="63060000">17:31:00</stop>
+      <stop tag="tranhub_a" epochTime="63420000">17:37:00</stop>
+    </tr>
+    <tr blockID="0402">
+      <stop tag="14thbusy_d" epochTime="62820000">17:27:00</stop>
+      <stop tag="glc" epochTime="63540000">17:39:00</stop>
+      <stop tag="fershemp_ob" epochTime="63840000">17:44:00</stop>
+      <stop tag="tranhub_a" epochTime="64200000">17:50:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="14thbusy_d" epochTime="63600000">17:40:00</stop>
+      <stop tag="glc" epochTime="64320000">17:52:00</stop>
+      <stop tag="fershemp_ob" epochTime="64620000">17:57:00</stop>
+      <stop tag="tranhub_a" epochTime="64980000">18:03:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="64440000">17:54:00</stop>
+      <stop tag="glc" epochTime="65160000">18:06:00</stop>
+      <stop tag="fershemp_ob" epochTime="65460000">18:11:00</stop>
+      <stop tag="tranhub_a" epochTime="65820000">18:17:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="64440000">17:54:00</stop>
+      <stop tag="glc" epochTime="65160000">18:06:00</stop>
+      <stop tag="fershemp_ob" epochTime="65460000">18:11:00</stop>
+      <stop tag="tranhub_a" epochTime="65820000">18:17:00</stop>
+    </tr>
+    <tr blockID="0404">
+      <stop tag="14thbusy_d" epochTime="66000000">18:20:00</stop>
+      <stop tag="glc" epochTime="66720000">18:32:00</stop>
+      <stop tag="fershemp_ob" epochTime="67020000">18:37:00</stop>
+      <stop tag="tranhub_a" epochTime="67380000">18:43:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="66840000">18:34:00</stop>
+      <stop tag="glc" epochTime="67560000">18:46:00</stop>
+      <stop tag="fershemp_ob" epochTime="67860000">18:51:00</stop>
+      <stop tag="tranhub_a" epochTime="68220000">18:57:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="66840000">18:34:00</stop>
+      <stop tag="glc" epochTime="67560000">18:46:00</stop>
+      <stop tag="fershemp_ob" epochTime="67860000">18:51:00</stop>
+      <stop tag="tranhub_a" epochTime="68220000">18:57:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="69180000">19:13:00</stop>
+      <stop tag="glc" epochTime="69600000">19:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="69840000">19:24:00</stop>
+      <stop tag="tranhub_a" epochTime="70020000">19:27:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="69180000">19:13:00</stop>
+      <stop tag="glc" epochTime="69600000">19:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="69840000">19:24:00</stop>
+      <stop tag="tranhub_a" epochTime="70020000">19:27:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="70980000">19:43:00</stop>
+      <stop tag="glc" epochTime="71400000">19:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="71640000">19:54:00</stop>
+      <stop tag="tranhub_a" epochTime="71820000">19:57:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="70980000">19:43:00</stop>
+      <stop tag="glc" epochTime="71400000">19:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="71640000">19:54:00</stop>
+      <stop tag="tranhub_a" epochTime="71820000">19:57:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="72780000">20:13:00</stop>
+      <stop tag="glc" epochTime="73200000">20:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="73440000">20:24:00</stop>
+      <stop tag="tranhub_a" epochTime="73620000">20:27:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="72780000">20:13:00</stop>
+      <stop tag="glc" epochTime="73200000">20:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="73440000">20:24:00</stop>
+      <stop tag="tranhub_a" epochTime="73620000">20:27:00</stop>
+    </tr>
+    <tr blockID="0401">
+      <stop tag="14thbusy_d" epochTime="74580000">20:43:00</stop>
+      <stop tag="glc" epochTime="75000000">20:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="75240000">20:54:00</stop>
+      <stop tag="tranhub_a" epochTime="75420000">20:57:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="74580000">20:43:00</stop>
+      <stop tag="glc" epochTime="75000000">20:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="75240000">20:54:00</stop>
+      <stop tag="tranhub_a" epochTime="75420000">20:57:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="76380000">21:13:00</stop>
+      <stop tag="glc" epochTime="76800000">21:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="77040000">21:24:00</stop>
+      <stop tag="tranhub_a" epochTime="77220000">21:27:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="78180000">21:43:00</stop>
+      <stop tag="glc" epochTime="78600000">21:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="78840000">21:54:00</stop>
+      <stop tag="tranhub_a" epochTime="79020000">21:57:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="79980000">22:13:00</stop>
+      <stop tag="glc" epochTime="80400000">22:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="80640000">22:24:00</stop>
+      <stop tag="tranhub_a" epochTime="80820000">22:27:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="81780000">22:43:00</stop>
+      <stop tag="glc" epochTime="82200000">22:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="82440000">22:54:00</stop>
+      <stop tag="tranhub_a" epochTime="82620000">22:57:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="83580000">23:13:00</stop>
+      <stop tag="glc" epochTime="84000000">23:20:00</stop>
+      <stop tag="fershemp_ob" epochTime="84240000">23:24:00</stop>
+      <stop tag="tranhub_a" epochTime="84420000">23:27:00</stop>
+    </tr>
+    <tr blockID="0405">
+      <stop tag="14thbusy_d" epochTime="85380000">23:43:00</stop>
+      <stop tag="glc" epochTime="85800000">23:50:00</stop>
+      <stop tag="fershemp_ob" epochTime="86040000">23:54:00</stop>
+      <stop tag="tranhub_a" epochTime="86220000">23:57:00</stop>
+    </tr>
+  </route>
+<keyForNextTime value="355298937382" />
+</body>

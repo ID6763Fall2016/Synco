@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<body copyright="All data copyright Georgia Tech Campus 2016.">
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Red" routeTag="red" stopTitle="Ferst Dr &amp; Fowler St" stopTag="fersfowl">
+  <direction title="North Ave Apts">
+  <prediction epochTime="1477322172120" seconds="385" minutes="6" isDeparture="false" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477322473410" seconds="686" minutes="11" isDeparture="false" dirTag="naveapts" vehicle="436" block="0202" />
+  <prediction epochTime="1477322600739" seconds="814" minutes="13" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  <prediction epochTime="1477323533852" seconds="1747" minutes="29" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477323893852" seconds="2107" minutes="35" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Red" routeTag="red" stopTitle="Klaus Building" stopTag="klaubldg">
+  <direction title="North Ave Apts">
+  <prediction epochTime="1477322125470" seconds="338" minutes="5" isDeparture="false" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477322426760" seconds="640" minutes="10" isDeparture="false" dirTag="naveapts" vehicle="436" block="0202" />
+  <prediction epochTime="1477322554089" seconds="767" minutes="12" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  <prediction epochTime="1477323487202" seconds="1700" minutes="28" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477323847202" seconds="2060" minutes="34" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Red" routeTag="red" stopTitle="Techwood Dr &amp; 4th St" stopTag="tech4th">
+  <direction title="North Ave Apts">
+  <prediction epochTime="1477322249767" seconds="463" minutes="7" isDeparture="false" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477322551057" seconds="764" minutes="12" isDeparture="false" dirTag="naveapts" vehicle="436" block="0202" />
+  <prediction epochTime="1477322678386" seconds="891" minutes="14" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  <prediction epochTime="1477323611499" seconds="1824" minutes="30" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477323971499" seconds="2184" minutes="36" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Red" routeTag="red" stopTitle="North Avenue Apartments - Arrival" stopTag="naveapts_a">
+  <direction title="North Ave Apts">
+  <prediction epochTime="1477321876804" seconds="90" minutes="1" isDeparture="false" dirTag="naveapts" vehicle="753" block="0202" />
+  <prediction epochTime="1477322379054" seconds="592" minutes="9" isDeparture="false" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477322680344" seconds="893" minutes="14" isDeparture="false" dirTag="naveapts" vehicle="436" block="0202" />
+  <prediction epochTime="1477322807673" seconds="1021" minutes="17" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  <prediction epochTime="1477323740786" seconds="1954" minutes="32" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="440" block="0201" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Red" routeTag="red" stopTitle="McMillian St &amp; 8th St" stopTag="mcmil8th">
+  <direction title="North Ave Apts">
+  <prediction epochTime="1477321883353" seconds="96" minutes="1" isDeparture="false" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477322184643" seconds="398" minutes="6" isDeparture="false" dirTag="naveapts" vehicle="436" block="0202" />
+  <prediction epochTime="1477322311972" seconds="525" minutes="8" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  <prediction epochTime="1477323245085" seconds="1458" minutes="24" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477323605085" seconds="1818" minutes="30" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Red" routeTag="red" stopTitle="Recreation Center" stopTag="creccent">
+  <direction title="Fitten Hall">
+  <prediction epochTime="1477322036451" seconds="249" minutes="4" isDeparture="false" dirTag="fitthall" vehicle="436" block="0202" />
+  <prediction epochTime="1477322163780" seconds="377" minutes="6" isDeparture="false" affectedByLayover="true" dirTag="fitthall" vehicle="753" block="0202" />
+  <prediction epochTime="1477323096893" seconds="1310" minutes="21" isDeparture="false" affectedByLayover="true" dirTag="fitthall" vehicle="440" block="0201" />
+  <prediction epochTime="1477323456893" seconds="1670" minutes="27" isDeparture="false" affectedByLayover="true" dirTag="fitthall" vehicle="753" block="0202" />
+  <prediction epochTime="1477323456893" seconds="1670" minutes="27" isDeparture="false" affectedByLayover="true" dirTag="fitthall" vehicle="436" block="0202" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Red" routeTag="red" stopTitle="Ferst Dr &amp; Hemphill Ave" stopTag="fershemp">
+  <direction title="North Ave Apts">
+  <prediction epochTime="1477321989858" seconds="203" minutes="3" isDeparture="false" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477322291148" seconds="504" minutes="8" isDeparture="false" dirTag="naveapts" vehicle="436" block="0202" />
+  <prediction epochTime="1477322418477" seconds="631" minutes="10" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  <prediction epochTime="1477323351590" seconds="1565" minutes="26" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477323711590" seconds="1925" minutes="32" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  </direction>
+<message text="1. Due to sidewalk reconstruction, bus stop closed temporarily.  Please use bus stops at 8th&amp;Hemphill, or Ferst&amp;Atl., or CRC." priority="Normal"/>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Red" routeTag="red" stopTitle="8th St &amp; Hemphill Ave" stopTag="8thhemp">
+  <direction title="North Ave Apts">
+  <prediction epochTime="1477321934120" seconds="147" minutes="2" isDeparture="false" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477322235410" seconds="448" minutes="7" isDeparture="false" dirTag="naveapts" vehicle="436" block="0202" />
+  <prediction epochTime="1477322362739" seconds="576" minutes="9" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  <prediction epochTime="1477323295852" seconds="1509" minutes="25" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477323655852" seconds="1869" minutes="31" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  </direction>
+<message text="3. Due to roadway reconfiguration, Ferst&amp;State bus stop closed permanently.  Please use bus stop at Ferst&amp;Atlantic or 8th&amp;Hemphill." priority="Normal"/>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Red" routeTag="red" stopTitle="Student Center" stopTag="centrstud">
+  <direction title="Fitten Hall">
+  <prediction epochTime="1477321954138" seconds="167" minutes="2" isDeparture="false" dirTag="fitthall" vehicle="436" block="0202" />
+  <prediction epochTime="1477322081467" seconds="294" minutes="4" isDeparture="false" affectedByLayover="true" dirTag="fitthall" vehicle="753" block="0202" />
+  <prediction epochTime="1477323014580" seconds="1228" minutes="20" isDeparture="false" affectedByLayover="true" dirTag="fitthall" vehicle="440" block="0201" />
+  <prediction epochTime="1477323374580" seconds="1588" minutes="26" isDeparture="false" affectedByLayover="true" dirTag="fitthall" vehicle="753" block="0202" />
+  <prediction epochTime="1477323374580" seconds="1588" minutes="26" isDeparture="false" affectedByLayover="true" dirTag="fitthall" vehicle="436" block="0202" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Red" routeTag="red" stopTitle="Fitten Hall" stopTag="fitthall">
+  <direction title="North Ave Apts">
+  <prediction epochTime="1477321833028" seconds="46" minutes="0" isDeparture="false" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477322134318" seconds="347" minutes="5" isDeparture="false" dirTag="naveapts" vehicle="436" block="0202" />
+  <prediction epochTime="1477322261647" seconds="475" minutes="7" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  <prediction epochTime="1477323194760" seconds="1408" minutes="23" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477323554760" seconds="1768" minutes="29" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Red" routeTag="red" stopTitle="Techwood Dr &amp; North Ave" stopTag="technorth">
+  <direction title="North Ave Apts">
+  <prediction epochTime="1477321833509" seconds="46" minutes="0" isDeparture="false" dirTag="naveapts" vehicle="753" block="0202" />
+  <prediction epochTime="1477322335759" seconds="549" minutes="9" isDeparture="false" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477322637049" seconds="850" minutes="14" isDeparture="false" dirTag="naveapts" vehicle="436" block="0202" />
+  <prediction epochTime="1477322764378" seconds="977" minutes="16" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  <prediction epochTime="1477323697491" seconds="1910" minutes="31" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="440" block="0201" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Red" routeTag="red" stopTitle="HUB/Ferst Dr" stopTag="hubfers">
+  <direction title="Fitten Hall">
+  <prediction epochTime="1477321901467" seconds="114" minutes="1" isDeparture="false" dirTag="fitthall" vehicle="436" block="0202" />
+  <prediction epochTime="1477322028796" seconds="242" minutes="4" isDeparture="false" affectedByLayover="true" dirTag="fitthall" vehicle="753" block="0202" />
+  <prediction epochTime="1477322961909" seconds="1175" minutes="19" isDeparture="false" affectedByLayover="true" dirTag="fitthall" vehicle="440" block="0201" />
+  <prediction epochTime="1477323321909" seconds="1535" minutes="25" isDeparture="false" affectedByLayover="true" dirTag="fitthall" vehicle="436" block="0202" />
+  <prediction epochTime="1477323321909" seconds="1535" minutes="25" isDeparture="false" affectedByLayover="true" dirTag="fitthall" vehicle="753" block="0202" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Red" routeTag="red" stopTitle="Ferst Dr &amp; Atlantic Dr" stopTag="fersatla">
+  <direction title="North Ave Apts">
+  <prediction epochTime="1477322058744" seconds="272" minutes="4" isDeparture="false" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477322360034" seconds="573" minutes="9" isDeparture="false" dirTag="naveapts" vehicle="436" block="0202" />
+  <prediction epochTime="1477322487363" seconds="700" minutes="11" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  <prediction epochTime="1477323420476" seconds="1633" minutes="27" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477323780476" seconds="1993" minutes="33" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Red" routeTag="red" stopTitle="Tech Tower" stopTag="ferstcher">
+  <direction title="Fitten Hall">
+  <prediction epochTime="1477321861317" seconds="74" minutes="1" isDeparture="false" dirTag="fitthall" vehicle="436" block="0202" />
+  <prediction epochTime="1477321988646" seconds="202" minutes="3" isDeparture="false" affectedByLayover="true" dirTag="fitthall" vehicle="753" block="0202" />
+  <prediction epochTime="1477322921759" seconds="1135" minutes="18" isDeparture="false" affectedByLayover="true" dirTag="fitthall" vehicle="440" block="0201" />
+  <prediction epochTime="1477323281759" seconds="1495" minutes="24" isDeparture="false" affectedByLayover="true" dirTag="fitthall" vehicle="753" block="0202" />
+  <prediction epochTime="1477323281759" seconds="1495" minutes="24" isDeparture="false" affectedByLayover="true" dirTag="fitthall" vehicle="436" block="0202" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Red" routeTag="red" stopTitle="Techwood Dr &amp; 5th St" stopTag="tech5th">
+  <direction title="North Ave Apts">
+  <prediction epochTime="1477322211821" seconds="425" minutes="7" isDeparture="false" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477322513111" seconds="726" minutes="12" isDeparture="false" dirTag="naveapts" vehicle="436" block="0202" />
+  <prediction epochTime="1477322640440" seconds="853" minutes="14" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  <prediction epochTime="1477323573553" seconds="1787" minutes="29" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477323933553" seconds="2147" minutes="35" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  </direction>
+</predictions>
+<predictions agencyTitle="Georgia Tech Campus" routeTitle="Red" routeTag="red" stopTitle="Techwood Dr &amp; Bobby Dodd Way" stopTag="techbob">
+  <direction title="North Ave Apts">
+  <prediction epochTime="1477321796461" seconds="9" minutes="0" isDeparture="false" dirTag="naveapts" vehicle="753" block="0202" />
+  <prediction epochTime="1477322298711" seconds="512" minutes="8" isDeparture="false" dirTag="naveapts" vehicle="440" block="0201" />
+  <prediction epochTime="1477322600001" seconds="813" minutes="13" isDeparture="false" dirTag="naveapts" vehicle="436" block="0202" />
+  <prediction epochTime="1477322727330" seconds="940" minutes="15" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="753" block="0202" />
+  <prediction epochTime="1477323660443" seconds="1873" minutes="31" isDeparture="false" affectedByLayover="true" dirTag="naveapts" vehicle="440" block="0201" />
+  </direction>
+</predictions>
+<keyForNextTime value="2844329898973" />
+</body>

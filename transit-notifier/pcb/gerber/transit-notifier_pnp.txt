@@ -1,0 +1,27 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=transit-notifier
+*Date=02:38:42
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;92.1652;-62.5125;90;Bottom;Power
+2;;;76.6574;-34.8769;90;Bottom;Adafruit HUZZAH
+3;;THT;60.2248;-23.4282;180;Bottom;Program (RX/TX)
+4;;THT;28.4748;-36.1282;-90;Bottom;1-16 bus stops
+5;;;47.5249;-36.1095;0;Bottom;Hole2
+6;;;78.0049;-57.7182;0;Bottom;Hole4
+7;;THT;75.4648;-10.7282;90;Bottom;Routes lights
+8;;THT;66.5748;-57.7182;90;Bottom;Stop lights
+9;;;65.3049;-9.45815;0;Bottom;Hole1
+10;;;24.6648;-22.2;-90;Bottom;CAP1188 0x28
+11;;;32.2848;-50.0982;90;Bottom;CAP1188 0x29
+12;;;14.5048;-36.1471;0;Bottom;Hole3

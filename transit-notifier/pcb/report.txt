@@ -1,0 +1,310 @@
+Info: Reading netlist file "/projects/DoIE/Synco/transit-notifier/pcb/transitpcb/transitpcb.net".
+
+Info: Using references to match components and footprints.
+
+Info: Checking netlist component footprint "1k1:/58092D40:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "1k1:/58092D40" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "1k1:/58092D40" pin "1" net name from "" to "Net-(1k1-Pad1)".
+
+Changing component "1k1:/58092D40" pin "2" net name from "" to "C16".
+
+Info: Checking netlist component footprint "1k2:/58090E9A:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "1k2:/58090E9A" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "1k2:/58090E9A" pin "1" net name from "" to "Net-(1k2-Pad1)".
+
+Changing component "1k2:/58090E9A" pin "2" net name from "" to "C1".
+
+Info: Checking netlist component footprint "1k3:/58092D3A:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "1k3:/58092D3A" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "1k3:/58092D3A" pin "1" net name from "" to "Net-(1k3-Pad1)".
+
+Changing component "1k3:/58092D3A" pin "2" net name from "" to "C15".
+
+Info: Checking netlist component footprint "1k4:/58092496:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "1k4:/58092496" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "1k4:/58092496" pin "1" net name from "" to "Net-(1k4-Pad1)".
+
+Changing component "1k4:/58092496" pin "2" net name from "" to "C2".
+
+Info: Checking netlist component footprint "1k5:/58092D34:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "1k5:/58092D34" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "1k5:/58092D34" pin "1" net name from "" to "Net-(1k5-Pad1)".
+
+Changing component "1k5:/58092D34" pin "2" net name from "" to "C14".
+
+Info: Checking netlist component footprint "1k6:/580924CE:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "1k6:/580924CE" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "1k6:/580924CE" pin "1" net name from "" to "Net-(1k6-Pad1)".
+
+Changing component "1k6:/580924CE" pin "2" net name from "" to "C3".
+
+Info: Checking netlist component footprint "1k7:/58092D2E:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "1k7:/58092D2E" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "1k7:/58092D2E" pin "1" net name from "" to "Net-(1k7-Pad1)".
+
+Changing component "1k7:/58092D2E" pin "2" net name from "" to "C13".
+
+Info: Checking netlist component footprint "1k8:/58092503:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "1k8:/58092503" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "1k8:/58092503" pin "1" net name from "" to "Net-(1k8-Pad1)".
+
+Changing component "1k8:/58092503" pin "2" net name from "" to "C4".
+
+Info: Checking netlist component footprint "1k9:/58092D28:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "1k9:/58092D28" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "1k9:/58092D28" pin "1" net name from "" to "Net-(1k9-Pad1)".
+
+Changing component "1k9:/58092D28" pin "2" net name from "" to "C12".
+
+Info: Checking netlist component footprint "1k10:/5809253B:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "1k10:/5809253B" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "1k10:/5809253B" pin "1" net name from "" to "Net-(1k10-Pad1)".
+
+Changing component "1k10:/5809253B" pin "2" net name from "" to "C5".
+
+Info: Checking netlist component footprint "1k11:/58092D22:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "1k11:/58092D22" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "1k11:/58092D22" pin "1" net name from "" to "Net-(1k11-Pad1)".
+
+Changing component "1k11:/58092D22" pin "2" net name from "" to "C11".
+
+Info: Checking netlist component footprint "1k12:/58092576:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "1k12:/58092576" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "1k12:/58092576" pin "1" net name from "" to "Net-(1k12-Pad1)".
+
+Changing component "1k12:/58092576" pin "2" net name from "" to "C6".
+
+Info: Checking netlist component footprint "1k13:/58092D1C:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "1k13:/58092D1C" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "1k13:/58092D1C" pin "1" net name from "" to "Net-(1k13-Pad1)".
+
+Changing component "1k13:/58092D1C" pin "2" net name from "" to "C10".
+
+Info: Checking netlist component footprint "1k14:/580925B4:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "1k14:/580925B4" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "1k14:/580925B4" pin "1" net name from "" to "Net-(1k14-Pad1)".
+
+Changing component "1k14:/580925B4" pin "2" net name from "" to "C7".
+
+Info: Checking netlist component footprint "1k15:/58092D0E:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "1k15:/58092D0E" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "1k15:/58092D0E" pin "1" net name from "" to "Net-(1k15-Pad1)".
+
+Changing component "1k15:/58092D0E" pin "2" net name from "" to "C9".
+
+Info: Checking netlist component footprint "1k16:/580925F5:Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Adding new component "1k16:/580925F5" footprint "Resistors_ThroughHole:Resistor_Horizontal_RM10mm".
+
+Changing component "1k16:/580925F5" pin "1" net name from "" to "Net-(1k16-Pad1)".
+
+Changing component "1k16:/580925F5" pin "2" net name from "" to "C8".
+
+Info: Checking netlist component footprint "CON1:/580951F3:Connect:BARREL_JACK".
+
+Adding new component "CON1:/580951F3" footprint "Connect:BARREL_JACK".
+
+Changing component "CON1:/580951F3" pin "1" net name from "" to "VIN".
+
+Changing component "CON1:/580951F3" pin "2" net name from "" to "GND".
+
+Changing component "CON1:/580951F3" pin "3" net name from "" to "Net-(CON1-Pad3)".
+
+Info: Checking netlist component footprint "P1:/5808F4F0:Pin_Headers:Pin_Header_Straight_1x13".
+
+Adding new component "P1:/5808F4F0" footprint "Pin_Headers:Pin_Header_Straight_1x13".
+
+Changing component "P1:/5808F4F0" pin "1" net name from "" to "V33".
+
+Changing component "P1:/5808F4F0" pin "2" net name from "" to "C8".
+
+Changing component "P1:/5808F4F0" pin "3" net name from "" to "C7".
+
+Changing component "P1:/5808F4F0" pin "4" net name from "" to "C6".
+
+Changing component "P1:/5808F4F0" pin "5" net name from "" to "C5".
+
+Changing component "P1:/5808F4F0" pin "6" net name from "" to "C4".
+
+Changing component "P1:/5808F4F0" pin "7" net name from "" to "C3".
+
+Changing component "P1:/5808F4F0" pin "8" net name from "" to "C2".
+
+Changing component "P1:/5808F4F0" pin "9" net name from "" to "C1".
+
+Changing component "P1:/5808F4F0" pin "10" net name from "" to "V33".
+
+Changing component "P1:/5808F4F0" pin "11" net name from "" to "Net-(P1-Pad11)".
+
+Changing component "P1:/5808F4F0" pin "12" net name from "" to "Net-(P1-Pad12)".
+
+Changing component "P1:/5808F4F0" pin "13" net name from "" to "Net-(P1-Pad13)".
+
+Info: Checking netlist component footprint "P2:/5808F539:Pin_Headers:Pin_Header_Straight_1x13".
+
+Adding new component "P2:/5808F539" footprint "Pin_Headers:Pin_Header_Straight_1x13".
+
+Changing component "P2:/5808F539" pin "1" net name from "" to "SDA".
+
+Changing component "P2:/5808F539" pin "2" net name from "" to "CSK".
+
+Changing component "P2:/5808F539" pin "3" net name from "" to "VIN".
+
+Changing component "P2:/5808F539" pin "4" net name from "" to "GND".
+
+Changing component "P2:/5808F539" pin "5" net name from "" to "Net-(P2-Pad5)".
+
+Changing component "P2:/5808F539" pin "6" net name from "" to "Net-(P2-Pad6)".
+
+Changing component "P2:/5808F539" pin "7" net name from "" to "Net-(P2-Pad7)".
+
+Changing component "P2:/5808F539" pin "8" net name from "" to "Net-(P2-Pad8)".
+
+Changing component "P2:/5808F539" pin "9" net name from "" to "Net-(P2-Pad9)".
+
+Changing component "P2:/5808F539" pin "10" net name from "" to "Net-(P2-Pad10)".
+
+Changing component "P2:/5808F539" pin "11" net name from "" to "Net-(P2-Pad11)".
+
+Changing component "P2:/5808F539" pin "12" net name from "" to "Net-(P2-Pad12)".
+
+Changing component "P2:/5808F539" pin "13" net name from "" to "Net-(P2-Pad13)".
+
+Info: Checking netlist component footprint "P3:/5809201E:Pin_Headers:Pin_Header_Straight_1x13".
+
+Adding new component "P3:/5809201E" footprint "Pin_Headers:Pin_Header_Straight_1x13".
+
+Changing component "P3:/5809201E" pin "1" net name from "" to "SDA".
+
+Changing component "P3:/5809201E" pin "2" net name from "" to "CSK".
+
+Changing component "P3:/5809201E" pin "3" net name from "" to "VIN".
+
+Changing component "P3:/5809201E" pin "4" net name from "" to "GND".
+
+Changing component "P3:/5809201E" pin "5" net name from "" to "Net-(P3-Pad5)".
+
+Changing component "P3:/5809201E" pin "6" net name from "" to "Net-(P3-Pad6)".
+
+Changing component "P3:/5809201E" pin "7" net name from "" to "Net-(P3-Pad7)".
+
+Changing component "P3:/5809201E" pin "8" net name from "" to "Net-(P3-Pad8)".
+
+Changing component "P3:/5809201E" pin "9" net name from "" to "Net-(P3-Pad9)".
+
+Changing component "P3:/5809201E" pin "10" net name from "" to "Net-(P3-Pad10)".
+
+Changing component "P3:/5809201E" pin "11" net name from "" to "Net-(P3-Pad11)".
+
+Changing component "P3:/5809201E" pin "12" net name from "" to "Net-(P3-Pad12)".
+
+Changing component "P3:/5809201E" pin "13" net name from "" to "Net-(P3-Pad13)".
+
+Info: Checking netlist component footprint "P4:/58092018:Pin_Headers:Pin_Header_Straight_1x13".
+
+Adding new component "P4:/58092018" footprint "Pin_Headers:Pin_Header_Straight_1x13".
+
+Changing component "P4:/58092018" pin "1" net name from "" to "ADDR".
+
+Changing component "P4:/58092018" pin "2" net name from "" to "C16".
+
+Changing component "P4:/58092018" pin "3" net name from "" to "C15".
+
+Changing component "P4:/58092018" pin "4" net name from "" to "C14".
+
+Changing component "P4:/58092018" pin "5" net name from "" to "C13".
+
+Changing component "P4:/58092018" pin "6" net name from "" to "C12".
+
+Changing component "P4:/58092018" pin "7" net name from "" to "C11".
+
+Changing component "P4:/58092018" pin "8" net name from "" to "C10".
+
+Changing component "P4:/58092018" pin "9" net name from "" to "C9".
+
+Changing component "P4:/58092018" pin "10" net name from "" to "V33".
+
+Changing component "P4:/58092018" pin "11" net name from "" to "Net-(P4-Pad11)".
+
+Changing component "P4:/58092018" pin "12" net name from "" to "Net-(P4-Pad12)".
+
+Changing component "P4:/58092018" pin "13" net name from "" to "Net-(P4-Pad13)".
+
+Info: Checking netlist component footprint "P5:/5808F5AD:Connect:GS_8x2".
+
+Adding new component "P5:/5808F5AD" footprint "Connect:GS_8x2".
+
+Changing component "P5:/5808F5AD" pin "1" net name from "" to "Net-(1k2-Pad1)".
+
+Changing component "P5:/5808F5AD" pin "2" net name from "" to "Net-(1k1-Pad1)".
+
+Changing component "P5:/5808F5AD" pin "3" net name from "" to "Net-(1k4-Pad1)".
+
+Changing component "P5:/5808F5AD" pin "4" net name from "" to "Net-(1k3-Pad1)".
+
+Changing component "P5:/5808F5AD" pin "5" net name from "" to "Net-(1k6-Pad1)".
+
+Changing component "P5:/5808F5AD" pin "6" net name from "" to "Net-(1k5-Pad1)".
+
+Changing component "P5:/5808F5AD" pin "7" net name from "" to "Net-(1k8-Pad1)".
+
+Changing component "P5:/5808F5AD" pin "8" net name from "" to "Net-(1k7-Pad1)".
+
+Changing component "P5:/5808F5AD" pin "9" net name from "" to "Net-(1k10-Pad1)".
+
+Changing component "P5:/5808F5AD" pin "10" net name from "" to "Net-(1k9-Pad1)".
+
+Changing component "P5:/5808F5AD" pin "11" net name from "" to "Net-(1k12-Pad1)".
+
+Changing component "P5:/5808F5AD" pin "12" net name from "" to "Net-(1k11-Pad1)".
+
+Changing component "P5:/5808F5AD" pin "13" net name from "" to "Net-(1k14-Pad1)".
+
+Changing component "P5:/5808F5AD" pin "14" net name from "" to "Net-(1k13-Pad1)".
+
+Changing component "P5:/5808F5AD" pin "15" net name from "" to "Net-(1k16-Pad1)".
+
+Changing component "P5:/5808F5AD" pin "16" net name from "" to "Net-(1k15-Pad1)".
+
+Info: Checking netlist component footprint "P6:/5808F62F:Pin_Headers:Pin_Header_Straight_1x04".
+
+Adding new component "P6:/5808F62F" footprint "Pin_Headers:Pin_Header_Straight_1x04".
+
+Changing component "P6:/5808F62F" pin "1" net name from "" to "SDA".
+
+Changing component "P6:/5808F62F" pin "2" net name from "" to "SCK".
+
+Changing component "P6:/5808F62F" pin "3" net name from "" to "VIN".
+
+Changing component "P6:/5808F62F" pin "4" net name from "" to "GND".
+

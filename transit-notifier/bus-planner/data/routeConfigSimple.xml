@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<body copyright="All data copyright Georgia Tech Campus 2016.">
+  <route tag="red" title="Red" color="ff1100" oppositeColor="ffffff" latMin="33.7699398" latMax="33.779631" lonMin="-84.4041911" lonMax="-84.3916292">
+    <stop tag="ferstcher" title="Tech Tower" lat="33.7722845" lon="-84.39548" stopId="0012"/>
+    <stop tag="hubfers" title="HUB/Ferst Dr" lat="33.7727399" lon="-84.3970599" stopId="0085"/>
+    <stop tag="centrstud" title="Student Center" lat="33.7734596" lon="-84.3991581" stopId="0044"/>
+    <stop tag="creccent" title="Recreation Center" lat="33.775097" lon="-84.4023891" stopId="0038"/>
+    <stop tag="fitthall" title="Fitten Hall" lat="33.778273" lon="-84.4041911" stopId="0022"/>
+    <stop tag="mcmil8th" title="McMillian St &amp; 8th St" shortTitle="McMillian &amp; 8th" lat="33.779592" lon="-84.4041686" stopId="0030"/>
+    <stop tag="8thhemp" title="8th St &amp; Hemphill Ave" shortTitle="8th &amp; Hemphill" lat="33.779631" lon="-84.4027473" stopId="0006"/>
+    <stop tag="fershemp" title="Ferst Dr &amp; Hemphill Ave" shortTitle="Ferst Dr &amp; Hemphill" lat="33.7784499" lon="-84.4008236" stopId="0017"/>
+    <stop tag="fersatla" title="Ferst Dr &amp; Atlantic Dr" lat="33.77819" lon="-84.3974903" stopId="0015"/>
+    <stop tag="klaubldg" title="Klaus Building" lat="33.7770973" lon="-84.3954843" stopId="0019"/>
+    <stop tag="fersfowl" title="Ferst Dr &amp; Fowler St" shortTitle="Ferst Dr &amp; Fowler" lat="33.776893" lon="-84.3937807" stopId="0003"/>
+    <stop tag="tech5th" title="Techwood Dr &amp; 5th St" shortTitle="Techwood Dr &amp; 5th" lat="33.7766855" lon="-84.3921335" stopId="0054"/>
+    <stop tag="tech4th" title="Techwood Dr &amp; 4th St" shortTitle="Techwood Dr &amp; 4th" lat="33.7749537" lon="-84.3920488" stopId="0052"/>
+    <stop tag="techbob" title="Techwood Dr &amp; Bobby Dodd Way" lat="33.7736674" lon="-84.3920495" stopId="0055"/>
+    <stop tag="technorth" title="Techwood Dr &amp; North Ave" shortTitle="Techwood Dr &amp; North" lat="33.7714502" lon="-84.3920986" stopId="0057"/>
+    <stop tag="naveapts_a" title="North Avenue Apartments - Arrival" shortTitle="North Apartments - Arrival" lat="33.7699398" lon="-84.3916292" stopId="0067"/>
+    <direction tag="fitthall" title="Fitten Hall" name="" useForUI="true">
+      <stop tag="ferstcher" />
+      <stop tag="hubfers" />
+      <stop tag="centrstud" />
+      <stop tag="creccent" />
+    </direction>
+    <direction tag="naveapts" title="North Ave Apts" name="" useForUI="true">
+      <stop tag="fitthall" />
+      <stop tag="mcmil8th" />
+      <stop tag="8thhemp" />
+      <stop tag="fershemp" />
+      <stop tag="fersatla" />
+      <stop tag="klaubldg" />
+      <stop tag="fersfowl" />
+      <stop tag="tech5th" />
+      <stop tag="tech4th" />
+      <stop tag="techbob" />
+      <stop tag="technorth" />
+      <stop tag="naveapts_a" />
+    </direction>
+  </route>
+  <route tag="blue" title="Blue" color="0000ff" oppositeColor="ffffff" latMin="33.7699223" latMax="33.779631" lonMin="-84.40421" lonMax="-84.391655">
+    <stop tag="mcmil8th" title="McMillian St &amp; 8th St" shortTitle="McMillian &amp; 8th" lat="33.779592" lon="-84.4041686" stopId="0030"/>
+    <stop tag="8thhemp" title="8th St &amp; Hemphill Ave" shortTitle="8th &amp; Hemphill" lat="33.779631" lon="-84.4027473" stopId="0006"/>
+    <stop tag="fershemp_ob" title="Ferst Dr &amp; Hemphill Ave" shortTitle="Ferst Dr &amp; Hemphill" lat="33.7781411" lon="-84.4018288" stopId="0016"/>
+    <stop tag="reccent" title="Recreation Center" lat="33.7751" lon="-84.4026499" stopId="0037"/>
+    <stop tag="studcentr" title="Student Center" lat="33.77335" lon="-84.39917" stopId="0043"/>
+    <stop tag="fershub" title="HUB/Ferst Dr" lat="33.77279" lon="-84.39721" stopId="0084"/>
+    <stop tag="cherfers" title="Tech Tower" lat="33.77234" lon="-84.3957028" stopId="0011"/>
+    <stop tag="naveapts_a" title="North Avenue Apartments - Arrival" shortTitle="North Apartments - Arrival" lat="33.7699223" lon="-84.391655" stopId="0067"/>
+    <stop tag="technorth" title="Techwood Dr &amp; North Ave" shortTitle="Techwood Dr &amp; North" lat="33.771857" lon="-84.39192" stopId="0056"/>
+    <stop tag="3rdtech" title="Techwood Dr &amp; 3rd Street" shortTitle="Techwood Dr &amp; 3rd" lat="33.7740617" lon="-84.39192" stopId="0050"/>
+    <stop tag="4thtech" title="Techwood Dr &amp; 4th Street" shortTitle="Techwood Dr &amp; 4th" lat="33.7750661" lon="-84.39194" stopId="0051"/>
+    <stop tag="5thtech" title="Techwood Dr &amp; 5th Street" shortTitle="Techwood Dr &amp; 5th" lat="33.7767602" lon="-84.39206" stopId="0053"/>
+    <stop tag="fersfowl" title="Ferst Dr &amp; Fowler St" shortTitle="Ferst Dr &amp; Fowler" lat="33.77699" lon="-84.3940504" stopId="0002"/>
+    <stop tag="fersklau" title="Klaus Building" lat="33.777485" lon="-84.395576" stopId="0018"/>
+    <stop tag="fersatla" title="Ferst Dr &amp; Atlantic Dr" lat="33.77832" lon="-84.398083" stopId="0014"/>
+    <stop tag="fersstat" title="Ferst Dr &amp; State St" shortTitle="Ferst Dr &amp; State" lat="33.7783594" lon="-84.3995647" stopId="0020"/>
+    <stop tag="fitthall_a" title="Fitten Hall - Arrival" lat="33.77811" lon="-84.40421" stopId="0022"/>
+    <direction tag="fitthall" title="Fitten Hall" name="" useForUI="true">
+      <stop tag="technorth" />
+      <stop tag="3rdtech" />
+      <stop tag="4thtech" />
+      <stop tag="5thtech" />
+      <stop tag="fersfowl" />
+      <stop tag="fersklau" />
+      <stop tag="fersatla" />
+      <stop tag="fersstat" />
+      <stop tag="fitthall_a" />
+    </direction>
+    <direction tag="naveapts" title="North Ave Apts" name="" useForUI="true">
+      <stop tag="mcmil8th" />
+      <stop tag="8thhemp" />
+      <stop tag="fershemp_ob" />
+      <stop tag="reccent" />
+      <stop tag="studcentr" />
+      <stop tag="fershub" />
+      <stop tag="cherfers" />
+      <stop tag="naveapts_a" />
+    </direction>
+  </route>
+  <route tag="green" title="Green" color="00cc66" oppositeColor="000000" latMin="33.7729641" latMax="33.78628" lonMin="-84.405937" lonMax="-84.39559">
+    <stop tag="14thstat" title="14th St &amp; State St" shortTitle="14th &amp; State" lat="33.7861299" lon="-84.3987994" stopId="0078"/>
+    <stop tag="gcat" title="GCATT" lat="33.78628" lon="-84.39559" stopId="0023"/>
+    <stop tag="glc" title="GLC" lat="33.78158" lon="-84.39645" stopId="0024"/>
+    <stop tag="bakebldg" title="Baker Bldg" lat="33.7803546" lon="-84.3992799" stopId="0080"/>
+    <stop tag="fersstat_ob" title="Ferst Dr &amp; State St" shortTitle="Ferst Dr &amp; State" lat="33.77836" lon="-84.3995688" stopId="0020"/>
+    <stop tag="fershemp_ob" title="Ferst Dr &amp; Hemphill Ave" shortTitle="Ferst Dr &amp; Hemphill" lat="33.7781424" lon="-84.4018263" stopId="0016"/>
+    <stop tag="reccent_ob" title="Recreation Center" lat="33.7750997" lon="-84.4026499" stopId="0037"/>
+    <stop tag="studcent" title="Student Center" lat="33.7733502" lon="-84.3991716" stopId="0043"/>
+    <stop tag="tranhub" title="Transit HUB" lat="33.77314" lon="-84.397" stopId="0086"/>
+    <stop tag="studcent_ib" title="Student Center" lat="33.7734593" lon="-84.3991563" stopId="0044"/>
+    <stop tag="creccent" title="Recreation Center" lat="33.7750973" lon="-84.4023891" stopId="0038"/>
+    <stop tag="fershemp" title="Ferst Dr &amp; Hemphill Ave" shortTitle="Ferst Dr &amp; Hemphill" lat="33.7784497" lon="-84.4008252" stopId="0017"/>
+    <stop tag="ndec" title="North Deck" lat="33.7802334" lon="-84.3990501" stopId="0074"/>
+    <stop tag="10thhemp" title="Hemphill Ave &amp; 10th St" shortTitle="Hemphill &amp; 10th" lat="33.7816186" lon="-84.4040821" stopId="0075"/>
+    <stop tag="hempcurr" title="Hemphill Ave &amp; Curran St" shortTitle="Hemphill &amp; Curran" lat="33.784665" lon="-84.405937" stopId="0076"/>
+    <stop tag="14thbusy_a" title="14th St Bus Yard - Arrival" shortTitle="14th Bus Yard - Arrival" lat="33.78617" lon="-84.40565" stopId="0077"/>
+    <direction tag="hub" title="Transit Hub" name="" useForUI="true">
+      <stop tag="14thstat" />
+      <stop tag="gcat" />
+      <stop tag="glc" />
+      <stop tag="bakebldg" />
+      <stop tag="fersstat_ob" />
+      <stop tag="fershemp_ob" />
+      <stop tag="reccent_ob" />
+      <stop tag="studcent" />
+    </direction>
+    <direction tag="14thbusy" title="to 14th Street" name="" useForUI="true">
+      <stop tag="tranhub" />
+      <stop tag="studcent_ib" />
+      <stop tag="creccent" />
+      <stop tag="fershemp" />
+      <stop tag="ndec" />
+      <stop tag="10thhemp" />
+      <stop tag="hempcurr" />
+      <stop tag="14thbusy_a" />
+    </direction>
+  </route>
+  <route tag="trolley" title="Tech Trolley" color="cc8f1c" oppositeColor="000000" latMin="33.7729639" latMax="33.78082" lonMin="-84.4026499" lonMax="-84.3860166">
+    <stop tag="techsqua" title="Technology Square" lat="33.7769199" lon="-84.3897799" stopId="0048"/>
+    <stop tag="tech5rec" title="Techwood Dr &amp; 5th St" shortTitle="Techwood Dr &amp; 5th" lat="33.7769432" lon="-84.3917072" stopId="0004"/>
+    <stop tag="fersforec" title="Ferst Dr &amp; Fowler St" shortTitle="Ferst Dr &amp; Fowler" lat="33.7769899" lon="-84.3940482" stopId="0002"/>
+    <stop tag="ferschrec" title="Klaus Building" lat="33.7774847" lon="-84.3955758" stopId="0018"/>
+    <stop tag="fersatla" title="Ferst Dr &amp; Atlantic Dr" lat="33.77832" lon="-84.398083" stopId="0014"/>
+    <stop tag="fersherec" title="Ferst Dr &amp; Hemphill Ave" shortTitle="Ferst Dr &amp; Hemphill" lat="33.778141" lon="-84.4018284" stopId="0016"/>
+    <stop tag="recctr" title="Recreation Center" lat="33.7751002" lon="-84.4026499" stopId="0038"/>
+    <stop tag="studcentr" title="Student Center" lat="33.7733502" lon="-84.3991719" stopId="0043"/>
+    <stop tag="tranhub_a" title="Transit HUB - Arrival" lat="33.7729639" lon="-84.3970151" stopId="0086"/>
+    <stop tag="centrstud" title="Student Center" lat="33.7734593" lon="-84.3991562" stopId="0044"/>
+    <stop tag="ferstdr" title="Recreation Center" lat="33.7750974" lon="-84.4023892" stopId="0038"/>
+    <stop tag="fershemrt" title="Ferst Dr &amp; Hemphill Ave" shortTitle="Ferst Dr &amp; Hemphill" lat="33.7784499" lon="-84.4008301" stopId="0017"/>
+    <stop tag="fersatl_ib" title="Ferst Dr &amp; Atlantic Dr" lat="33.77819" lon="-84.3974912" stopId="0015"/>
+    <stop tag="ferschmrt" title="Klaus Building" lat="33.7770973" lon="-84.3954843" stopId="0019"/>
+    <stop tag="fersfomrt" title="Ferst Dr &amp; Fowler St" shortTitle="Ferst Dr &amp; Fowler" lat="33.776893" lon="-84.3937807" stopId="0003"/>
+    <stop tag="tech5mrt" title="Techwood Dr &amp; 5th St" shortTitle="Techwood Dr &amp; 5th" lat="33.7768706" lon="-84.3919708" stopId="0005"/>
+    <stop tag="techsqua_ib" title="Technology Square" lat="33.7768" lon="-84.38975" stopId="0049"/>
+    <stop tag="duprmrt" title="College of Business" lat="33.77678" lon="-84.38749" stopId="0025"/>
+    <stop tag="wpe7mrt" title="Academy of Medicine" lat="33.7785362" lon="-84.38724" stopId="0059"/>
+    <stop tag="marta_a" title="MARTA Midtown Station - Arrival" lat="33.78082" lon="-84.3860166" stopId="0029"/>
+    <direction tag="marta" title="To MARTA Station" name="" useForUI="true">
+      <stop tag="centrstud" />
+      <stop tag="ferstdr" />
+      <stop tag="fershemrt" />
+      <stop tag="fersatl_ib" />
+      <stop tag="ferschmrt" />
+      <stop tag="fersfomrt" />
+      <stop tag="tech5mrt" />
+      <stop tag="techsqua_ib" />
+      <stop tag="duprmrt" />
+      <stop tag="wpe7mrt" />
+      <stop tag="marta_a" />
+    </direction>
+    <direction tag="hub" title="Transit Hub" name="" useForUI="true">
+      <stop tag="techsqua" />
+      <stop tag="tech5rec" />
+      <stop tag="fersforec" />
+      <stop tag="ferschrec" />
+      <stop tag="fersatla" />
+      <stop tag="fersherec" />
+      <stop tag="recctr" />
+      <stop tag="studcentr" />
+      <stop tag="tranhub_a" />
+    </direction>
+  </route>
+</body>

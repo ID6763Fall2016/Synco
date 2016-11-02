@@ -1,0 +1,205 @@
+{
+	"stops": [
+		{
+			"id": 0,
+			"tag": "marta-downtown",
+			"routes": [
+				"trolley"
+			]
+		},
+		{
+			"id": 1,
+			"tag": "medicine",
+			"routes": [
+				"trolley"
+			]
+		},
+		{
+			"id": 2,
+			"tag": "tech-square",
+			"routes": [
+				"trolley"
+			]
+		},
+		{
+			"id": 3,
+			"tag": "ferst-5th",
+			"routes": [
+				"red",
+				"blue",
+				"trolley"
+			]
+		},
+		{
+			"id": 4,
+			"tag": "tech-4th",
+			"routes": [
+				"red",
+				"blue"
+			]
+		},
+		{
+			"id": 5,
+			"tag": "tech-3rd",
+			"routes": [
+				"red",
+				"blue"
+			]
+		},
+		{
+			"id": 6,
+			"tag": "tech-north",
+			"routes": [
+				"red",
+				"blue"
+			]
+		},
+		{
+			"id": 7,
+			"tag": "nth-ave-apts",
+			"routes": [
+				"red",
+				"blue"
+			]
+		},
+		{
+			"id": 8,
+			"tag": "tech-tower",
+			"routes": [
+				"red",
+				"blue"
+			]
+		},
+		{
+			"id": 9,
+			"tag": "transit-hub",
+			"routes": [
+				"red",
+				"blue",
+				"green",
+				"trolley"
+			]
+		},
+		{
+			"id": 10,
+			"tag": "student-center",
+			"routes": [
+				"red",
+				"blue",
+				"green",
+				"trolley"
+			]
+		},
+		{
+			"id": 11,
+			"tag": "klaus",
+			"routes": [
+				"red",
+				"blue",
+				"trolley"
+			]
+		},
+		{
+			"id": 12,
+			"tag": "ferst-atlantic",
+			"routes": [
+				"red",
+				"blue",
+				"trolley"
+			]
+		},
+		{
+			"id": 13,
+			"tag": "glc",
+			"routes": [
+				"green"
+			]
+		},
+		{
+			"id": 14,
+			"tag": "north-deck",
+			"routes": [
+				"green"
+			]
+		},
+		{
+			"id": 15,
+			"tag": "ferst-hemphill",
+			"routes": [
+				"red"
+				"blue",
+				"green",
+				"trolley"
+			]
+		},
+		{
+			"id": 16,
+			"tag": "crc",
+			"routes": [
+				"red"
+				"blue",
+				"green",
+				"trolley"
+			]
+		},
+		{
+			"id": 17,
+			"tag": "fitten-hall",
+			"routes": [
+				"red",
+				"blue"
+			]
+		},
+		{
+			"id": 18,
+			"tag": "mcmillan-8th",
+			"routes": [
+				"red",
+				"blue"
+			]
+		},
+		{
+			"id": 19,
+			"tag": "8th-hemphill",
+			"routes": [
+				"red",
+				"blue"
+			]
+		},
+		{
+			"id": 20,
+			"tag": "10th-hemphill",
+			"routes": [
+				"green"
+			]
+		},
+		{
+			"id": 21,
+			"tag": "hemphill-curran",
+			"routes": [
+				"green"
+			]
+		},
+		{
+			"id": 22,
+			"tag": "14th-yard",
+			"routes": [
+				"green"
+			]
+		},
+		{
+			"id": 23,
+			"tag": "14th-state",
+			"routes": [
+				"green"
+			]
+		},
+		{
+			"id": 24,
+			"tag": "gcat",
+			"routes": [
+				"green"
+			]
+		}
+	]
+}
